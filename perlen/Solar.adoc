@@ -1,3 +1,11 @@
 Kleine Solaranlagen für zuhause und zum Campen
 ==============================================
 
+Mit Solarzellen kann man Sonnenlicht in elektische Energie umwandeln, 
+wenn auch leider nicht besonders effizient: Der Wirkungsgrad heutiger Techologie liegt bei 20%.
+Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung ausgerichtet, verstattet oder verschmutzt sind.
+Zudem ist die Sonneneinstrahlung je nach Wetter, Tages- und Jahreszeit sehr variabel.
+Aus der im Optimalfall möglichen Einstrahlung von 1000 W/m^2^ lassen sich in der Praxis in unseren Breitengraden pro Jahr etwa 900 kWh gewinnen -
+so die übliche https://www.pv2energie.de/solarenergie/strom[Faustregel für den Jahresertrag].
+So muss man auch die Nennleistung von Solarmodulen, angegeben in Wp (Watt peak), mit Vorsicht genießen -
+in der Praxis kommt man auch an sonnigen Tagen kaum über die Hälfte der angegebenen Leistung hinaus.
