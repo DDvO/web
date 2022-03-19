@@ -112,7 +112,8 @@ image:https://i.imgur.com/AEkqoRn.jpg[alt="not bad.",width=128,height=128]
 
 * Videos:
 +
-video::th_H1gixMEE[youtube]
+// video::th_H1gixMEE[youtube]
+disabled
 
 * Pass-through: pass:[<div align="center"><b>pass through content</b></div>]
 
