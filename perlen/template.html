@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<HTML lang="de">
+<HEAD>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="DESCRIPTION" content="###">
+  <meta name="KEYWORDS"    content="###">
+  <meta name="AUTHOR"      content="David von Oheimb">
+  <meta name="GENERATOR"   content="xemacs">
+  <LINK TYPE="text/css" REL="stylesheet" HREF="pearls.css">
+  <LINK REL="shortcut icon" HREF="../pic/favicon.ico">
+  <script src="../asciidoctor.js"></script>
+  <script>
+    var asciidoctor = Asciidoctor();
+    const url = "https://raw.githubusercontent.com/DDvO/web/master/perlen/template.adoc";
+    fetch(url)
+    .then( r => r.text() )
+    .then( text => document.getElementById('content').innerHTML = asciidoctor.convert(text))
+  </script>
+  <TITLE>###</TITLE>
+</HEAD>
+
+<body>
+  <div id="content"></div>
+
+  <A HREF="index.html">Zurück</A>
+  <ADDRESS>
+    <img src="../pic/faceline.gif" WIDTH="650" HEIGHT="9" ALT="---------------------------------------------------------"><br>
+    <a href="http://validator.w3.org/check?uri=http://David.von-Oheimb.de/perlen/template.html"><img src="pic/html5.png" alt="[Valid HTML5]" height="12" width="33"></a>
+  URL: http://David.von-Oheimb.de/perlen/template.html, 
+    <!-- Created: Sat Mar 19 12:55:54 CET 2022 -->
+    <!-- hhmts start -->Last modified: Sat Mar 19 13:31:38 CET 2022 <!-- hhmts end -->
+  </ADDRESS>
+</body>
+
+</HTML>
