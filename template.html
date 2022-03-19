@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="asciidoctor.js"></script>
+  </head>
+        
+  <body>
+    <div id="target"></div>
+    <script>
+    var asciidoctor = Asciidoctor();
+    // const url = "https://raw.githubusercontent.com/DDvO/web/master/template.adoc";
+    const url = "template.adoc";
+
+    fetch(url)
+    .then( r => r.text() )
+    .then( text => document.getElementById('target').innerHTML = asciidoctor.convert(text))
+
+    /*
+      const doc = asciidoctor.loadFile(url);
+      var html = doc.convert(doc, {doctype: 'inline'});
+    */
+    /*
+      var text = 'Hello, _Asciidoctor_';
+      var html = asciidoctor.convert(text);
+      document.getElementById('target').innerHTML = html;
+    */
+    </script>
+  </body>
+</html>
