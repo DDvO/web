@@ -1,22 +1,28 @@
-= Kleine Solaranlagen für zuhause und zum Campen
+== Kleine Solaranlagen für zuhause und fürs Campen
 
-== Möglicher Energie-Ertrag
+=== Möglicher Energie-Ertrag
 
 Mit Solarzellen kann man Sonnenlicht in elektische Energie umwandeln,
 wenn auch leider nicht besonders effizient:
-Der Wirkungsgrad heutiger Photovoltaik-Technologie liegt bei nur etwa 20%.
+Der Wirkungsgrad heutiger Photovoltaik-Technologie liegt bei nur etwa 18 bis 20%.
 Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung ausgerichtet,
 verschattet, verschmutzt oder zu warm sind.
-Zu berücksichtigen ist auch der Wirkungsgrad der übrigen PV-Anlage
-(Solarregler und Wechselrichter), der bei etwa 80% liegt.
+Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage von etwa 75 bis 85%.
 
-Die maximale Einstrahlung in Bodennähe bei klarem Himmel liegt bei etwa 1 kW/m^2^.
-Diese Zahl wird als http://www.energieinfo.de/eglossar/sonneneinstrahlung[terrestrische Solarkonstante)]
-bezeichnet und als  Referenzwert für die Angabe den Nennleistung von Solarmodulen in Wp (Watt peak) verwendet.
+Die maximale Einstrahlung mittags bei klarem Himmel in Bodennähe
+auf eine Fläche senkrecht zum Sonnenstand liegt bei
+http://www.energieinfo.de/eglossar/sonneneinstrahlung[etwa 1 kW/m^2^
+und wird als terrestrische Solarkonstante bezeichnet].
+Diese 1000 W/m^2^ dienen auch als Referenzwert für
+die Angabe den Nennleistung von Solarmodulen in Wp (Watt peak).
 Natürlich ist die Sonneneinstrahlung im Durchschnitt viel geringer
 und je nach Wetter, Tages- und Jahreszeit sehr variabel.
 
 Aus den genannten Gründen sind die Wp-Angaben für Solarmodule mit Vorsicht zu genießen.
-In unseren Breitengraden sind je nach Standort https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/ertrag[etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
-Und wenn man Solarmodule z.B. auf dem Dach eines Wohnmobils in waagerechter Lage betreibt,
-kommt man selbst mittags an sehr sonnigen Tagen kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
+In unseren Breitengraden sind je nach Standort bei optimaler statischer Ausrichtung
+von Solarmodulen, also ungefähr nach Süden und mit ca. 35° Neigungwinkel (relativ zur Waagerechten)
+https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/ertrag[
+etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
+Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils) in waagerechter Lage anbringt,
+ist man zwar von der Himmelsrichtung unabhängig, aber kommt selbst mittags an sehr sonnigen Tagen
+kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
