@@ -1,11 +1,22 @@
-Kleine Solaranlagen für zuhause und zum Campen
-==============================================
+= Kleine Solaranlagen für zuhause und zum Campen
 
-Mit Solarzellen kann man Sonnenlicht in elektische Energie umwandeln, 
-wenn auch leider nicht besonders effizient: Der Wirkungsgrad heutiger Techologie liegt bei 20%.
-Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung ausgerichtet, verstattet oder verschmutzt sind.
-Zudem ist die Sonneneinstrahlung je nach Wetter, Tages- und Jahreszeit sehr variabel.
-Aus der im Optimalfall möglichen Einstrahlung von 1000 W/m^2^ lassen sich in der Praxis in unseren Breitengraden pro Jahr etwa 900 kWh gewinnen -
-so die übliche https://www.pv2energie.de/solarenergie/strom[Faustregel für den Jahresertrag].
-So muss man auch die Nennleistung von Solarmodulen, angegeben in Wp (Watt peak), mit Vorsicht genießen -
-in der Praxis kommt man auch an sonnigen Tagen kaum über die Hälfte der angegebenen Leistung hinaus.
+== Möglicher Energie-Ertrag
+
+Mit Solarzellen kann man Sonnenlicht in elektische Energie umwandeln,
+wenn auch leider nicht besonders effizient:
+Der Wirkungsgrad heutiger Photovoltaik-Technologie liegt bei nur etwa 20%.
+Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung ausgerichtet,
+verschattet, verschmutzt oder zu warm sind.
+Zu berücksichtigen ist auch der Wirkungsgrad der übrigen PV-Anlage
+(Solarregler und Wechselrichter), der bei etwa 80% liegt.
+
+Die maximale Einstrahlung in Bodennähe bei klarem Himmel liegt bei etwa 1 kW/m^2^.
+Diese Zahl wird als http://www.energieinfo.de/eglossar/sonneneinstrahlung[terrestrische Solarkonstante)]
+bezeichnet und als  Referenzwert für die Angabe den Nennleistung von Solarmodulen in Wp (Watt peak) verwendet.
+Natürlich ist die Sonneneinstrahlung im Durchschnitt viel geringer
+und je nach Wetter, Tages- und Jahreszeit sehr variabel.
+
+Aus den genannten Gründen sind die Wp-Angaben für Solarmodule mit Vorsicht zu genießen.
+In unseren Breitengraden sind je nach Standort https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/ertrag[etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
+Und wenn man Solarmodule z.B. auf dem Dach eines Wohnmobils in waagerechter Lage betreibt,
+kommt man selbst mittags an sehr sonnigen Tagen kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
