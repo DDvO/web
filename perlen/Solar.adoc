@@ -7,9 +7,10 @@ wenn auch leider nicht besonders effizient:
 Der Wirkungsgrad heutiger Photovoltaik-Technologie liegt bei nur etwa 18 bis 20%.
 Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung ausgerichtet,
 verschattet, verschmutzt oder zu warm sind.
-Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage von etwa 75 bis 85%.
+Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage von etwa 75 bis 95%.
 
-image:https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg[Globalstrahlung in Deutschland,400,align=right]
+// https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg
+image:Globalstrahlung_Deutschland.jpg[%Bild: Globalstrahlung in Deutschland%,400,align=right]
 Die maximale Einstrahlung mittags bei klarem Himmel in Bodennähe
 auf eine Fläche senkrecht zum Sonnenstand liegt bei
 http://www.energieinfo.de/eglossar/sonneneinstrahlung[etwa 1 kW/m^2^
@@ -19,6 +20,8 @@ die Angabe den Nennleistung von Solarmodulen in Wp (Watt peak).
 Natürlich ist die Sonneneinstrahlung im Durchschnitt viel geringer
 und je nach Wetter, Tages- und Jahreszeit sehr variabel.
 
+// https://www.energie-experten.org/fileadmin/System-Bilder/Inhalt_Bilder/Photovoltaik_Solarmodule_Leistung_Ausrichtung_Grafik_energie-experten.org.jpg
+image:Solarmodule_Ausrichtung.webp[%Bild: Ausrichtung von Solarmodulen%,400,align=right]
 Aus den genannten Gründen sind die Wp-Angaben für Solarmodule mit Vorsicht zu genießen.
 In unseren Breitengraden sind je nach Standort bei optimaler statischer Ausrichtung
 von Solarmodulen, also ungefähr nach Süden und mit ca. 35° Neigungwinkel (relativ zur Waagerechten)
@@ -35,7 +38,8 @@ Solarmodule liefern Gleichstrom mit je nach Einstrahlung sehr variabler Spannung
 (je nach Typ maximal z.B. 40 V) und Stromstärke (je nach Nennleistung maximal z.B. 10 A).
 Dieser ist direkt erst mal kaum verwendbar (außer z.B. zum Aufheizen eines Warmwasserspeichers).
 
-image:https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg[Aufbau Balkonkraftwerk,400,align=right]
+// https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg
+image:Balkonkraftwerk.jpg[%Bild: Aufbau Balkonkraftwerk%,400,align=right]
 Typischerweise speisen Solaranlagen den erzeugten Strom nach Umwandlung durch einen Wechselrichter
 direkt ins (lokale oder öffentliche) Stromnetz ein, wo er sofort in irgendeiner Form verbraucht
 wird (bzw. der Rest in Form von Wärme verlorengeht).
@@ -49,9 +53,10 @@ laufenden Stromzähler 'unter der Hand Strom verkaufen' konnte, sind vorbei).
 Hingegen spart man sich die Verbrauchskosten für den selber erzeugten und gleichzeitig verbrauchten
 Anteil, weil der Zähler für den aus dem externen Netz bezogenen Strom entsprechend langsamer läuft.
 Übrigens funktioniert diese Nutzungsart nicht während eines Stromausfalls (engl. blackout), weil
-sich die hierfür verwendeten Wechselrichter mit der Netzfrequenz und -Phase synchronisieren müssen.
+sich die hierfür verwendeten Wechselrichter mit dem Stromnetz synchronisieren müssen.
 
-image:Inselanlage.jpg[Aufbau Inselanlage,400,align=right]
+// http://www.inselanlage.info/wp-content/uploads/2015/01/inselanlage-aufbau.jpg
+image:Inselanlage.jpg[%Bild: Aufbau Inselanlage%,400,align=right]
 Alternativ kann man den von den Solarmodulen gelieferten Strom auch in einer aufladbaren Batterie
 (Akkumulator) speichern und bei Bedarf -- auch im Falle eines Stromausfalls -- wieder abrufen.
 Diese Betriebsart wird als 'http://www.inselanlage.info/[Inselanlage]' (engl. off-grid) bezeichnet
@@ -64,5 +69,128 @@ zur Umwandlung in den üblichen 'Steckdosenstrom' (Wechselstrom mit ca. 230 V).
 Diese Nutzungsart ist also flexibler, aber wegen der nötigen zusätzlichen Komponenten
 deutlich teurer (und auch etwas anfälliger und wartungsintensiver).
 
-Wenn man Zugang zum Stromnetz hat und die für beide Varianten nötigen Geräte parallel installiert
-sind, kann man zwischen diesen grundätzlichen Nutzungsarten auch wahlweise umschalten.
+Wenn man Zugang zum Stromnetz hat und die für beide Varianten nötigen Funktionen gleichzeitig
+installiert sind, kann man zwischen diesen grundätzlichen Nutzungsarten auch wahlweise umschalten.
+
+
+=== Generelle Hinweise für die Auswahl von Komponenten
+
+image:Flexible_Solarpanels.jpg[%Bild: Flexible Solarpanels%,400,align=right]
+Die https://gruenes.haus/pv-modul-groesse-gewicht/[klassischen Solarmodule] sind starr,
+haben eine Größe von typischerweise ca. 1,7 m * 1 m * 3 cm, was eine Nennleistung
+von etwa 350 Wp ergibt, und eine Masse von ca. 20 kg.
+Flexible Panels sind etwas teurer als starre, dafür aber viel leichter und nur wenige Millimeter dick.
+Sie sind meist auch deutlich kleiner -- typischerweise 1,2 m * 0,5 m bei einer Nennleistung von 100 Wp.
+https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. +
+Wenn man mehrere Solarmodule zusammenschaltet, um mehr Leistung zu erhalten,
+kann man das wie bei Batterien seriell und/oder parallel tun,
+wobei die Parallelschaltung bei Teilverschattung weniger Verluste hat.
+Es sollten nur gleichartige Panels miteinander verschaltet werden.
+Wenige große Module sind technisch und wirtschaftlich günstiger als entsprechend mehr kleinere.
+
+image:Schindel-Solarmodul.jpg[%Bild: Schindel-Solarmodul%,400,align=right]
+Besonders interessant finde ich bei der Anordnung und Verschaltung von Solarzellen zu Solarpanels die
+https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovativ-verschaltet-und-industriell-herstellbar[Schindel-Form] (engl. SSP = shingle solar panel),
+weil sie die Fläche besser nutzen sowie bei Teilverschattung und bei Wärme weniger Verluste hat.
+
+image:Solar-Microinverter.png[%Bild: Solar-Microinverter%,400,align=right]
+Für die Umwandlung des 'rohen' Solarstroms sind Spannungsregler mit
+https://de.wikipedia.org/wiki/Maximum_Power_Point_Tracking[MPPT (maximum power point tracking)]
+zu empfehlen, weil sie auch bei stark wechselnder Einstrahlung optimale Energieausbeute bringen.
+Sie sind allerdings auch deutlich teurer als die wesentlich einfacheren PWM-Regler.
+Für die Anbindung ans Stromnetz werden Spannungsregler mit einem integrierten Wechselrichter
+verwendet, der sich automatisch an die Frequenz und Phase des Stromanschlusses anpasst.
+
+image:Solar-Laderegler.jpg[%Bild: Solar-Laderegler%,400,align=right]
+Wenn man Solarmodule hingegen mit einer Batterie verbinden möchte, benötigt man einen
+Solar-Laderegler, der einen Spannungsregler mit einem Batterieladegerät verbindet.
+Mit billigen chinesischen (angeblich) MPPT-Reglern habe ich keine guten Erfahrungen gemacht,
+wohl aber mit den europäischen Marken Victron und Votronic.
+
+image:LiFePO4-Batterie.jpg[%Bild: LiFePO4-Batterie mit 4 prismatischen Zellen%,400,align=right]
+Für die Speicherung von Strom bieten sich heutzutage Lithium-Eisenphosphat-Batterien (LiFePO4) an.
+Diese sind zwar erheblich teurer als Blei-Säure-Batterien (inkl. der AGM-Variante),
+wie man sie vom Auto kennt, aber sind wesentlich leichter, viel spannungsstabiler
+und vertragen ein Mehrfaches vonwesentlich mehr Lade-/Entladezyklen.
+Im Vergleich zu Li-Ionen- und Li-Polymer-Akkus, welche eine noch höhere Energiedichte haben,
+sind sie recht robust und sicher.
+Alle Lithium-basierten Batterien benötigen bei der Serienschaltung von Akkuzellen ein sog.
+Batteriemanagementsystem (BMS), das für eine gleichmäßige Spannungsverteilung der Zellen sorgt. +
+Eine typische 100 Ah Autobatterie wiegt etwa 26 kg und kostet nur etwa 100€.
+Aus ihrer Nennkapazität von 12 V * 100 Ah = 1200 Wh sollte man pro Entladung höchstens 50%
+entnehmen, damit die Batterie nicht durch Tiefentladung Schaden nimmt, also maximal 600 Wh.
+Selbst dann hält ein Bleiakku meist weniger als 1000 Lade-/Entladezyklen.
+Die Zahl der Lade-/Entladezyklen eines Lithium-Eisenphosphat-Akkus liegt angeblich bei etwa 5000.
+Eine 12,8 V 100 Ah LiFePO4-Batterie wiegt etwa 11 kg und kann zu 90% entladen werden,
+ohne dass sie Schaden nimmt, so dass sich eine effektive Kapazität von 1150 Wh ergibt.
+Unter Berücksichtigung der Wandlungsverluste eines Wechselrichters lässt sich damit ein Gerät
+mit 1000 W Verbrauch (z.B. Staubsauger, Kaffeemaschine oder Haarfön) gut eine Stunde betreiben.
+
+Um den Wandlungsverlust von ca. 10% eines Wechselrichters zu vermeiden,
+sollte man bei einer Inselanlage die Verbraucher möglichst direkt an der Batterie anschließen,
+was z.B. bei LED-Lampen, Autoradios und USB-Ladebuchsen gut machbar ist --
+aber auch bei Laptops, wenn man für sie ein Netzteil mit 12 V (statt 230 V) Eingang verwendet.
+Bei mittlerer Last von 25 W ergeben sich mit einer voll geladenen 12,8 V 100 Ah LiFePO4-Batterie
+gut 50 Stunden Betriebszeit.
+Ein durchschnittlicher 3,6 V Smartphone-Akku mit 2500 mAh hat 9 Wh Kapazität.
+Wenn er jeweils zu 80% entladen wird, lässt er sich damit etwa 160 mal aufladen. +
+Zum Vergleich: Eine Powerbank mit nominell 20.000 mAh Kapazität hat (aufgrund meist stark überzogener
+Hersteller-Angaben und Verlusten bei der Wandlung von 3,6 V auf die 5 V eines USB-Anschlusses)
+effektiv eher die Hälfte dieser Kapazität.
+Ein durchschnittlicher Smartphone-Akku lässt sich damit in der Praxis etwa 10 mal aufladen.
+
+image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
+Bei einem Wechselrichter sollte man darauf achten,
+dass er ordentlichen Wechselstrom liefert (sog. 'reine Sinuswelle') sowie
+einen hohen Wirkungsgrad und einen geringen Ruhe-/Leerlaufstromverbrauch
+(engl. standby power consumption) hat.
+Außerdem ist empfehlenswert, ihn mit ausreichend Leistungsreserve zu
+dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
+verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
+
+image:Solar-off-grid-inverter.webp[%Bild: Solar-off-grid-inverter%,400,align=right]
+Es gibt auch https://www.solarserver.de/2021/07/26/green-cell-bietet-neuen-solarwechselrichter-an/[Kombigeräte],
+welche die Funktionen Solar-Laderegler, Batterie-Netzladegerät und Wechselrichter in sich vereinen.
+Damit können Verbraucher vorzugsweise direkt mit Solarstrom versorgt werden,
+wobei die überschüssige Energie in einer Batterie gespeichter wird.
+Bei unzureichender Stromversorgung aus den Solarmodulen ergänzt das Gerät die benötigte Energie
+automatisch aus der Batterie oder schaltet bei leerer Batterie auf eine externe Stromquelle
+(Stromnetz oder Generator) um, mit dem dann auch die Batterie geladen wird.
+Das erscheint einfacher und sehr praktisch, eventuell auch besonders wirtschaftlich, 
+https://www.oeko-energie.de/shop1/de/Solarstrom/Insel-WR/Kombigeraet-Laderegler-MPPT-Wechselrichter-Batterieladegeraet/[
+hat aber auch seine Nachteile] wie fehlende Flexibilität.
+Und offenbar gibt es kein Gerät, das direkt die beiden Nutzungsarten Inselanlage (also
+netzunabhängige Versorgung) und Balkonkraftwerk (also Netzeinspeisung) ermöglicht.
+
+=== Beispiel-Konfiguration für eine mobile Inselanlage
+
+Für unser Wohnmobil verwende ich seit Mai 2019 folgende relativ günstige Komponenten
+zu meiner vollen Zufriedenheit:
+
+* 2 * 100 Wp flexible Solarpanel https://www.amazon.de/DOKIO-Batterie-wasserdicht-Wohnmobil-Oberfl%C3%A4che/dp/B07FYW3C6W[Dokio DFSP-100M], ca. 180€ +
+  Diese habe ich einfach auf das Blechdach geklebt. Etwas lästig war die Kabelführung ins Innere.
+
+* https://www.ebay.de/itm/142083505206[Victron BlueSolar MPPT 75/15 Solar-Laderegler], ca. 90€ +
+  Dieser Regler unterstützt Batterien mit 12 oder 24 V und Ladeströme bis 15 A
+  (wobei für die o.g. Solarzellen bei Dachmontage in der Praxis auch 10 A genügt hätten). +
+  Sehr praktisch finde ich bei den BlueSolar-Modellen die Status-Abfrage auf dem Smartphone.
+  Leider unterbinden die Victron-Regler ohne Zusatzgerät nicht das Laden bei unter 0°C, was bei
+  LiFePO4-Akkus zu Schäden führen kann, wenn man sie beim Abstellen im Winter nicht abklemmt.
+
+* https://de.delongbattery.com/Lithium-Eisenphosphat-12.8V-100ah-LiFePO4-Batteriepack-pd43061953.html[Delong 12,8 V 100 Ah 4S1P LiFePO4-Battere inkl. BMS], direk aus China, ca. 400€ +
+   In Deutschland werden solche Batterien hingegen für ungefähr 1000€ verkauft.
+   Siehe auch https://www.mydealz.de/deals/12v-100ah-lifepo4-akku-mit-bms-ab-400-zb-fur-solaranlage-oder-wohnmobilbatterie-ersatz-1350559[meinen myDealz-Beitrag] dazu mit interessanter Diskussion.
+
+* https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 W Wechselrichter], ebenfalls direkt aus China, ca. 70€
+
+=== Beispiel-Konfiguration für ein Balkonkraftwerk
+
+Für eine sehr einfache, aber effiziente und günstige Anlage zur Netzeinspeisung
+finde ich folgende Komponenten besonders interessant:
+
+* 2 * 400 Wp starre SSP https://ongeles-shop.de/products/ecodelta-eco-400m-66sa[EcoDelta - ECO-400M-66SA], ca. 540€ inkl. Versand +
+oder 2 * 310 Wp flexibele Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[Sunman], ca. 665€
+//* oder 4 * 180 Wp flesible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€
+
+* 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
+oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
