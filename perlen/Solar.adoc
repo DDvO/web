@@ -9,6 +9,7 @@ Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung aus
 verschattet, verschmutzt oder zu warm sind.
 Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage von etwa 75 bis 85%.
 
+image:https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg[Globalstrahlung in Deutschland,400,align=right]
 Die maximale Einstrahlung mittags bei klarem Himmel in Bodennähe
 auf eine Fläche senkrecht zum Sonnenstand liegt bei
 http://www.energieinfo.de/eglossar/sonneneinstrahlung[etwa 1 kW/m^2^
@@ -26,3 +27,42 @@ etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
 Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils) in waagerechter Lage anbringt,
 ist man zwar von der Himmelsrichtung unabhängig, aber kommt selbst mittags an sehr sonnigen Tagen
 kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
+
+
+=== Grundsätzliche Nutzungsmöglichkeiten
+
+Solarmodule liefern Gleichstrom mit je nach Einstrahlung sehr variabler Spannung
+(je nach Typ maximal z.B. 40 V) und Stromstärke (je nach Nennleistung maximal z.B. 10 A).
+Dieser ist direkt erst mal kaum verwendbar (außer z.B. zum Aufheizen eines Warmwasserspeichers).
+
+image:https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg[Aufbau Balkonkraftwerk,400,align=right]
+Typischerweise speisen Solaranlagen den erzeugten Strom nach Umwandlung durch einen Wechselrichter
+direkt ins (lokale oder öffentliche) Stromnetz ein, wo er sofort in irgendeiner Form verbraucht
+wird (bzw. der Rest in Form von Wärme verlorengeht).
+Das gilt auch für die sogenannten
+// https://www.energie-experten.org/erneuerbare-energien/solarenergie/solaranlage/balkonkraftwerk
+'https://www.steckdosensolar.de/[Balkonkraftwerke]' mit einer Nennleistung von meist 600 bis 800 Wp.
+Von der gerade erzeugten Leistung fließt der Anteil, der nicht aktuell im Haushalt durch
+Elektrogeräte verbraucht wird, automatisch ins externe Stromnetz und wird praktisch
+an den jeweiligen Stromlieferanten verschenkt (denn die Zeiten, dass man durch einen rückwärts
+laufenden Stromzähler 'unter der Hand Strom verkaufen' konnte, sind vorbei).
+Hingegen spart man sich die Verbrauchskosten für den selber erzeugten und gleichzeitig verbrauchten
+Anteil, weil der Zähler für den aus dem externen Netz bezogenen Strom entsprechend langsamer läuft.
+Übrigens funktioniert diese Nutzungsart nicht während eines Stromausfalls (engl. blackout), weil
+sich die hierfür verwendeten Wechselrichter mit der Netzfrequenz und -Phase synchronisieren müssen.
+
+image:Inselanlage.jpg[Aufbau Inselanlage,400,align=right]
+Alternativ kann man den von den Solarmodulen gelieferten Strom auch in einer aufladbaren Batterie
+(Akkumulator) speichern und bei Bedarf -- auch im Falle eines Stromausfalls -- wieder abrufen.
+Diese Betriebsart wird als 'http://www.inselanlage.info/[Inselanlage]' (engl. off-grid) bezeichnet
+und ist für die Nutzung ohne externes Stromnetz (also z.B. bei Stromausfall, beim Campen mit dem
+Wohnmobil oder Wohnwagen, auf Booten und für abseits gelegene Häuser oder Hütten) die einzig mögliche.
+Neben der Speicherbatterie wird hier zumindest ein Solarladeregler benötigt,
+und sofern die Verbraucher nicht direkt mit der Batteriespannung (z.B. 12 V Gleichstrom)
+betrieben werden können, zusätzlich ein ausreichend leistungsstarker Wechselrichter
+zur Umwandlung in den üblichen 'Steckdosenstrom' (Wechselstrom mit ca. 230 V).
+Diese Nutzungsart ist also flexibler, aber wegen der nötigen zusätzlichen Komponenten
+deutlich teurer (und auch etwas anfälliger und wartungsintensiver).
+
+Wenn man Zugang zum Stromnetz hat und die für beide Varianten nötigen Geräte parallel installiert
+sind, kann man zwischen diesen grundätzlichen Nutzungsarten auch wahlweise umschalten.
