@@ -111,16 +111,7 @@ haben eine Größe von typischerweise ca. 1,7 m * 1 m * 3 cm, was eine Nennleist
 von etwa 350 Wp ergibt, und eine Masse von ca. 20 kg.
 Flexible Panels sind etwas teurer als starre, dafür aber viel leichter und nur wenige Millimeter dick.
 Sie sind meist auch deutlich kleiner -- typischerweise 1,2 m * 0,5 m bei einer Nennleistung von 100 Wp.
-https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie etwas teurer sind, weil sie einen größeren Wirkungsgrad haben. +
-Wenige große Module sind technisch und wirtschaftlich günstiger als viele kleine.
-Wenn man mehrere -- aber bitte nur gleichartige -- Solarmodule zusammenschaltet,
-um mehr Leistung zu erhalten,
-ohne für jedes einen einzelnen Regler verwenden zu müssen,
-muss man natürlich darauf achten, dass die maximale Eingangsspannung und
-der maximale Strom, den der Regler verkraftet bzw. erlaubt,
-nicht überschritten wird.
-Solarmodule kann man wie bei Batteriezellen seriell und/oder parallel verbinden,
-wobei es bei Parallelschaltung weniger Verluste bei Teilverschattung gibt.
+https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie etwas teurer sind, weil sie einen größeren Wirkungsgrad haben.
 
 image:Schindel-Solarmodul.jpg[%Bild: Schindel-Solarmodul%,400,align=right]
 Besonders interessant finde ich die überlappenden Anordnung und
@@ -134,8 +125,9 @@ Für die Umwandlung des 'rohen' Solarstroms sind Spannungsregler mit
 https://de.wikipedia.org/wiki/Maximum_Power_Point_Tracking[MPPT (maximum power point tracking)]
 zu empfehlen, weil sie auch bei stark wechselnder Einstrahlung optimale Energieausbeute bringen.
 Sie sind allerdings auch deutlich teurer als die wesentlich einfacheren PWM-Regler.
-Für die Anbindung ans Stromnetz werden Spannungsregler mit einem integrierten Wechselrichter
-verwendet, der sich automatisch an die Frequenz und Phase des Stromanschlusses anpasst.
+Für die Koppelung mit dem Stromnetz werden Spannungsregler mit einem
+integrierten Wechselrichter verwendet, die sich automatisch
+an die Frequenz und Phase des Stromanschlusses anpassen.
 
 image:Solar-Laderegler.jpg[%Bild: Solar-Laderegler%,400,align=right]
 Wenn man Solarmodule hingegen mit einer Batterie verbinden möchte, benötigt man einen
@@ -245,3 +237,42 @@ oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-wat
 
 * 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
 oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
+
+=== Optimierungsmöglichkeiten bei den Komponenten
+
+Wenige große Solarmodule sind technisch und wirtschaftlich günstiger als
+entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
+Solarmodule kann man wie Batteriezellen seriell und/oder parallel verbinden,
+wobei es bei Parallelschaltung weniger Verluste bei Teilverschattung gibt.
+Wenn man mehrere -- aber bitte nur gleichartige -- Solarmodule zusammenschaltet,
+um mehr Leistung zu erhalten,
+ohne für jedes einen einzelnen Regler verwenden zu müssen,
+muss man natürlich darauf achten, dass die maximale Eingangsspannung und
+der maximale Strom, den der Regler verkraftet bzw. erlaubt,
+nicht überschritten wird.
+
+Der Preis einer Batterie pro kWh sinkt mit steigender Größe/Gesamtkapazität,
+allerdings ist der Effekt eher gering. +
+// Hier am Beispiel der o.g. Delong-LiFePO4-Akkus: Eine Batterie inkl. BMS
+// ohne Versand kostet Stand Frühjahr 2022 mit 12,8 V 100 Ah etwa 215€,
+// mit doppelter Kapazität etwa 410€,
+// und mit 8-facher Kapazität (51,2 V, 200 Ah) etwa 1560€, also 10% günstiger.
+Wenn man die Wahl hat zwischen höherer Spannung (d.h. mehr Akkuzellen in Serie)
+oder größere bzw. mehr Zellen parallel, dann besser die höhere Spannung nehmen.
+Also ist z.B. eine 24 V 100 Ah Batterie einer mit 12 V und 200 Ah vorzuziehen,
+aus folgenden Gründen:
+Hohe Ströme belasten elektronische Bauteile besonders stark, bringen mehr
+Verluste und verlangen größere Kabelquerschnitte, die schnell unhandlich werden.
+Zudem ist ein Solar-Laderegler vor Allem durch seinen Ausgangsstrom begrenzt.
+So verkraftet ein Victron BlueSolar MPPT 100/30 eine PV-Leerspannung von
+max. 100 V (was die Serienschaltung von mindestens 2 Solarmodulen erlaubt) und
+einen max. Ladestrom von 30 A, woraus sich bei Betrieb an einer 12 V Batterie
+eine Maximal-Eingangsleistung von 360 W ergibt, bzw. unter Berücksichtgung von
+PV-Verlusten eine max. Nennleistung der angeschlossenen Solarmodule von 440 Wp.
+Bei 24 V Batteriespannung ist hingegen die doppelte Leistung (880 Wp) möglich.
+Wenn man anders herum für die doppele PV-Leistung bei 12 V Batteriespannung
+bleiben will bzw. muss, braucht man einen Laderegler mit doppelter
+Strom-Belastbarkeit, und der kostet ca. 50 bis 80% mehr.
+Allerdings gibt es mehr Geräte, die direkt mit 12 V betrieben werden können
+als mit 24 V, wobei die meisten Wechselrichter sowohl 12 als auch 24 V
+Eingangsspannung erlauben (und vermutlich bei 24 V etwas effizienter arbeiten).
