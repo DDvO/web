@@ -21,14 +21,20 @@ Natürlich ist die Sonneneinstrahlung im Durchschnitt viel geringer
 und je nach Wetter, Tages- und Jahreszeit sehr variabel.
 
 // https://www.energie-experten.org/fileadmin/System-Bilder/Inhalt_Bilder/Photovoltaik_Solarmodule_Leistung_Ausrichtung_Grafik_energie-experten.org.jpg
-image:Solarmodule_Ausrichtung.webp[%Bild: Ausrichtung von Solarmodulen%,400,align=right]
+// https://i0.wp.com/machdeinenstrom.de/wp-content/uploads/2018/03/Azimut.png?w=855&ssl=1
+image:Solarmodule_Ausrichtung2.webp[%Bild: Ausrichtung von Solarmodulen%,400,align=right]
 Aus den genannten Gründen sind die Wp-Angaben für Solarmodule mit Vorsicht zu genießen.
-In unseren Breitengraden sind je nach Standort bei optimaler statischer Ausrichtung
-von Solarmodulen, also ungefähr nach Süden und mit ca. 35° Neigungwinkel (relativ zur Waagerechten)
+In unseren Breitengraden sind je nach Standort
+bei optimaler statischer Ausrichtung von Solarmodulen
 https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/ertrag[
 etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
-Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils) in waagerechter Lage anbringt,
-ist man zwar von der Himmelsrichtung unabhängig, aber kommt selbst mittags an sehr sonnigen Tagen
+Die https://machdeinenstrom.de/optimaler-ertrag-mit-mini-solar-kraftwerken/[
+beste Ausbeute] bekommt man bei Ausrichtung nach Süden
+und mit 36° Neigungwinkel (relativ zur Waagerechten).
+
+Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils)
+in waagerechter Lage anbringt, ist man zwar von der Himmelsrichtung unabhängig,
+aber kommt nach meiner Erfahrung selbst mittags an sehr sonnigen Tagen
 kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
 
 
@@ -36,24 +42,46 @@ kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
 
 Solarmodule liefern Gleichstrom mit je nach Einstrahlung sehr variabler Spannung
 (je nach Typ maximal z.B. 40 V) und Stromstärke (je nach Nennleistung maximal z.B. 10 A).
-Dieser ist direkt erst mal kaum verwendbar (außer z.B. zum Aufheizen eines Warmwasserspeichers).
+Dieser ist direkt erst mal kaum verwendbar
+(außer z.B. zum Aufheizen eines Warmwasserspeichers).
+
+==== Balkonanlage mit Netzeinspeisung
 
 // https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg
 image:Balkonkraftwerk.jpg[%Bild: Aufbau Balkonkraftwerk%,400,align=right]
-Typischerweise speisen Solaranlagen den erzeugten Strom nach Umwandlung durch einen Wechselrichter
-direkt ins (lokale oder öffentliche) Stromnetz ein, wo er sofort in irgendeiner Form verbraucht
-wird (bzw. der Rest in Form von Wärme verlorengeht).
+Typischerweise speisen Solaranlagen den erzeugten Strom
+nach Umwandlung durch einen Wechselrichter
+direkt ins (lokale oder öffentliche) Stromnetz ein, wo er sofort in
+irgendeiner Form verbraucht wird (bzw. der Rest in Form von Wärme verlorengeht).
 Das gilt auch für die sogenannten
 // https://www.energie-experten.org/erneuerbare-energien/solarenergie/solaranlage/balkonkraftwerk
-'https://www.steckdosensolar.de/[Balkonkraftwerke]' mit einer Nennleistung von meist 600 bis 800 Wp.
-Von der gerade erzeugten Leistung fließt der Anteil, der nicht aktuell im Haushalt durch
-Elektrogeräte verbraucht wird, automatisch ins externe Stromnetz und wird praktisch
-an den jeweiligen Stromlieferanten verschenkt (denn die Zeiten, dass man durch einen rückwärts
-laufenden Stromzähler 'unter der Hand Strom verkaufen' konnte, sind vorbei).
+'https://www.steckdosensolar.de/[Balkonkraftwerke]' mit einer sehr geringen
+Nennleistung von meist 600 bis 800 Wp.
+Zu beachten ist, dass diese Nutzungsart abseits eines bestehenden Netzes und
+während eines Stromausfalls (engl. blackout) nicht funktioniert, weil sich
+die hierfür verwendeten Wechselrichter mit dem Stromnetz synchronisieren müssen.
+
+Von der gerade erzeugten Leistung fließt der Anteil, der nicht aktuell lokal
+(also im Haushalt) durch Elektrogeräte verbraucht wird, automatisch ins externe
+Stromnetz und wird praktisch an den jeweiligen Stromlieferanten verschenkt:
+Die Zeiten, dass man durch einen rückwärts laufenden Stromzähler
+'unter der Hand Strom verkaufen' konnte, sind vorbei,
+und eine offiziell vergütetete Einspeisung ist mit Extra-Aufwand verbunden
+und bringt wenig -- sie beträgt in Deutschland gemäß eEG https://www.zolar.de/blog/entwicklung-der-eeg-einspeiseverguetung[zum 01.04.2022 nur noch 6,53 ct/kWh].
 Hingegen spart man sich die Verbrauchskosten für den selber erzeugten und gleichzeitig verbrauchten
 Anteil, weil der Zähler für den aus dem externen Netz bezogenen Strom entsprechend langsamer läuft.
-Übrigens funktioniert diese Nutzungsart nicht während eines Stromausfalls (engl. blackout), weil
-sich die hierfür verwendeten Wechselrichter mit dem Stromnetz synchronisieren müssen.
+
+Diese Nutzungsart lohnt sich also vor Allem insoweit, wie man während der
+Sonnenscheindauer den Strom sinnvoll verbrauchen kann, z.B. durch Computer,
+diverse Haushaltsgeräte oder zum Laden von Fahrzeug-Batterien.
+Am einfachsten und am besten planbar ist es, wenn es ohnehin eine gewisse
+relativ gleichmäßige Grundlast hat, z.B. durch Kühlschränke und Wärmepumpen.
+Eine Nutzung von überflüssigem Strom finde ich ziemlich clever,
+nämlich zum (zusätzlichen) Aufheizen des Warmwasserboilers im Haus,
+so dass man weniger fossilie Brennstoffe dafür verbraucht.
+
+
+==== Inselanlage mit Batteriespeicherung
 
 // http://www.inselanlage.info/wp-content/uploads/2015/01/inselanlage-aufbau.jpg
 image:Inselanlage.jpg[%Bild: Aufbau Inselanlage%,400,align=right]
@@ -62,6 +90,7 @@ Alternativ kann man den von den Solarmodulen gelieferten Strom auch in einer auf
 Diese Betriebsart wird als 'http://www.inselanlage.info/[Inselanlage]' (engl. off-grid) bezeichnet
 und ist für die Nutzung ohne externes Stromnetz (also z.B. bei Stromausfall, beim Campen mit dem
 Wohnmobil oder Wohnwagen, auf Booten und für abseits gelegene Häuser oder Hütten) die einzig mögliche.
+
 Neben der Speicherbatterie wird hier zumindest ein Solarladeregler benötigt,
 und sofern die Verbraucher nicht direkt mit der Batteriespannung (z.B. 12 V Gleichstrom)
 betrieben werden können, zusätzlich ein ausreichend leistungsstarker Wechselrichter
@@ -69,9 +98,10 @@ zur Umwandlung in den üblichen 'Steckdosenstrom' (Wechselstrom mit ca. 230 V).
 Diese Nutzungsart ist also flexibler, aber wegen der nötigen zusätzlichen Komponenten
 deutlich teurer (und auch etwas anfälliger und wartungsintensiver).
 
+==== Kombination
+
 Wenn man Zugang zum Stromnetz hat und die für beide Varianten nötigen Funktionen gleichzeitig
 installiert sind, kann man zwischen diesen grundätzlichen Nutzungsarten auch wahlweise umschalten.
-
 
 === Generelle Hinweise für die Auswahl von Komponenten
 
@@ -81,17 +111,23 @@ haben eine Größe von typischerweise ca. 1,7 m * 1 m * 3 cm, was eine Nennleist
 von etwa 350 Wp ergibt, und eine Masse von ca. 20 kg.
 Flexible Panels sind etwas teurer als starre, dafür aber viel leichter und nur wenige Millimeter dick.
 Sie sind meist auch deutlich kleiner -- typischerweise 1,2 m * 0,5 m bei einer Nennleistung von 100 Wp.
-https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. +
-Wenn man mehrere Solarmodule zusammenschaltet, um mehr Leistung zu erhalten,
-kann man das wie bei Batterien seriell und/oder parallel tun,
-wobei die Parallelschaltung bei Teilverschattung weniger Verluste hat.
-Es sollten nur gleichartige Panels miteinander verschaltet werden.
-Wenige große Module sind technisch und wirtschaftlich günstiger als entsprechend mehr kleinere.
+https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie etwas teurer sind, weil sie einen größeren Wirkungsgrad haben. +
+Wenige große Module sind technisch und wirtschaftlich günstiger als viele kleine.
+Wenn man mehrere -- aber bitte nur gleichartige -- Solarmodule zusammenschaltet,
+um mehr Leistung zu erhalten,
+ohne für jedes einen einzelnen Regler verwenden zu müssen,
+muss man natürlich darauf achten, dass die maximale Eingangsspannung und
+der maximale Strom, den der Regler verkraftet bzw. erlaubt,
+nicht überschritten wird.
+Solarmodule kann man wie bei Batteriezellen seriell und/oder parallel verbinden,
+wobei es bei Parallelschaltung weniger Verluste bei Teilverschattung gibt.
 
 image:Schindel-Solarmodul.jpg[%Bild: Schindel-Solarmodul%,400,align=right]
-Besonders interessant finde ich bei der Anordnung und Verschaltung von Solarzellen zu Solarpanels die
-https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovativ-verschaltet-und-industriell-herstellbar[Schindel-Form] (engl. SSP = shingle solar panel),
-weil sie die Fläche besser nutzen sowie bei Teilverschattung und bei Wärme weniger Verluste hat.
+Besonders interessant finde ich die überlappenden Anordnung und
+direkte Verschaltung von Solarzellen ohne Stromschienen (engl. busbars) in
+https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovativ-verschaltet-und-industriell-herstellbar[Schindel-Modulen] (engl. SSP = shingle solar panel).
+Dadurch steigt der Wirkungsgrad, weil die Fläche besser genutzt wird
+und bei Teilverschattung und Wärme die Verluste verringert werden.
 
 image:Solar-Microinverter.png[%Bild: Solar-Microinverter%,400,align=right]
 Für die Umwandlung des 'rohen' Solarstroms sind Spannungsregler mit
@@ -160,7 +196,7 @@ Das erscheint einfacher und sehr praktisch, eventuell auch besonders wirtschaftl
 https://www.oeko-energie.de/shop1/de/Solarstrom/Insel-WR/Kombigeraet-Laderegler-MPPT-Wechselrichter-Batterieladegeraet/[
 hat aber auch seine Nachteile] wie fehlende Flexibilität.
 Und offenbar gibt es kein Gerät, das direkt die beiden Nutzungsarten Inselanlage (also
-netzunabhängige Versorgung) und Balkonkraftwerk (also Netzeinspeisung) ermöglicht.
+netzunabhängige Versorgung) und Balkonanlage (also Netzeinspeisung) ermöglicht.
 
 === Beispiel-Konfiguration für eine mobile Inselanlage
 
@@ -183,14 +219,29 @@ zu meiner vollen Zufriedenheit:
 
 * https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 W Wechselrichter], ebenfalls direkt aus China, ca. 70€
 
-=== Beispiel-Konfiguration für ein Balkonkraftwerk
+=== Beispiel-Konfiguration für eine Balkonanlage
 
 Für eine sehr einfache, aber effiziente und günstige Anlage zur Netzeinspeisung
 finde ich folgende Komponenten besonders interessant:
 
 * 2 * 400 Wp starre SSP https://ongeles-shop.de/products/ecodelta-eco-400m-66sa[EcoDelta - ECO-400M-66SA], ca. 540€ inkl. Versand +
-oder 2 * 310 Wp flexibele Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[Sunman], ca. 665€
-//* oder 4 * 180 Wp flesible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€
+oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[Sunman], ca. 665€ // 187 Wp/m²
+//  Technische Daten / Solarmodul Größe L/B/H1653 x 1000 x 2 mm
+// Gewicht 4,8 kg Steckertyp MC4 Zellen 36
+// Max. Leistung 310 Wp Max. Spannung [Vmp]33,3 V Max. Stromstärke [Imp]9,31 A
+// Leerlaufspannung [Voc]40,5 V Kurzschlussstrom [Isc]9,81 A Betriebstemperatur- 40°C bis 85°C
+// oder https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html?spm=a2700.galleryofferlist.normal_offer.d_title.5d5e2b50ZrTmRz&s=p // 194 Wp/m²
+// Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax to Germany.(30-45 DAYS) 2pcs is $650
+// Maximum Power(Pmax)：370W
+// Maximum Power Voltage(Vmp)：35.1V
+// Maximum Power Current(Imp)：10.54A
+// Open Circuit Voltage：42.8V
+// Short Circuit Current(Isc):11.1A
+// Net Weight：6.3kg
+// Size：1840-1035-25mm
+// oder https://de.aliexpress.com/item/1005003966949828.html?spm=a2g0o.detail.1000014.1.c2105859BJU3Ab&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.267768.0&scm_id=1007.40000.267768.0&scm-url=1007.40000.267768.0&pvid=ba6ede64-99c5-4c57-b890-f2561aabdc6b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.267768.0,pvid:ba6ede64-99c5-4c57-b890-f2561aabdc6b,tpp_buckets:668%232846%238109%23216&pdp_ext_f=%257B%2522sku_id%2522%253A%252212000027609497414%2522%252C%2522sceneId%2522%253A%252230050%2522%257D&pdp_pi=-1%253B169.8%253B-1%253B-1%2540salePrice%253BEUR%253Brecommend-recommend // 150 Wp 1220*680*2 180 Wp/m²
+
+//* oder 4 * 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
 
 * 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
 oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
