@@ -49,8 +49,8 @@ Dieser ist direkt erst mal kaum verwendbar
 
 // https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg
 image:Balkonkraftwerk.jpg[%Bild: Aufbau Balkonkraftwerk%,400,align=right]
-Typischerweise speisen Solaranlagen den erzeugten Strom
-nach Umwandlung durch einen Wechselrichter
+Typischerweise speisen Solaranlagen den erzeugten Strom nach Umwandlung
+durch einen netzgekoppelten Wechselrichter (engl. grid-tied inverter)
 direkt ins (lokale oder öffentliche) Stromnetz ein, wo er sofort in
 irgendeiner Form verbraucht wird (bzw. der Rest in Form von Wärme verlorengeht).
 Das gilt auch für die sogenannten
@@ -93,7 +93,8 @@ Wohnmobil oder Wohnwagen, auf Booten und für abseits gelegene Häuser oder Hüt
 
 Neben der Speicherbatterie wird hier zumindest ein Solarladeregler benötigt,
 und sofern die Verbraucher nicht direkt mit der Batteriespannung (z.B. 12 V Gleichstrom)
-betrieben werden können, zusätzlich ein ausreichend leistungsstarker Wechselrichter
+betrieben werden können, zusätzlich ein ausreichend leistungsstarker
+Wechselrichter (manchmal auch auch Spannungswandler genannt)
 zur Umwandlung in den üblichen 'Steckdosenstrom' (Wechselstrom mit ca. 230 V).
 Diese Nutzungsart ist also flexibler, aber wegen der nötigen zusätzlichen Komponenten
 deutlich teurer (und auch etwas anfälliger und wartungsintensiver).
