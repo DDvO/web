@@ -106,6 +106,8 @@ installiert sind, kann man zwischen diesen grundätzlichen Nutzungsarten auch wa
 
 === Generelle Hinweise für die Auswahl von Komponenten
 
+==== Solarmodule
+
 image:Flexible_Solarpanels.jpg[%Bild: Flexible Solarpanels%,400,align=right]
 Die https://gruenes.haus/pv-modul-groesse-gewicht/[klassischen Solarmodule] sind starr,
 haben eine Größe von typischerweise ca. 1,7 m * 1 m * 3 cm, was eine Nennleistung
@@ -121,6 +123,19 @@ https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovati
 Dadurch steigt der Wirkungsgrad, weil die Fläche besser genutzt wird
 und bei Teilverschattung und Wärme die Verluste verringert werden.
 
+Wenige große Solarmodule sind technisch und wirtschaftlich günstiger als
+entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
+Solarmodule kann man wie Batteriezellen seriell und/oder parallel verbinden,
+wobei es bei Parallelschaltung weniger Verluste bei Teilverschattung gibt.
+Wenn man mehrere -- aber bitte nur gleichartige -- Solarmodule zusammenschaltet,
+um mehr Leistung zu erhalten,
+ohne für jedes einen einzelnen Regler verwenden zu müssen,
+muss man natürlich darauf achten, dass die maximale Eingangsspannung und
+der maximale Strom, den der Regler verkraftet bzw. erlaubt,
+nicht überschritten wird.
+
+==== Spannungsregler, Solar-Laderegler und Wechselrichter
+
 image:Solar-Microinverter.png[%Bild: Solar-Microinverter%,400,align=right]
 Für die Umwandlung des 'rohen' Solarstroms sind Spannungsregler mit
 https://de.wikipedia.org/wiki/Maximum_Power_Point_Tracking[MPPT (maximum power point tracking)]
@@ -135,6 +150,31 @@ Wenn man Solarmodule hingegen mit einer Batterie verbinden möchte, benötigt ma
 Solar-Laderegler, der einen Spannungsregler mit einem Batterieladegerät verbindet.
 Mit billigen chinesischen (angeblich) MPPT-Reglern habe ich keine guten Erfahrungen gemacht,
 wohl aber mit den europäischen Marken Victron und Votronic.
+
+image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
+Bei einem Wechselrichter sollte man darauf achten,
+dass er ordentlichen Wechselstrom liefert (sog. 'reine Sinuswelle') sowie
+einen hohen Wirkungsgrad und einen geringen Ruhe-/Leerlaufstromverbrauch
+(engl. standby power consumption) hat.
+Außerdem ist empfehlenswert, ihn mit ausreichend Leistungsreserve zu
+dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
+verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
+
+image:Solar-off-grid-inverter.webp[%Bild: Solar-off-grid-inverter%,400,align=right]
+Es gibt auch https://www.solarserver.de/2021/07/26/green-cell-bietet-neuen-solarwechselrichter-an/[Kombigeräte],
+welche die Funktionen Solar-Laderegler, Batterie-Netzladegerät und Wechselrichter in sich vereinen.
+Damit können Verbraucher vorzugsweise direkt mit Solarstrom versorgt werden,
+wobei die überschüssige Energie in einer Batterie gespeichtert wird.
+Bei unzureichender Stromversorgung aus den Solarmodulen ergänzt das Gerät die benötigte Energie
+automatisch aus der Batterie oder schaltet bei leerer Batterie auf eine externe Stromquelle
+(Stromnetz oder Generator) um, mit dem dann auch die Batterie geladen wird.
+Das erscheint einfacher und sehr praktisch, eventuell auch besonders wirtschaftlich, 
+https://www.oeko-energie.de/shop1/de/Solarstrom/Insel-WR/Kombigeraet-Laderegler-MPPT-Wechselrichter-Batterieladegeraet/[
+hat aber auch seine Nachteile] wie fehlende Flexibilität.
+Und offenbar gibt es kein Gerät, das direkt die beiden Nutzungsarten Inselanlage (also
+netzunabhängige Versorgung) und Balkonanlage (also Netzeinspeisung) ermöglicht.
+
+==== Speicherbatterien
 
 image:LiFePO4-Batterie.jpg[%Bild: LiFePO4-Batterie mit 4 prismatischen Zellen%,400,align=right]
 Für die Speicherung von Strom bieten sich heutzutage Lithium-Eisenphosphat-Batterien (LiFePO4) an.
@@ -168,90 +208,6 @@ Hersteller-Angaben und Verlusten bei der Wandlung von 3,6 V auf die 5 V eines US
 effektiv eher die Hälfte dieser Kapazität.
 Ein durchschnittlicher Smartphone-Akku lässt sich damit in der Praxis etwa 10 mal aufladen.
 
-image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
-Bei einem Wechselrichter sollte man darauf achten,
-dass er ordentlichen Wechselstrom liefert (sog. 'reine Sinuswelle') sowie
-einen hohen Wirkungsgrad und einen geringen Ruhe-/Leerlaufstromverbrauch
-(engl. standby power consumption) hat.
-Außerdem ist empfehlenswert, ihn mit ausreichend Leistungsreserve zu
-dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
-verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
-
-image:Solar-off-grid-inverter.webp[%Bild: Solar-off-grid-inverter%,400,align=right]
-Es gibt auch https://www.solarserver.de/2021/07/26/green-cell-bietet-neuen-solarwechselrichter-an/[Kombigeräte],
-welche die Funktionen Solar-Laderegler, Batterie-Netzladegerät und Wechselrichter in sich vereinen.
-Damit können Verbraucher vorzugsweise direkt mit Solarstrom versorgt werden,
-wobei die überschüssige Energie in einer Batterie gespeichter wird.
-Bei unzureichender Stromversorgung aus den Solarmodulen ergänzt das Gerät die benötigte Energie
-automatisch aus der Batterie oder schaltet bei leerer Batterie auf eine externe Stromquelle
-(Stromnetz oder Generator) um, mit dem dann auch die Batterie geladen wird.
-Das erscheint einfacher und sehr praktisch, eventuell auch besonders wirtschaftlich, 
-https://www.oeko-energie.de/shop1/de/Solarstrom/Insel-WR/Kombigeraet-Laderegler-MPPT-Wechselrichter-Batterieladegeraet/[
-hat aber auch seine Nachteile] wie fehlende Flexibilität.
-Und offenbar gibt es kein Gerät, das direkt die beiden Nutzungsarten Inselanlage (also
-netzunabhängige Versorgung) und Balkonanlage (also Netzeinspeisung) ermöglicht.
-
-=== Beispiel-Konfiguration für eine mobile Inselanlage
-
-Für unser Wohnmobil verwende ich seit Mai 2019 folgende relativ günstige Komponenten
-zu meiner vollen Zufriedenheit:
-
-* 2 * 100 Wp flexible Solarpanel https://www.amazon.de/DOKIO-Batterie-wasserdicht-Wohnmobil-Oberfl%C3%A4che/dp/B07FYW3C6W[Dokio DFSP-100M], ca. 180€ +
-  Diese habe ich einfach auf das Blechdach geklebt. Etwas lästig war die Kabelführung ins Innere.
-
-* https://www.ebay.de/itm/142083505206[Victron BlueSolar MPPT 75/15 Solar-Laderegler], ca. 90€ +
-  Dieser Regler unterstützt Batterien mit 12 oder 24 V und Ladeströme bis 15 A
-  (wobei für die o.g. Solarzellen bei Dachmontage in der Praxis auch 10 A genügt hätten). +
-  Sehr praktisch finde ich bei den BlueSolar-Modellen die Status-Abfrage auf dem Smartphone.
-  Leider unterbinden die Victron-Regler ohne Zusatzgerät nicht das Laden bei unter 0°C, was bei
-  LiFePO4-Akkus zu Schäden führen kann, wenn man sie beim Abstellen im Winter nicht abklemmt.
-
-* https://de.delongbattery.com/Lithium-Eisenphosphat-12.8V-100ah-LiFePO4-Batteriepack-pd43061953.html[Delong 12,8 V 100 Ah 4S1P LiFePO4-Battere inkl. BMS], direk aus China, ca. 400€ +
-   In Deutschland werden solche Batterien hingegen für ungefähr 1000€ verkauft.
-   Siehe auch https://www.mydealz.de/deals/12v-100ah-lifepo4-akku-mit-bms-ab-400-zb-fur-solaranlage-oder-wohnmobilbatterie-ersatz-1350559[meinen myDealz-Beitrag] dazu mit interessanter Diskussion.
-
-* https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 W Wechselrichter], ebenfalls direkt aus China, ca. 70€
-
-=== Beispiel-Konfiguration für eine Balkonanlage
-
-Für eine sehr einfache, aber effiziente und günstige Anlage zur Netzeinspeisung
-finde ich folgende Komponenten besonders interessant:
-
-* 2 * 400 Wp starre SSP https://ongeles-shop.de/products/ecodelta-eco-400m-66sa[EcoDelta - ECO-400M-66SA], ca. 540€ inkl. Versand +
-oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[Sunman], ca. 665€ // 187 Wp/m²
-//  Technische Daten / Solarmodul Größe L/B/H1653 x 1000 x 2 mm
-// Gewicht 4,8 kg Steckertyp MC4 Zellen 36
-// Max. Leistung 310 Wp Max. Spannung [Vmp]33,3 V Max. Stromstärke [Imp]9,31 A
-// Leerlaufspannung [Voc]40,5 V Kurzschlussstrom [Isc]9,81 A Betriebstemperatur- 40°C bis 85°C
-// oder https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html?spm=a2700.galleryofferlist.normal_offer.d_title.5d5e2b50ZrTmRz&s=p // 194 Wp/m²
-// Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax to Germany.(30-45 DAYS) 2pcs is $650
-// Maximum Power(Pmax)：370W
-// Maximum Power Voltage(Vmp)：35.1V
-// Maximum Power Current(Imp)：10.54A
-// Open Circuit Voltage：42.8V
-// Short Circuit Current(Isc):11.1A
-// Net Weight：6.3kg
-// Size：1840-1035-25mm
-// oder https://de.aliexpress.com/item/1005003966949828.html?spm=a2g0o.detail.1000014.1.c2105859BJU3Ab&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.267768.0&scm_id=1007.40000.267768.0&scm-url=1007.40000.267768.0&pvid=ba6ede64-99c5-4c57-b890-f2561aabdc6b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.267768.0,pvid:ba6ede64-99c5-4c57-b890-f2561aabdc6b,tpp_buckets:668%232846%238109%23216&pdp_ext_f=%257B%2522sku_id%2522%253A%252212000027609497414%2522%252C%2522sceneId%2522%253A%252230050%2522%257D&pdp_pi=-1%253B169.8%253B-1%253B-1%2540salePrice%253BEUR%253Brecommend-recommend // 150 Wp 1220*680*2 180 Wp/m²
-
-//* oder 4 * 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
-
-* 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
-oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
-
-=== Optimierungsmöglichkeiten bei den Komponenten
-
-Wenige große Solarmodule sind technisch und wirtschaftlich günstiger als
-entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
-Solarmodule kann man wie Batteriezellen seriell und/oder parallel verbinden,
-wobei es bei Parallelschaltung weniger Verluste bei Teilverschattung gibt.
-Wenn man mehrere -- aber bitte nur gleichartige -- Solarmodule zusammenschaltet,
-um mehr Leistung zu erhalten,
-ohne für jedes einen einzelnen Regler verwenden zu müssen,
-muss man natürlich darauf achten, dass die maximale Eingangsspannung und
-der maximale Strom, den der Regler verkraftet bzw. erlaubt,
-nicht überschritten wird.
-
 Der Preis einer Batterie pro kWh sinkt mit steigender Größe/Gesamtkapazität,
 allerdings ist der Effekt eher gering. +
 // Hier am Beispiel der o.g. Delong-LiFePO4-Akkus: Eine Batterie inkl. BMS
@@ -277,3 +233,53 @@ Strom-Belastbarkeit, und der kostet ca. 50 bis 80% mehr.
 Allerdings gibt es mehr Geräte, die direkt mit 12 V betrieben werden können
 als mit 24 V, wobei die meisten Wechselrichter sowohl 12 als auch 24 V
 Eingangsspannung erlauben (und vermutlich bei 24 V etwas effizienter arbeiten).
+
+=== Beispiel-Konfigurationen
+
+==== Mobile Inselanlage
+
+Für unser Wohnmobil verwende ich seit Mai 2019 folgende relativ günstige Komponenten
+zu meiner vollen Zufriedenheit:
+
+* 2 * 100 Wp flexible Solarpanel https://www.amazon.de/DOKIO-Batterie-wasserdicht-Wohnmobil-Oberfl%C3%A4che/dp/B07FYW3C6W[Dokio DFSP-100M], ca. 180€ +
+  Diese habe ich einfach auf das Blechdach geklebt. Etwas lästig war die Kabelführung ins Innere.
+
+* https://www.ebay.de/itm/142083505206[Victron BlueSolar MPPT 75/15 Solar-Laderegler], ca. 90€ +
+  Dieser Regler unterstützt Batterien mit 12 oder 24 V und Ladeströme bis 15 A
+  (wobei für die o.g. Solarzellen bei Dachmontage in der Praxis auch 10 A genügt hätten). +
+  Sehr praktisch finde ich bei den BlueSolar-Modellen die Status-Abfrage auf dem Smartphone.
+  Leider unterbinden die Victron-Regler ohne Zusatzgerät nicht das Laden bei unter 0°C, was bei
+  LiFePO4-Akkus zu Schäden führen kann, wenn man sie beim Abstellen im Winter nicht abklemmt.
+
+* https://de.delongbattery.com/Lithium-Eisenphosphat-12.8V-100ah-LiFePO4-Batteriepack-pd43061953.html[Delong 12,8 V 100 Ah 4S1P LiFePO4-Battere inkl. BMS], direk aus China, ca. 400€ +
+   In Deutschland werden solche Batterien hingegen für ungefähr 1000€ verkauft.
+   Siehe auch https://www.mydealz.de/deals/12v-100ah-lifepo4-akku-mit-bms-ab-400-zb-fur-solaranlage-oder-wohnmobilbatterie-ersatz-1350559[meinen myDealz-Beitrag] dazu mit interessanter Diskussion.
+
+* https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 W Wechselrichter], ebenfalls direkt aus China, ca. 70€
+
+==== Balkonanlage
+
+Für eine sehr einfache, aber effiziente und günstige Anlage zur Netzeinspeisung
+finde ich folgende Komponenten besonders interessant:
+
+* 2 * 400 Wp starre SSP https://ongeles-shop.de/products/ecodelta-eco-400m-66sa[EcoDelta - ECO-400M-66SA], ca. 540€ inkl. Versand +
+oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[Sunman], ca. 665€ // 187 Wp/m²
+//  Technische Daten / Solarmodul Größe L/B/H1653 x 1000 x 2 mm
+// Gewicht 4,8 kg Steckertyp MC4 Zellen 36
+// Max. Leistung 310 Wp Max. Spannung [Vmp]33,3 V Max. Stromstärke [Imp]9,31 A
+// Leerlaufspannung [Voc]40,5 V Kurzschlussstrom [Isc]9,81 A Betriebstemperatur- 40°C bis 85°C
+// oder https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html?spm=a2700.galleryofferlist.normal_offer.d_title.5d5e2b50ZrTmRz&s=p // 194 Wp/m²
+// Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax to Germany.(30-45 DAYS) 2pcs is $650
+// Maximum Power(Pmax)：370W
+// Maximum Power Voltage(Vmp)：35.1V
+// Maximum Power Current(Imp)：10.54A
+// Open Circuit Voltage：42.8V
+// Short Circuit Current(Isc):11.1A
+// Net Weight：6.3kg
+// Size：1840-1035-25mm
+// oder https://de.aliexpress.com/item/1005003966949828.html?spm=a2g0o.detail.1000014.1.c2105859BJU3Ab&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.267768.0&scm_id=1007.40000.267768.0&scm-url=1007.40000.267768.0&pvid=ba6ede64-99c5-4c57-b890-f2561aabdc6b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.267768.0,pvid:ba6ede64-99c5-4c57-b890-f2561aabdc6b,tpp_buckets:668%232846%238109%23216&pdp_ext_f=%257B%2522sku_id%2522%253A%252212000027609497414%2522%252C%2522sceneId%2522%253A%252230050%2522%257D&pdp_pi=-1%253B169.8%253B-1%253B-1%2540salePrice%253BEUR%253Brecommend-recommend // 150 Wp 1220*680*2 180 Wp/m²
+
+//* oder 4 * 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
+
+* 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
+oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
