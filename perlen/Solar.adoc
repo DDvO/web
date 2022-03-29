@@ -244,31 +244,45 @@ zu meiner vollen Zufriedenheit:
 * 2 * 100 Wp flexible Solarpanel https://www.amazon.de/DOKIO-Batterie-wasserdicht-Wohnmobil-Oberfl%C3%A4che/dp/B07FYW3C6W[Dokio DFSP-100M], ca. 180€ +
   Diese habe ich einfach auf das Blechdach geklebt. Etwas lästig war die Kabelführung ins Innere.
 
-* https://www.ebay.de/itm/142083505206[Victron BlueSolar MPPT 75/15 Solar-Laderegler], ca. 90€ +
+* 15 A Solar-Laderegler https://www.ebay.de/itm/142083505206[Victron BlueSolar MPPT 75/15], ca. 90€ +
   Dieser Regler unterstützt Batterien mit 12 oder 24 V und Ladeströme bis 15 A
   (wobei für die o.g. Solarzellen bei Dachmontage in der Praxis auch 10 A genügt hätten). +
   Sehr praktisch finde ich bei den BlueSolar-Modellen die Status-Abfrage auf dem Smartphone.
   Leider unterbinden die Victron-Regler ohne Zusatzgerät nicht das Laden bei unter 0°C, was bei
   LiFePO4-Akkus zu Schäden führen kann, wenn man sie beim Abstellen im Winter nicht abklemmt.
 
-* https://de.delongbattery.com/Lithium-Eisenphosphat-12.8V-100ah-LiFePO4-Batteriepack-pd43061953.html[Delong 12,8 V 100 Ah 4S1P LiFePO4-Battere inkl. BMS], direk aus China, ca. 400€ +
+* 12,8 V 100 Ah 4S1P LiFePO4-Batterie inkl. 100 A BMS https://www.alibaba.com/product-detail/Delong-Factory-Rechargeable-12-8V-100Ah_62388029440.html[Delong DL-12100], inkl. DDP-Versand direkt aus China ca. 400€ +
+// https://de.delongbattery.com/Lithium-Eisenphosphat-12.8V-100ah-LiFePO4-Batteriepack-pd43061953.html
    In Deutschland werden solche Batterien hingegen für ungefähr 1000€ verkauft.
    Siehe auch https://www.mydealz.de/deals/12v-100ah-lifepo4-akku-mit-bms-ab-400-zb-fur-solaranlage-oder-wohnmobilbatterie-ersatz-1350559[meinen myDealz-Beitrag] dazu mit interessanter Diskussion.
 
-* https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 W Wechselrichter], ebenfalls direkt aus China, ca. 70€
+* https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 Wp Wechselrichter], ebenfalls direkt aus China, ca. 70€
 
 ==== Balkonanlage
 
 Für eine sehr einfache, aber effiziente und günstige Anlage zur Netzeinspeisung
 finde ich folgende Komponenten besonders interessant:
 
-* 2 * 400 Wp starre SSP https://ongeles-shop.de/products/ecodelta-eco-400m-66sa[EcoDelta - ECO-400M-66SA], ca. 540€ inkl. Versand +
-oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[Sunman], ca. 665€ // 187 Wp/m²
+* 2 * 400 Wp starre SSP https://ongeles-shop.de/products/ecodelta-eco-400m-66sa[EcoDelta - ECO-400M-66SA] mit hoher Effizienz: 213 Wp/m², ca. 540€ inkl. Versand +
+oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-watt-solarmodul-monokristallin-flexibel-sunman-49045190[von Sunman] mit 187 Wp/m², ca. 665€
 //  Technische Daten / Solarmodul Größe L/B/H1653 x 1000 x 2 mm
 // Gewicht 4,8 kg Steckertyp MC4 Zellen 36
 // Max. Leistung 310 Wp Max. Spannung [Vmp]33,3 V Max. Stromstärke [Imp]9,31 A
 // Leerlaufspannung [Voc]40,5 V Kurzschlussstrom [Isc]9,81 A Betriebstemperatur- 40°C bis 85°C
-// oder https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html?spm=a2700.galleryofferlist.normal_offer.d_title.5d5e2b50ZrTmRz&s=p // 194 Wp/m²
+
+//* oder 4 * 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
+
+* 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
+oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
+
+==== Kombi-Anlage für daheim und unterwegs
+
+Derzeit plane ich folgende Komponenten, sowohl als Balkonanlage
+mit Netzeinspeisung als auch für eine Notfall-Stromversorgung daheim
+und für einen längeren autarken Aufenthalt mit dem Wohnmobil:
+
+* 2 * 370 Wp superflexible shingled monokristalline Solarpanels https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html[Demuda PF01] mit Größe 1,84m * 1,035 m * 2,5mm ergibt 194 Wp/m², inkl. DDP-Versand ca. 590€
+// ?spm=a2700.galleryofferlist.normal_offer.d_title.5d5e2b50ZrTmRz&s=p
 // Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax to Germany.(30-45 DAYS) 2pcs is $650
 // Maximum Power(Pmax)：370W
 // Maximum Power Voltage(Vmp)：35.1V
@@ -277,9 +291,18 @@ oder 2 * 310 Wp flexible Solarmodule https://www.manomano.de/catalogue/p/310-wat
 // Short Circuit Current(Isc):11.1A
 // Net Weight：6.3kg
 // Size：1840-1035-25mm
-// oder https://de.aliexpress.com/item/1005003966949828.html?spm=a2g0o.detail.1000014.1.c2105859BJU3Ab&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.267768.0&scm_id=1007.40000.267768.0&scm-url=1007.40000.267768.0&pvid=ba6ede64-99c5-4c57-b890-f2561aabdc6b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.267768.0,pvid:ba6ede64-99c5-4c57-b890-f2561aabdc6b,tpp_buckets:668%232846%238109%23216&pdp_ext_f=%257B%2522sku_id%2522%253A%252212000027609497414%2522%252C%2522sceneId%2522%253A%252230050%2522%257D&pdp_pi=-1%253B169.8%253B-1%253B-1%2540salePrice%253BEUR%253Brecommend-recommend // 150 Wp 1220*680*2 180 Wp/m²
+// oder https://de.aliexpress.com/item/1005003966949828.html?spm=a2g0o.detail.1000014.1.c2105859BJU3Ab&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.267768.0&scm_id=1007.40000.267768.0&scm-url=1007.40000.267768.0&pvid=ba6ede64-99c5-4c57-b890-f2561aabdc6b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.267768.0,pvid:ba6ede64-99c5-4c57-b890-f2561aabdc6b,tpp_buckets:668%232846%238109%23216&pdp_ext_f=%257B%2522sku_id%2522%253A%252212000027609497414%2522%252C%2522sceneId%2522%253A%252230050%2522%257D&pdp_pi=-1%253B169.8%253B-1%253B-1%2540salePrice%253BEUR%253Brecommend-recommend 150 Wp 1220*680*2 180 Wp/m²
 
-//* oder 4 * 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
+* 30 A MPPT Solar-Laderegler https://www.alibaba.com/product-detail/Off-Gird-Solar-Energy-System-Battery_1600372787388.html[Demuda MPPT-07], ca. 35€
 
-* 4-in-1 Microinverter 1200W https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/[Hoymiles HM-1200], ca. 230€ +
-oder 1000W Micro Grid Tie Inverter Inverter https://www.ebay.de/itm/154235411613?var=454341223819[SG1000MQ], ca. 245€
+* 24 V 2 kW reiner Sinus Wechselrichter https://www.alibaba.com/product-detail/12v-24v-220v-DC-to-AC_60630900083.html[Demuda Inverter-P-07] mit angeblich 93% Wirkungsgrad und nur 2 W Standby-Vebrauch, ca. 186€
+// ?spm=a2700.wholesale.0.0.4f5f3dd8k19ue5
+
+* 24 V 100 Ah 8S1P LiFePO4-Batterie inkl. 100 A BMS https://www.alibaba.com/product-detail/24V100ah-Lithium-Ion-LiFePO4-Batteries-24V_1600190464370.html[Delong DL-24100], inkl. Versand etc. ca. 600€, mit Display + 10 US$
+// US$ 470 + 10 display + 170 shipping + 26 paypal (or 2+n% creditcard)
+//https://www.alibaba.com/product-detail/Lifepo4-100ah-24V-LFP-LCD-Display_1600426069538.html[DL-LFP24100 8S1P LiFePO4-Batterie von Delong mit 100 A BMS und Display], ca. 610€
+// https://german.alibaba.com/product-detail/LiFePO4-24V-Inverter-Solar-Battery-Pack-62537129483.html?spm=a2700.details.0.0.109d21d1VddYwf[DEL-IFR24100 8S1P LiFePO4-Batterie von Delongtop mit 100 A BMS und Display]
+// https://german.alibaba.com/product-detail/Shenzhen-Delong-Lifepo4-100Ah-24V-Lithium-1600426047773.html[DL-LFP24100 8S1P LiFePO4-Batterie von Delong mit 100 A BM]
+
+* 700 W Dual MPPT Grid Tie Inverter mit WLAN https://de.aliexpress.com/item/1005002469159821.html[EC700MD], ca. 135€ inkl. Versand
+// ?spm=a2g0o.store_pc_allProduct.8148356.23.7c2466673fr0Fq
