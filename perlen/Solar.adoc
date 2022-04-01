@@ -214,6 +214,9 @@ allerdings ist der Effekt eher gering. +
 // ohne Versand kostet Stand Frühjahr 2022 mit 12,8 V 100 Ah etwa 215€,
 // mit doppelter Kapazität etwa 410€,
 // und mit 8-facher Kapazität (51,2 V, 200 Ah) etwa 1560€, also 10% günstiger.
+
+
+image:What-are-Ohm-Amps-and-Volts.jpg[%Bild: Spannung, Strom und Widerstand%,400,align=right]
 Wenn man die Wahl hat zwischen höherer Spannung (d.h. mehr Akkuzellen in Serie)
 oder größere bzw. mehr Zellen parallel, dann besser die höhere Spannung nehmen.
 Also ist z.B. eine 24 V 100 Ah Batterie einer mit 12 V und 200 Ah vorzuziehen,
@@ -230,9 +233,10 @@ Bei 24 V Batteriespannung ist hingegen die doppelte Leistung (880 Wp) möglich.
 Wenn man anders herum für die doppele PV-Leistung bei 12 V Batteriespannung
 bleiben will bzw. muss, braucht man einen Laderegler mit doppelter
 Strom-Belastbarkeit, und der kostet ca. 50 bis 80% mehr.
-Allerdings gibt es mehr Geräte, die direkt mit 12 V betrieben werden können
-als mit 24 V, wobei die meisten Wechselrichter sowohl 12 als auch 24 V
-Eingangsspannung erlauben (und vermutlich bei 24 V etwas effizienter arbeiten).
+Vermutlich arbeiten auch Wechselrichter mit 24 V Eingangsspannung etwas
+effizienter als solche für 12 V. +
+Allerdings gibt es weit mehr Geräte, die direkt mit 12 V betrieben werden können
+als mit 24 V.
 
 === Beispiel-Konfigurationen
 
