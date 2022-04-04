@@ -233,10 +233,15 @@ Bei 24 V Batteriespannung ist hingegen die doppelte Leistung (880 Wp) möglich.
 Wenn man anders herum für die doppele PV-Leistung bei 12 V Batteriespannung
 bleiben will bzw. muss, braucht man einen Laderegler mit doppelter
 Strom-Belastbarkeit, und der kostet ca. 50 bis 80% mehr.
-Vermutlich arbeiten auch Wechselrichter mit 24 V Eingangsspannung etwas
-effizienter als solche für 12 V. +
-Allerdings gibt es weit mehr Geräte, die direkt mit 12 V betrieben werden können
-als mit 24 V.
+Vermutlich arbeiten auch Wechselrichter mit 24 V Eingangsspannung etwas effizienter
+als solche für 12 V, zumal Strom und Spannungsspreizung geringer sind.
+
+image:Tiefsetzsteller.jpg[%Bild: Tiefsetzsteller%,400,align=right]
+Ein Problem bei einer Batteriespannung von 24 V (oder 48 V) ist,
+dass Niederspannungs-Geräte typischerweise eher mit 12 V zu betreiben sind.
+Aber dafür gibt es für Geräte mit mäßigem Verbrauch (bis etwa 5 A, also 60 W)
+eine recht effiziente und kostengünstige Lösung, nämlich
+sog. Tiefsetzsteller (Abwärtswandler, engl. DC-DC buck step-down converter.)
 
 === Beispiel-Konfigurationen
 
@@ -310,3 +315,7 @@ und für einen längeren autarken Aufenthalt mit dem Wohnmobil:
 
 * 700 W Dual MPPT Grid Tie Inverter mit WLAN https://de.aliexpress.com/item/1005002469159821.html[EC700MD], ca. 135€ inkl. Versand
 // ?spm=a2g0o.store_pc_allProduct.8148356.23.7c2466673fr0Fq
+
+* 24 V auf 12 V Tiefsetzsteller 60W https://www.amazon.de/Netzteil-Spannungswandler-Transformator-Konverter-Sonnensystem-5A/dp/B01KQWWQUI[Akozon GYVRM / LY-KREE / Cocar K241205] mit angeblich 96% Wirkungsgrad, ca. 13€
+// https://www.amazon.de/-/en/dp/B08LCXJP8W?psc=1&smid=A1A6WWKJ95BCLL&ref_=chk_typ_imgToDp
+// https://www.amazon.de/Abw%C3%A4rtswandler-DC-DC-Wandler-Hohe-Effizienz-Abw%C3%A4rtsversorgung/dp/B07L5K51YP/ref=cm_cr_arp_d_product_top?ie=UTF8
