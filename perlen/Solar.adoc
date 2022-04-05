@@ -40,9 +40,10 @@ kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
 
 === Grundsätzliche Nutzungsmöglichkeiten
 
-Solarmodule liefern Gleichstrom mit je nach Einstrahlung sehr variabler Spannung
-(je nach Typ maximal z.B. 40 V) und Stromstärke (je nach Nennleistung maximal z.B. 10 A).
-Dieser ist direkt erst mal kaum verwendbar
+Solarmodule liefern je nach Einstrahlung sehr variablen Gleichstrom
+(je nach Nennleistung maximal z.B. 10 A)
+mit einer Spannung je nach Typ von üblicherweise 22 bis 44 V.
+Dieser 'rohe' Strom ist direkt erst mal kaum verwendbar
 (außer z.B. zum Aufheizen eines Warmwasserspeichers).
 
 ==== Balkonanlage mit Netzeinspeisung
@@ -108,13 +109,23 @@ installiert sind, kann man zwischen diesen grundätzlichen Nutzungsarten auch wa
 
 ==== Solarmodule
 
+Solarmodule setzen sich intern aus vielen meist in Reihe gestalteten Solarzellen
+zusammen.
+
+image:Kennlinie_Bestrahlungsstärke_Spannng-Strom.jpg[%Bild: Spannung und Strom abhängig von der Bestrahlungsstärke%,400,align=right]
+// https://nils-isfh.de/solarzelle/
+Bei den üblichen Silizium-Solarzellen steigt der entnehmbare Strom
+(Kurzschlussstrom) linear mit der Bestrahlungsstärke (Lichteinstrahlung).
+Ihre Leerlaufspannung hingegen steigt schon bei geringer Helligkeit stark an
+und nähert sich dann nur noch langsam steigend dem Wert 0,63 V.
+
 image:Flexible_Solarpanels.jpg[%Bild: Flexible Solarpanels%,400,align=right]
 Die https://gruenes.haus/pv-modul-groesse-gewicht/[klassischen Solarmodule] sind starr,
 haben eine Größe von typischerweise ca. 1,7 m * 1 m * 3 cm, was eine Nennleistung
 von etwa 350 Wp ergibt, und eine Masse von ca. 20 kg.
 Flexible Panels sind etwas teurer als starre, dafür aber viel leichter und nur wenige Millimeter dick.
 Sie sind meist auch deutlich kleiner -- typischerweise 1,2 m * 0,5 m bei einer Nennleistung von 100 Wp.
-https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie etwas teurer sind, weil sie einen größeren Wirkungsgrad haben.
+https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie etwas teurer sind, weil sie einen höheren Wirkungsgrad haben.
 
 image:Schindel-Solarmodul.jpg[%Bild: Schindel-Solarmodul%,400,align=right]
 Besonders interessant finde ich die überlappenden Anordnung und
@@ -126,7 +137,9 @@ und bei Teilverschattung und Wärme die Verluste verringert werden.
 Wenige große Solarmodule sind technisch und wirtschaftlich günstiger als
 entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
 Solarmodule kann man wie Batteriezellen seriell und/oder parallel verbinden,
-wobei es bei Parallelschaltung weniger Verluste bei Teilverschattung gibt.
+wobei es bei Parallelschaltung weniger
+https://photovoltaikbuero.de/pv-know-how-blog/teilverschattung-bei-solarmodulen-messungen/[ Verluste bei Teilverschattung] gibt.
+
 Wenn man mehrere -- aber bitte nur gleichartige -- Solarmodule zusammenschaltet,
 um mehr Leistung zu erhalten,
 ohne für jedes einen einzelnen Regler verwenden zu müssen,
@@ -134,8 +147,20 @@ muss man natürlich darauf achten, dass die maximale Eingangsspannung und
 der maximale Strom, den der Regler verkraftet bzw. erlaubt,
 nicht überschritten wird.
 
+image:I-V-curves-of-the-solar-panel-under-different-irradiation-levels-and-the-Voltage.png[%Bild:
+Strom-Spannungs-Kennlinien abhängig von der Bestrahlungsstärke%,400,align=right]
+// https://www.researchgate.net/figure/I-V-curves-of-the-solar-panel-under-different-irradiation-levels-and-the-Voltage_fig33_327316174
+Außerdem muss die Modulspannung je nach Spannungsregler bis zu 5 V über der
+gewünschten Ausgangsspannung des Reglers (z.B. der Speicherbatterie) liegen,
+damit der Regler effektiv Strom lieferen kann.
+Wenn man z.B. kleine Solarmodule mit 100 Wp und 22,6 V Leerlaufspannung hat,
+wird es bei einer Ladeschlusspannung von ca. 14,5 V einer LiFePO4-Batterie
+bei wolkigem Wetter (mit vielleicht nur 100 - 200 W/m^2^) ziemlich eng.
+
 ==== Spannungsregler, Solar-Laderegler und Wechselrichter
 
+// image:I-U-Kennlinie_MPP_Silizium-Solarzelle.jpg[%Bild: I-U-Kennlinie_MPP_Silizium-Solarzelle%,400,align=right]
+// https://nils-isfh.de/solarzelle/
 image:Solar-Microinverter.png[%Bild: Solar-Microinverter%,400,align=right]
 Für die Umwandlung des 'rohen' Solarstroms sind Spannungsregler mit
 https://de.wikipedia.org/wiki/Maximum_Power_Point_Tracking[MPPT (maximum power point tracking)]
