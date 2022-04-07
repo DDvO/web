@@ -46,7 +46,7 @@ mit einer Spannung je nach Typ von üblicherweise 22 bis 44 V.
 Dieser 'rohe' Strom ist direkt erst mal kaum verwendbar
 (außer z.B. zum Aufheizen eines Warmwasserspeichers).
 
-==== Balkonanlage mit Netzeinspeisung
+==== Stecker-Solaranlage ("Balkonkraftwerk" mit Netzeinspeisung)
 
 // https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg
 image:Balkonkraftwerk.jpg[%Bild: Aufbau Balkonkraftwerk%,400,align=right]
@@ -188,16 +188,18 @@ verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
 image:Solar-off-grid-inverter.webp[%Bild: Solar-off-grid-inverter%,400,align=right]
 Es gibt auch https://www.solarserver.de/2021/07/26/green-cell-bietet-neuen-solarwechselrichter-an/[Kombigeräte],
 welche die Funktionen Solar-Laderegler, Batterie-Netzladegerät und Wechselrichter in sich vereinen.
-Damit können Verbraucher vorzugsweise direkt mit Solarstrom versorgt werden,
+Damit können Elektrogeräte vorzugsweise direkt mit Solarstrom versorgt werden,
 wobei die überschüssige Energie in einer Batterie gespeichtert wird.
-Bei unzureichender Stromversorgung aus den Solarmodulen ergänzt das Gerät die benötigte Energie
-automatisch aus der Batterie oder schaltet bei leerer Batterie auf eine externe Stromquelle
+Bei unzureichender Stromversorgung aus den Solarmodulen
+ergänzt das Gerät die benötigte Energie automatisch aus der Batterie
+oder schaltet bei leerer Batterie auf eine externe Stromquelle
 (Stromnetz oder Generator) um, mit dem dann auch die Batterie geladen wird.
 Das erscheint einfacher und sehr praktisch, eventuell auch besonders wirtschaftlich, 
 https://www.oeko-energie.de/shop1/de/Solarstrom/Insel-WR/Kombigeraet-Laderegler-MPPT-Wechselrichter-Batterieladegeraet/[
-hat aber auch seine Nachteile] wie fehlende Flexibilität.
-Und offenbar gibt es kein Gerät, das direkt die beiden Nutzungsarten Inselanlage (also
-netzunabhängige Versorgung) und Balkonanlage (also Netzeinspeisung) ermöglicht.
+hat aber auch seine Nachteile] wie geringe Flexibilität bei der Komponentenwahl.
+Und offenbar gibt es kein Gerät, das neben der Nutzungsart als Inselanlage
+(also netzunabhängige Versorgung) auch den einer Stecker-Solaranlage
+(also direkte Netzeinspeisung des Solarstroms) ermöglicht.
 
 ==== Speicherbatterien
 
@@ -292,7 +294,7 @@ zu meiner vollen Zufriedenheit:
 
 * https://de.aliexpress.com/item/4000994795689.html?gatewayAdapt=glo2deu[2000 Wp Wechselrichter], ebenfalls direkt aus China, ca. 70€
 
-==== Balkonanlage
+==== Stecker-Solaranlage
 
 Für eine sehr einfache, aber effiziente und günstige Anlage zur Netzeinspeisung
 finde ich folgende Komponenten besonders interessant:
