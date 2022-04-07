@@ -334,7 +334,11 @@ und für einen längeren autarken Aufenthalt mit dem Wohnmobil:
 * 24 V 2 kW reiner Sinus Wechselrichter https://www.alibaba.com/product-detail/12v-24v-220v-DC-to-AC_60630900083.html[Demuda Inverter-P-07] mit angeblich 93% Wirkungsgrad und nur 2 W Standby-Vebrauch, ca. 186€
 // ?spm=a2700.wholesale.0.0.4f5f3dd8k19ue5
 
-* 24 V 100 Ah LiFePO4-Batterie inkl. 8S 100 A BMS und Display https://de.aliexpress.com/item/1005003937833782.html[CERRNSS LF-24100 small], ca. 570€
+* 24 V 100 Ah LiFePO4-Batterie inkl. 8S 100 A BMS und Display https://de.aliexpress.com/item/1005003937833782.html[CERRNSS LF-24100 small], ca. 570€ +
+  Diese Zellen sind https://www.youtube.com/watch?v=4OYlp1aMtTU[qualitativ
+  allerdings nicht ganz so gut] wie die von Delong. +
+  Noch günstiger und sehr hochwertig geht es im
+  https://www.youtube.com/watch?v=F0Ot7JOR2VM[Eigenbau: 12 V 280 Ah schon ab 600€].
 // * 24 V 100 Ah 8S1P LiFePO4-Batterie inkl. 100 A BMS https://www.alibaba.com/product-detail/24V100ah-Lithium-Ion-LiFePO4-Batteries-24V_1600190464370.html[Delong DL-24100], inkl. Versand etc. ca. 600€, mit Display + 10 US$
 // US$ 470 + 10 display + 170 shipping + 26 paypal (or 2+n% creditcard)
 //https://www.alibaba.com/product-detail/Lifepo4-100ah-24V-LFP-LCD-Display_1600426069538.html[DL-LFP24100 8S1P LiFePO4-Batterie von Delong mit 100 A BMS und Display], ca. 610€
