@@ -3,11 +3,14 @@
 === Möglicher Energie-Ertrag
 
 Mit Solarzellen kann man Sonnenlicht in elektische Energie umwandeln,
-wenn auch leider nicht besonders effizient:
-Der Wirkungsgrad heutiger Photovoltaik-Technologie liegt bei nur etwa 18 bis 20%.
-Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung ausgerichtet,
-verschattet, verschmutzt oder zu warm sind.
-Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage von etwa 75 bis 95%.
+wenn auch leider nicht gerade effizient:
+Der https://de.wikipedia.org/wiki/Solarzelle#Wirkungsgrad[Wirkungsgrad]
+der heutzutage üblichen Photovoltaik-Technologie mit Siliziumzellen
+liegt typischerweise bei nur etwa 18 bis 20%.
+Außerdem gibt es Verluste, wenn die Zellen nicht senkrecht zur Einstrahlung
+ausgerichtet, verschattet, verschmutzt oder zu warm sind.
+Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage
+von etwa 75 bis 95%.
 
 // https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg
 image:Globalstrahlung_Deutschland.jpg[%Bild: Globalstrahlung in Deutschland%,400,align=right]
@@ -123,14 +126,20 @@ image:Flexible_Solarpanels.jpg[%Bild: Flexible Solarpanels%,400,align=right]
 Die https://gruenes.haus/pv-modul-groesse-gewicht/[klassischen Solarmodule] sind starr,
 haben eine Größe von typischerweise ca. 1,7 m * 1 m * 3 cm, was eine Nennleistung
 von etwa 350 Wp ergibt, und eine Masse von ca. 20 kg.
-Flexible Panels sind etwas teurer als starre, dafür aber viel leichter und nur wenige Millimeter dick.
-Sie sind meist auch deutlich kleiner -- typischerweise 1,2 m * 0,5 m bei einer Nennleistung von 100 Wp.
-https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier] ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie etwas teurer sind, weil sie einen höheren Wirkungsgrad haben.
+Flexible Panels sind etwas teurer als starre,
+dafür aber viel leichter und nur wenige Millimeter dick.
+Sie sind meist auch deutlich kleiner --
+typischerweise 1,2 m * 0,5 m bei einer Nennleistung von 100 Wp.
+https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier]
+ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für
+Wohnmobile. Generell sind monokristalline Zellen zu bevorzugen,
+auch wenn sie etwas teurer sind, weil sie einen höheren Wirkungsgrad haben.
 
 image:Schindel-Solarmodul.jpg[%Bild: Schindel-Solarmodul%,400,align=right]
 Besonders interessant finde ich die überlappenden Anordnung und
 direkte Verschaltung von Solarzellen ohne Stromschienen (engl. busbars) in
-https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovativ-verschaltet-und-industriell-herstellbar[Schindel-Modulen] (engl. SSP = shingle solar panel).
+https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovativ-verschaltet-und-industriell-herstellbar[Schindel-Modulen]
+(engl. SSP = shingle solar panel).
 Dadurch steigt der Wirkungsgrad, weil die Fläche besser genutzt wird
 und bei Teilverschattung und Wärme die Verluste verringert werden.
 
@@ -179,7 +188,8 @@ wohl aber mit den europäischen Marken Victron und Votronic.
 image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
 Bei einem Wechselrichter sollte man darauf achten,
 dass er ordentlichen Wechselstrom liefert (sog. 'reine Sinuswelle') sowie
-einen hohen Wirkungsgrad und einen geringen Ruhe-/Leerlaufstromverbrauch
+einen hohen https://www.energie-experten.org/erneuerbare-energien/photovoltaik/wechselrichter/wirkungsgrad[Wirkungsgrad]
+und einen geringen Ruhe-/Leerlaufstromverbrauch
 (engl. standby power consumption) hat.
 Außerdem ist empfehlenswert, ihn mit ausreichend Leistungsreserve zu
 dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
@@ -318,7 +328,6 @@ mit Netzeinspeisung als auch für eine Notfall-Stromversorgung daheim
 und für einen längeren autarken Aufenthalt mit dem Wohnmobil:
 
 * 2 * 370 Wp superflexible shingled monokristalline Solarpanels https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html[Demuda PF01] mit Größe 1,84m * 1,035 m * 2,5mm ergibt 194 Wp/m², inkl. DDP-Versand ca. 590€
-// ?spm=a2700.galleryofferlist.normal_offer.d_title.5d5e2b50ZrTmRz&s=p
 // Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax to Germany.(30-45 DAYS) 2pcs is $650
 // Maximum Power(Pmax)：370W
 // Maximum Power Voltage(Vmp)：35.1V
@@ -331,8 +340,8 @@ und für einen längeren autarken Aufenthalt mit dem Wohnmobil:
 
 * 30 A MPPT Solar-Laderegler https://www.alibaba.com/product-detail/Off-Gird-Solar-Energy-System-Battery_1600372787388.html[Demuda MPPT-07], ca. 35€
 
-* 24 V 2 kW reiner Sinus Wechselrichter https://www.alibaba.com/product-detail/12v-24v-220v-DC-to-AC_60630900083.html[Demuda Inverter-P-07] mit angeblich 93% Wirkungsgrad und nur 2 W Standby-Vebrauch, ca. 186€
-// ?spm=a2700.wholesale.0.0.4f5f3dd8k19ue5
+* 24 V 2 kW reiner Sinus Wechselrichter https://www.alibaba.com/product-detail/12v-24v-220v-DC-to-AC_60630900083.html[Demuda Inverter-P-07]
+mit angeblich 93% Wirkungsgrad und nur 2 W Standby-Vebrauch, ca. 186€
 
 * 24 V 100 Ah LiFePO4-Batterie inkl. 8S 100 A BMS und Display https://de.aliexpress.com/item/1005003937833782.html[CERRNSS LF-24100 small], ca. 570€ +
   Diese Zellen sind https://www.youtube.com/watch?v=4OYlp1aMtTU[qualitativ
@@ -346,7 +355,6 @@ und für einen längeren autarken Aufenthalt mit dem Wohnmobil:
 // https://german.alibaba.com/product-detail/Shenzhen-Delong-Lifepo4-100Ah-24V-Lithium-1600426047773.html[DL-LFP24100 8S1P LiFePO4-Batterie von Delong mit 100 A BM]
 
 * 700 W Dual MPPT Grid Tie Inverter mit WLAN https://de.aliexpress.com/item/1005002469159821.html[EC700MD], ca. 135€ inkl. Versand
-// ?spm=a2g0o.store_pc_allProduct.8148356.23.7c2466673fr0Fq
 
 * 24 V auf 12 V Tiefsetzsteller 60W https://www.amazon.de/Netzteil-Spannungswandler-Transformator-Konverter-Sonnensystem-5A/dp/B01KQWWQUI[Akozon GYVRM / LY-KREE / Cocar K241205] mit angeblich 96% Wirkungsgrad, ca. 13€
 // https://www.amazon.de/-/en/dp/B08LCXJP8W?psc=1&smid=A1A6WWKJ95BCLL&ref_=chk_typ_imgToDp
