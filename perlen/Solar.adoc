@@ -33,7 +33,8 @@ https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/ertra
 etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
 Die https://machdeinenstrom.de/optimaler-ertrag-mit-mini-solar-kraftwerken/[
 beste Ausbeute] bekommt man bei Ausrichtung nach Süden
-und mit 36° Neigungwinkel (relativ zur Waagerechten).
+und mit ca. 38° Neigungwinkel (relativ zur Waagerechten).
+Genaueres kann man https://re.jrc.ec.europa.eu/pvg_tools/de/[Standardort-spezifisch berechnen].
 
 Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils)
 in waagerechter Lage anbringt, ist man zwar von der Himmelsrichtung unabhängig,
