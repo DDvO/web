@@ -69,13 +69,19 @@ hierfür verwendete Wechselrichter mit dem Stromnetz synchronisieren müssen.
 Die auch
 // https://www.energie-experten.org/erneuerbare-energien/solarenergie/solaranlage/balkonkraftwerk
 'https://www.steckdosensolar.de/[Balkonkraftwerk]' genannten Anlagen
-haben meist eine recht geringen Nennleistung von bis zu 600 Wp.
+haben meist eine recht geringen Nennleistung von etwa 600-700 Wp.
 Das hat neben der geringen Größe und sehr überschaubaren Kosten auch damit zu
 tun, dass solche Anlagen für die private Anwendung genehmigungsfrei sind,
 wenn wie weniger als 600 W in die Steckdose einspeisen.
-Die nominale Leistung der verwendeten Solarmodule kann aber durchaus etwas
-größer (z.B. 800 Wp) sein, denn in der Praxis wird diese kaum erreicht
-und außerdem hat der Solarwechselrichter auch Verluste.
+Die nominale Leistung der verwendeten Solarmodule kann und sollte aber
+durchaus größer sein (z.B. 800-1000 Wp), denn in der Praxis wird diese kaum
+erreicht, vor Allem in sonnenarmen Zeiten
+(und zudem hat der Solarwechselrichter auch Verluste).
+Man hat dann z.B. auch im Winter entsprechend mehr Ausbeute (eigentlich sogar
+überproportional mehr, weil die Schwellspannung schneller erreicht wird),
+allerdings auf recht niedrigem absoluten Niveau, so dass sich deutlich mehr
+Modulleistung bei Wechselrichtern, die den abgegebenen Strom auf 600 W begrenzen,
+kaum lohnt.
 
 Von der gerade erzeugten Leistung fließt der Anteil, der nicht aktuell lokal
 (also im Haushalt) durch Elektrogeräte verbraucht wird, automatisch ins externe
@@ -86,6 +92,12 @@ und eine offiziell vergütete Einspeisung ist mit Extra-Aufwand verbunden
 und bringt wenig -- sie beträgt in Deutschland gemäß eEG https://www.zolar.de/blog/entwicklung-der-eeg-einspeiseverguetung[zum 01.04.2022 nur noch 6,53 ct/kWh].
 Hingegen spart man sich die Verbrauchskosten für den selber erzeugten und gleichzeitig verbrauchten
 Anteil, weil der Zähler für den aus dem externen Netz bezogenen Strom entsprechend langsamer läuft.
+Übrigens ist es normalerweise egal, auf welcher Drehstrom-Phase (L1, L2 oder L3)
+die Stecker-Solaranlage angeschlossen wird und
+auf welcher Phase die gleichzeitig verwendeten Verbraucher angeschlossen sind
+-- jedenfalls die neueren für die Abrechnung aktuell verwendenten Stromzähler
+arbeiten saldierend (d.h. bilden die Gesamtsumme von Verbrauch und Einspeisung,
+welche dabei negatives Vorzeichen hat).
 
 Diese Nutzungsart lohnt sich also nur insoweit, wie man während der
 Sonnenscheindauer den Strom sinnvoll verbrauchen kann, z.B. durch diverse
@@ -101,12 +113,15 @@ Wie eingangs geschrieben kann man bei optimaler Platzierung von Solarmodulen
 pro Jahr bis zu etwa 1 kWh pro Wp installierter Solarleistung gewinnen.
 Rechnet man beispielsweise mit einer Investition von über den Daumen 1€/Wp
 (inklusive anteiligen Kosten für Wechselrichter etc., eher knapp kalkuliert)
-zur Stromeinspeisung und einem damit eingesparten Arbeitspreis von 25 ct/kWh
-(wobei der Strompreis derzeit ja kräftig steigt),
+zur Stromeinspeisung und einem damit eingesparten Arbeitspreis von 25 ct/kWh,
 kommt man im Jahr auf 25 ct Ersparnis pro Wp,
 so dass sich die Anlage in 4 Jahren amortisiert --
 wohlgemerkt aber nur unter optimalen Bedingungen und der Annahme,
 dass der damit erzeugte Strom komplett selbst verbraucht wird.
+Wobei der Strompreis derzeit (Stand Oktober 2022) ja kräftig steigt --
+bei Neuverträgen werden schon über 65 ct/kWh verlangt,
+so dass die Rechnung damit noch wesentlich günstiger ausfällt:
+Amortisierung bei 75% Eigenverbrauch in weniger als 2 Jahren.
 
 
 ==== Inselanlage mit Batteriespeicherung
@@ -182,6 +197,7 @@ so dass sie nur dann sinnvoll ist, wenn man unbedingt etwas Platz sparen muss.
 Solarmodule -- aber bitte nur gleichartige -- kann man wie Batteriezellen
 seriell und/oder parallel verbinden, um mehr Leistung zu erhalten, ohne
 für jedes Modul einen eigenen Regler (bzw. Regler-Eingang) verwenden zu müssen.
+Für die parallele Verschaltung bieten sich MC4 Y-Steckverbindungen an.
 
 * Bei https://de.wikipedia.org/wiki/Reihenschaltung[Reihenschaltung] (oft auch
 'Serienschaltung' genannt) addieren sich die Spannungen der einzelnen Module,
@@ -386,10 +402,16 @@ aber auch für eine Notfall-Stromversorgung daheim und
 für einen längeren autarken Aufenthalt mit dem Wohnmobil
 habe ich folgende Komponenten:
 
-* 4 × https://www.ebay.de/itm/134183861850[130 Wp flexible 18 V Solarpanels], für 475€ +
+* 4 × https://www.ebay.de/itm/134183861850[150 Wp flexible 18 V Solarpanels], für 475€ +
+Bei diesen No-Name-Modulen, wie auch bei vielen anderen flexiblen Modulen,
+betrügt der Händler mit viel zu hohen angeblichen Leistungswerten.
+150 Wp können die von der Größe her (1129 × 670 mm) gar nicht leisten, wobei 130 Wp,
+wie ich an anderer Stelle gefunden hatte,  eigentlich realistisch sein müssten.
+ Trotzdem leisten sie nach meiner Messung gerade mal 95 Wp, weshalb ich sie zurücksende.
+ +
 Zuvor hatte ich mir gekauft, aber nicht verwendet, weil mir ihre Montage an der Balkonbrüstung im 4. Stock zu riskant war: +
 4 × https://www.manomano.de/p/2x120watt-solarpanel-solarmodul-12v-12volt-monocrystalline-wohnwagen-wohnmobil-48845318[120Wp starre Eco-Worthy Solarpanel], für 320€ +
--- Diese Eco-Worthy Module kann ich empfehlen, wenn man keine größeren verwenden kann. Sie bringen jedenfalls die versprochene Spitzenleistung, was gerade bei günstigen Modellen nicht selbstverständlich ist.
+Diese Eco-Worthy Module kann ich empfehlen, wenn man keine größeren verwenden kann. Sie bringen jedenfalls die versprochene Spitzenleistung, was gerade bei günstigen Modellen nicht selbstverständlich ist.
 // * 2 × 370 Wp superflexible shingled monokristalline Solarpanels https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html[Demuda PF01] mit Größe 1,84m × 1,035 m × 2,5mm ergibt 194 Wp/m², inkl. DDP-Versand ca. 590€
 // Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax to Germany.(30-45 DAYS) 2pcs is $650
 // Maximum Power(Pmax)：370W
