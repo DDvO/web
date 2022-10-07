@@ -35,12 +35,15 @@ etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
 Die https://machdeinenstrom.de/optimaler-ertrag-mit-mini-solar-kraftwerken/[
 beste Ausbeute] bekommt man in süddeutschen Breitengraden bei
 Ausrichtung nach Süden und mit ca. 38° Neigungswinkel (relativ zur Waagerechten).
-Genaueres kann man https://re.jrc.ec.europa.eu/pvg_tools/de/[standortspezifisch berechnen].
+Genaueres kann man z.B. über https://re.jrc.ec.europa.eu/pvg_tools/de/[PVGIS]
+oder einfacher über
+https://www.solarserver.de/pv-anlage-online-berechnen/[Solarserver]
+standortspezifisch anhand von Geo- und Klimadaten berechnen/simulieren.
 
 Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils)
 in waagerechter Lage anbringt, ist man zwar von der Himmelsrichtung unabhängig,
-aber kommt nach meiner Erfahrung selbst mittags an sehr sonnigen Tagen
-kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
+aber kommt nach meiner Erfahrung mit billigen flexiblen Modulen selbst mittags an
+sehr sonnigen Tagen kaum über die Hälfte der angegebenen Spitzenleistung hinaus.
 
 
 === Nutzungsmöglichkeiten
@@ -69,19 +72,39 @@ hierfür verwendete Wechselrichter mit dem Stromnetz synchronisieren müssen.
 Die auch
 // https://www.energie-experten.org/erneuerbare-energien/solarenergie/solaranlage/balkonkraftwerk
 'https://www.steckdosensolar.de/[Balkonkraftwerk]' genannten Anlagen
-haben meist eine recht geringen Nennleistung von etwa 600-700 Wp.
+haben meist eine recht geringe Nennleistung von etwa 600-700 Wp.
 Das hat neben der geringen Größe und sehr überschaubaren Kosten auch damit zu
-tun, dass solche Anlagen für die private Anwendung genehmigungsfrei sind,
-wenn wie weniger als 600 W in die Steckdose einspeisen.
+tun, dass solche Anlagen selbst installiert werden dürfen und genehmigungsfrei
+sind, wenn sie weniger als 600 W in die Steckdose einspeisen.
+Diese Zahl gilt für Deutschland; anderswo sind 800 W (oder mehr) kein Problem.
 Die nominale Leistung der verwendeten Solarmodule kann und sollte aber
-durchaus größer sein (z.B. 800-1000 Wp), denn in der Praxis wird diese kaum
-erreicht, vor Allem in sonnenarmen Zeiten
-(und zudem hat der Solarwechselrichter auch Verluste).
-Man hat dann z.B. auch im Winter entsprechend mehr Ausbeute (eigentlich sogar
-überproportional mehr, weil die Schwellspannung schneller erreicht wird),
-allerdings auf recht niedrigem absoluten Niveau, so dass sich deutlich mehr
-Modulleistung bei Wechselrichtern, die den abgegebenen Strom auf 600 W begrenzen,
-kaum lohnt.
+durchaus größer sein (z.B. 800-1000 Wp), denn in der Praxis werden die 600 W
+Ausgangsleistung kaum erreicht, vor Allem in sonnenarmen Zeiten,
+zumal es Verluste nicht nur an den Modulen, sondern auch im Wechselrichter gibt.
+Man hat durch einen gewisse "Überdimensionierung" auch zu ungünsten Tages- und
+Jahreszeiten entsprechend mehr Ausbeute (eigentlich sogar überproportional mehr,
+weil die Schwellspannung schneller erreicht wird),
+allerdings auf recht niedrigem absoluten Niveau.
+Wenn der Solar-Wechselrichter die Ausgangsleistung auf 600 W begrenzt,
+wird der Gesamtertrag durch die Kappung zwar verringert,
+aber der Effekt ist nicht so groß, wie man meinen könnte.
+
+image:Solar_Timeseries_SA2_38deg_0deg_2005_2020.png[#Bild: Modellrechnung Kappung von 1035 Wp auf 600 W Ausgang bei 20.5% Systemverlust#,1000,align=left]
+Hier das Ergebnis einer Modellrechung für den Raum München basierend auf
+den https://re.jrc.ec.europa.eu/pvg_tools/de/#HR[stündlichen Daten des PVGIS]
+für die Jahre 2005 - 2020 und
+einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 20,5%,
+der u.A. den von PVGIS standardmäßig einberechneten Systemverlust von 14% beinhaltet.
+(Eigentlich müsste man die Verluste abhängig von Temperatur usw. simulieren,
+aber die Vereinfachung macht nur einen Fehler von ca. +/- 6% aus.) +
+Ergebnis: Bei Verwendung von 1035 Wp Modulen,
+die eigentlich zu einem Ertrag von etwa 1145 kWh führen würden,
+macht der Verlust durch Kappung auf 600 W Ausgangsleistung nur etwa 77 kWh aus.
+Das erklärt sich damit, dass die Kappung realistisch bei nur ca. 7% der
+(Gesamt-)Stunden stattfindet und der dadurch verursachte Verlust
+im Schnitt nur etwa 0,13 kWh pro "gekappter" Stunde ausmacht.
+Daher lohnt sich trotz Ausgangs-Begrenzung auf 600 W durchaus
+eine größere Dimensionierung der Solarmodule auf z.B. 1000 Wp.
 
 Von der gerade erzeugten Leistung fließt der Anteil, der nicht aktuell lokal
 (also im Haushalt) durch Elektrogeräte verbraucht wird, automatisch ins externe
@@ -104,6 +127,8 @@ Sonnenscheindauer den Strom sinnvoll verbrauchen kann, z.B. durch diverse
 Haushaltsgeräte, Computer, Klimaanlagen oder zum Laden von Fahrzeug-Batterien.
 Am einfachsten und am besten planbar ist es, wenn es ohnehin eine gewisse
 relativ gleichmäßige Grundlast hat, z.B. durch Kühlschränke oder Wärmepumpen.
+Je größer und tagsüber stromhungriger der Haushalt ist,
+desto größer der zu erwartende Einsparungseffekt. +
 Es gibt eine relativ einfache Nutzung von überflüssigem Strom,
 die ich ziemlich clever finde,
 nämlich zum (zusätzlichen) Aufheizen des Warmwasserboilers im Haus,
@@ -423,7 +448,7 @@ Diese Eco-Worthy Module kann ich empfehlen, wenn man keine größeren verwenden 
 // Size：1840-1035-25mm
 // oder https://de.aliexpress.com/item/1005003966949828.html 150 Wp 1220*680*2 180 Wp/m²
 
-* 700 W Dual MPPT Grid Tie Inverter mit WLAN https://de.aliexpress.com/item/1005002469159821.html[EC700MD], ca. 135€ inkl. Versand
+* 700 W Mars Rock Dual MPPT Grid Tie Inverter mit WLAN https://de.aliexpress.com/item/1005002469159821.html[EC700MD] oder https://www.ebay.de/itm/165694072328[ähnlich mit LCD], ca. 135€ inkl. Versand
 
 * https://de.aliexpress.com/item/1005003665568494.html[EASun 3kW peak Pure Sine Wave Solar Inverter 24V 220V PV Power 1500W PWM 50A Solar Charge Controller and AC Charger], für 185€ +
 wobei ich leider nicht aufpasst habe, die
