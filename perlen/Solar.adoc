@@ -1,5 +1,18 @@
 == Kleine Solaranlagen für zu Hause und fürs Campen
 
+=== Zusammenfassung
+
+Mit sog. Balkonkraftwerken kann man relativ einfach und günstig
+Solarstrom gewinnen und über eine Steckdose ins Hausnetz einspeisen.
+Das spart Stromkosten und rechnet sich nach mehreren Jahren Betrieb,
+allerdings nur soweit man den Strom auch gleichzeitig selbst verbraucht.
+
+Für eine gewisse Unabhängigkeit vom allgemeinen Stromnetz und von der nicht
+immer kräftig vorhandenen Sonneneinstrahlung braucht man sog. Inselanlagen.
+Diese benötigen zusätzlich aufladbare Batterien als Stromspeicher
+sowie andere Wechselrichter und Solarladeregler als Stecker-Solaranlagen,
+was sie aufwendiger und deutlich teurer macht.
+
 === Möglicher Energie-Ertrag
 
 Mit Solarzellen kann man Sonnenlicht in elektrische Energie umwandeln,
@@ -81,7 +94,7 @@ Die nominale Leistung der verwendeten Solarmodule kann und sollte aber
 durchaus größer sein (z.B. 800-1000 Wp), denn in der Praxis werden die 600 W
 Ausgangsleistung kaum erreicht, vor Allem in sonnenarmen Zeiten,
 zumal es Verluste nicht nur an den Modulen, sondern auch im Wechselrichter gibt.
-Man hat durch einen gewisse "Überdimensionierung" auch zu ungünsten Tages- und
+Man hat durch einen gewisse "Überdimensionierung" auch zu ungünstigen Tages- und
 Jahreszeiten entsprechend mehr Ausbeute (eigentlich sogar überproportional mehr,
 weil die Schwellspannung schneller erreicht wird),
 allerdings auf recht niedrigem absoluten Niveau.
@@ -90,11 +103,11 @@ wird der Gesamtertrag durch die Kappung zwar verringert,
 aber der Effekt ist nicht so groß, wie man meinen könnte.
 
 image:Solar_Timeseries_SA2_38deg_0deg_2005_2020.png[#Bild: Modellrechnung Kappung von 1035 Wp auf 600 W Ausgang bei 20.5% Systemverlust#,1000,align=left]
-Hier das Ergebnis einer Modellrechung für den Raum München basierend auf
+Hier das Ergebnis einer Modellrechnung für den Raum München basierend auf
 den https://re.jrc.ec.europa.eu/pvg_tools/de/#HR[stündlichen Daten des PVGIS]
 für die Jahre 2005 - 2020 und
 einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 20,5%,
-der u.A. den von PVGIS standardmäßig einberechneten Systemverlust von 14% beinhaltet.
+der u.A. den von PVGIS standardmäßig eingerechneten Systemverlust von 14% beinhaltet.
 (Eigentlich müsste man die Verluste abhängig von Temperatur usw. simulieren,
 aber die Vereinfachung macht nur einen Fehler von ca. +/- 6% aus.) +
 Ergebnis: Bei Verwendung von 1035 Wp Modulen,
@@ -113,12 +126,12 @@ Die Zeiten, dass man durch einen rückwärts laufenden Stromzähler
 'unter der Hand Strom verkaufen' konnte, sind vorbei,
 und eine offiziell vergütete Einspeisung ist mit Extra-Aufwand verbunden
 und bringt wenig -- sie beträgt in Deutschland gemäß eEG https://www.zolar.de/blog/entwicklung-der-eeg-einspeiseverguetung[zum 01.04.2022 nur noch 6,53 ct/kWh].
-Hingegen spart man sich die Verbrauchskosten für den selber erzeugten und gleichzeitig verbrauchten
+Hingegen spart man sich die Verbrauchskosten für den selbst erzeugten und gleichzeitig verbrauchten
 Anteil, weil der Zähler für den aus dem externen Netz bezogenen Strom entsprechend langsamer läuft.
 Übrigens ist es normalerweise egal, auf welcher Drehstrom-Phase (L1, L2 oder L3)
 die Stecker-Solaranlage angeschlossen wird und
 auf welcher Phase die gleichzeitig verwendeten Verbraucher angeschlossen sind
--- jedenfalls die neueren für die Abrechnung aktuell verwendenten Stromzähler
+-- jedenfalls die neueren für die Abrechnung aktuell verwendeten Stromzähler
 arbeiten saldierend (d.h. bilden die Gesamtsumme von Verbrauch und Einspeisung,
 welche dabei negatives Vorzeichen hat).
 
@@ -131,7 +144,7 @@ Je größer und tagsüber stromhungriger der Haushalt ist,
 desto größer der zu erwartende Einsparungseffekt. +
 Es gibt eine relativ einfache Nutzung von überflüssigem Strom,
 die ich ziemlich clever finde,
-nämlich zum (zusätzlichen) Aufheizen des Warmwasserboilers im Haus,
+nämlich zum (zusätzlichen) Aufheizen eines Warmwasserboilers im Haus,
 so dass man weniger fossile Brennstoffe dafür verbraucht.
 
 Wie eingangs geschrieben kann man bei optimaler Platzierung von Solarmodulen
@@ -146,7 +159,7 @@ dass der damit erzeugte Strom komplett selbst verbraucht wird.
 Wobei der Strompreis derzeit (Stand Oktober 2022) ja kräftig steigt --
 bei Neuverträgen werden schon über 65 ct/kWh verlangt,
 so dass die Rechnung damit noch wesentlich günstiger ausfällt:
-Amortisierung bei 75% Eigenverbrauch in weniger als 2 Jahren.
+Amortisierung bei 75% Eigenverbrauchsanteil in weniger als 2 Jahren.
 
 
 ==== Inselanlage mit Batteriespeicherung
@@ -243,12 +256,12 @@ Dafür hat man aber weniger Verluste durch Teilverschattung.
 image:I-V-curves-of-the-solar-panel-under-different-irradiation-levels-and-the-Voltage.png[%Bild:
 Strom-Spannungs-Kennlinien abhängig von der Bestrahlungsstärke%,400,align=right]
 // https://www.researchgate.net/figure/I-V-curves-of-the-solar-panel-under-different-irradiation-levels-and-the-Voltage_fig33_327316174
-Zu beachten ist noch, dass die Regler-Eingangspannung je nach Modell bis zu 5 V
+Zu beachten ist noch, dass die Regler-Eingangsspannung je nach Modell bis zu 5 V
 über der gewünschten Ausgangsspannung des Reglers (z.B. der Speicherbatterie)
 liegen muss, damit der Regler effektiv Strom liefern kann.
 Wenn man z.B. kleine Solarmodule mit 100 Wp und 22,6 V Leerlaufspannung hat,
 wird es ohne Reihenschaltung
-bei einer Ladeschlusspannung von ca. 14,5 V einer LiFePO4-Batterie
+bei einer Ladeschlussspannung von ca. 14,5 V einer LiFePO4-Batterie
 bei wolkigem Wetter (mit vielleicht nur 100 - 200 W/m^2^) ziemlich eng.
 
 ==== Spannungsregler, Solar-Laderegler und Wechselrichter
@@ -381,7 +394,7 @@ sog. Tiefsetzsteller (Abwärtswandler, engl. DC-DC buck step-down converter.)
 Für unser Wohnmobil verwende ich seit Mai 2019 folgende relativ günstige Komponenten
 zu meiner vollen Zufriedenheit:
 
-* 2 × 100 Wp flexible Solarpanel https://www.amazon.de/DOKIO-Batterie-wasserdicht-Wohnmobil-Oberfl%C3%A4che/dp/B07FYW3C6W[Dokio DFSP-100M], ca. 180€ +
+* 2 × 100 Wp flexible Solarpanels https://www.amazon.de/DOKIO-Batterie-wasserdicht-Wohnmobil-Oberfl%C3%A4che/dp/B07FYW3C6W[Dokio DFSP-100M], ca. 180€ +
   Diese habe ich einfach auf das Blechdach geklebt. Etwas lästig war die Kabelführung ins Innere.
 
 * 15 A Solar-Laderegler https://www.ebay.de/itm/142083505206[Victron BlueSolar MPPT 75/15], ca. 90€ +
