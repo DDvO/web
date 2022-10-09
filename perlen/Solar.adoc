@@ -23,7 +23,7 @@ liegt typischerweise bei nur etwa 18 bis 20%.
 Außerdem gibt es Verluste, wenn die Solarmodule nicht senkrecht zur Einstrahlung
 ausgerichtet, (teil-)verschattet, verschmutzt oder zu warm sind.
 Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage
-von etwa 75 bis 95%.
+von etwa 85 bis 95%.
 
 // https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg
 image:Globalstrahlung_Deutschland.jpg[%Bild: Globalstrahlung in Deutschland%,400,align=right]
@@ -102,20 +102,20 @@ Wenn der Solar-Wechselrichter die Ausgangsleistung auf 600 W begrenzt,
 wird der Gesamtertrag durch die Kappung zwar verringert,
 aber der Effekt ist nicht so groß, wie man meinen könnte.
 
-image:Solar_Timeseries_SA2_38deg_0deg_2005_2020.png[#Bild: Modellrechnung Kappung von 1035 Wp auf 600 W Ausgang bei 20.5% Systemverlust#,1000,align=left]
+image:Solar_Timeseries_SA2_38deg_0deg_2005_2020.png[#Bild: Modellrechnung Kappung von 1000 Wp auf 600 W Ausgang bei 10% Gesamtverlust#,1000,align=left]
 Hier das Ergebnis einer Modellrechnung für den Raum München basierend auf
 den https://re.jrc.ec.europa.eu/pvg_tools/de/#HR[stündlichen Daten des PVGIS]
 für die Jahre 2005 - 2020 und
-einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 20,5%,
-der u.A. den von PVGIS standardmäßig eingerechneten Systemverlust von 14% beinhaltet.
+einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 10%.
+# während der u.A. den von PVGIS standardmäßig eingerechneten Systemverlust von 14% beinhaltet.
 (Eigentlich müsste man die Verluste abhängig von Temperatur usw. simulieren,
-aber die Vereinfachung macht nur einen Fehler von ca. +/- 6% aus.) +
-Ergebnis: Bei Verwendung von 1035 Wp Modulen,
-die eigentlich zu einem Ertrag von etwa 1145 kWh führen würden,
-macht der Verlust durch Kappung auf 600 W Ausgangsleistung nur etwa 77 kWh aus.
-Das erklärt sich damit, dass die Kappung realistisch bei nur ca. 7% der
+aber die Vereinfachung macht nur einen relativen Fehler von ca. +/- 6% aus.) +
+Ergebnis: Bei Verwendung von 1000 Wp Modulen,
+die eigentlich zu einem Ertrag von etwa 1253 kWh pro Jahr führen würden,
+macht der Verlust durch Kappung auf 600 W Ausgangsleistung nur etwa 124 kWh aus.
+Das erklärt sich damit, dass die Kappung realistisch bei nur knapp 9% der
 (Gesamt-)Stunden stattfindet und der dadurch verursachte Verlust
-im Schnitt nur etwa 0,13 kWh pro "gekappter" Stunde ausmacht.
+im Schnitt nur etwa 0,16 kWh pro "gekappter" Stunde ausmacht.
 Daher lohnt sich trotz Ausgangs-Begrenzung auf 600 W durchaus
 eine größere Dimensionierung der Solarmodule auf z.B. 1000 Wp.
 
