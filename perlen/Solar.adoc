@@ -27,14 +27,16 @@ von etwa 85 bis 95%.
 
 // https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg
 image:Globalstrahlung_Deutschland.jpg[%Bild: Globalstrahlung in Deutschland%,400,align=right]
-Die maximale Einstrahlung mittags bei klarem Himmel in Bodennähe
+Die maximale Einstrahlung auf der Erde mittags bei klarem Himmel in Bodennähe
 auf eine Fläche senkrecht zum Sonnenstand liegt bei
-http://www.energieinfo.de/eglossar/sonneneinstrahlung[etwa 1 kW/m^2^
+http://www.energieinfo.de/eglossar/sonneneinstrahlung[1,37 kW/m^2^
 und wird als terrestrische Solarkonstante bezeichnet].
-Diese 1000 Watt pro Quadratmeter dienen auch als Referenzwert für
-die Angabe den Nennleistung von Solarmodulen in Wp (Watt peak).
-Natürlich ist die Sonneneinstrahlung im Durchschnitt viel geringer
-und je nach Wetter, Tages- und Jahreszeit sehr variabel.
+Natürlich ist die tatsächliche Sonneneinstrahlung im Durchschnitt viel geringer.
+Sie hängt stark vom Standort auf der Erde ab
+(siehe z.B. https://globalsolaratlas.info/map[Simulationswerte von Solargis])
+und ist je nach Wetter, Tages- und Jahreszeit sehr variabel.
+Als Referenzwert für die Nennleistung von Solarmodulen in Wp (Watt peak)
+dienen 1000 Watt pro Quadratmeter.
 
 // https://www.energie-experten.org/fileadmin/System-Bilder/Inhalt_Bilder/Photovoltaik_Solarmodule_Leistung_Ausrichtung_Grafik_energie-experten.org.jpg
 // https://i0.wp.com/machdeinenstrom.de/wp-content/uploads/2018/03/Azimut.png?w=855&ssl=1
