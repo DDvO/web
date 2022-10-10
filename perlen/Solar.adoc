@@ -23,33 +23,56 @@ liegt typischerweise bei nur etwa 18 bis 20%.
 Außerdem gibt es Verluste, wenn die Solarmodule nicht senkrecht zur Einstrahlung
 ausgerichtet, (teil-)verschattet, verschmutzt oder zu warm sind.
 Zu berücksichtigen ist zudem der Wirkungsgrad der übrigen PV-Anlage
-von etwa 85 bis 95%.
+von etwa 80 bis 95%.
 
 // https://www.photovoltaiksolarstrom.com/wp-content/uploads/2012/03/globalstrahlung_deutschland.jpg
 image:Globalstrahlung_Deutschland.jpg[%Bild: Globalstrahlung in Deutschland%,400,align=right]
-Die maximale Einstrahlung auf der Erde mittags bei klarem Himmel in Bodennähe
-auf eine Fläche senkrecht zum Sonnenstand liegt bei
-http://www.energieinfo.de/eglossar/sonneneinstrahlung[1,37 kW/m^2^
-und wird als terrestrische Solarkonstante bezeichnet].
+Die maximale Einstrahlung auf die Erde mittags bei klarem Himmel in Bodennähe
+auf eine Fläche senkrecht zum Sonnenstand liegt bei 1361 W/m^2^ und wird als
+http://www.energieinfo.de/eglossar/sonneneinstrahlung[
+terrestrische Solarkonstante] bezeichnet.
 Natürlich ist die tatsächliche Sonneneinstrahlung im Durchschnitt viel geringer.
 Sie hängt stark vom Standort auf der Erde ab
 (siehe z.B. https://globalsolaratlas.info/map[Simulationswerte von Solargis])
-und ist je nach Wetter, Tages- und Jahreszeit sehr variabel.
-Als Referenzwert für die Nennleistung von Solarmodulen in Wp (Watt peak)
-dienen 1000 Watt pro Quadratmeter.
+und ist je nach Bewölkung, Tages- und Jahreszeit sehr variabel.
+
+Die Nennleistung von Solarmodulen wird in Wp
+(https://de.wikipedia.org/wiki/Watt_Peak[Watt Peak]) angegeben.
+Zu ihrer Bestimmung verwendet man eine Referenzbestrahlung mit einem normierten
+Sonnenlichtspektrum einer Stärke von 1000 W/m² bei einer Zelltemperatur von 25°C.
+Bei näherer Betrachtung bedeutet die Nennleistung in kWp (also 1000 Wp) die
+_effektive Solarfläche_ des Moduls, also dessen Fläche (in m²) × Wirkungsgrad.
+Daher lässt sich der Wirkungsgrad eines Solarmoduls einfach berechnen,
+indem man seine Nennleistung in kWp durch seine Fläche in m² teilt.
 
 // https://www.energie-experten.org/fileadmin/System-Bilder/Inhalt_Bilder/Photovoltaik_Solarmodule_Leistung_Ausrichtung_Grafik_energie-experten.org.jpg
 // https://i0.wp.com/machdeinenstrom.de/wp-content/uploads/2018/03/Azimut.png?w=855&ssl=1
 image:Solarmodule_Ausrichtung2.webp[%Bild: Ausrichtung von Solarmodulen%,400,align=right]
-Aus den genannten Gründen sind die Wp-Angaben für Solarmodule mit Vorsicht zu genießen.
-In unseren Breitengraden sind je nach Standort
+Die Wp-Angaben von Herstellern und Händlern für Solarmodule sind mit Vorsicht
+zu genießen -- hauptsächlich weil die tatsächliche Leistung wie oben erwähnt
+stark von der Situation abhängig und meist deutlich geringer ist.
+Außerdem weil besonders chinesische Händler von flexiblen Solarmodulem
+dazu tendieren, bei den Leistungsangaben deutlich zu übertreiben.
+Daher loht sich als Plausibiltäts-Check, den Wirkungsgrad nachzurechnen.
+
+In unseren Breitengraden ist je nach Standort
 bei optimaler statischer Ausrichtung von Solarmodulen
 https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/ertrag[
-etwa 900 bis 1000 kWh/kWp pro Jahr realistisch].
+ein Ertrag von etwa 900 bis 1000 kWh pro kWp installierter PV-Nennleistung
+und Jahr realistisch].
+Der Jahresertrag lässt sich leicht näherungsweise berechnen durch Multiplikation
+des standortspezifischen PV-Potentials (das bereits angenommene typische
+System-Verlustfakturen beinhaltet) in kWh/kWp mit der PV-Nennleistung in kWp.
+Das PV-Potential (PVOUT) kann man z.B. aus den kostenlosen
+https://solargis.com/maps-and-gis-data/download[Karten von Solargis], aus dem
+https://globalsolaratlas.info/map?c=50.10,11.05,7&s=48.1807,11.604e[
+Global Solar Atlas der Weltbank] (auch von Solargis) oder aus der
+https://re.jrc.ec.europa.eu/pvg_tools/de/[PVGIS-Datenbank der EU]
+bei der Standard-Eingabe von 1 kWp für die installierte max. PV-Leistung.
 
 Die https://machdeinenstrom.de/optimaler-ertrag-mit-mini-solar-kraftwerken/[
-beste Ausbeute] bekommt man in süddeutschen Breitengraden bei
-Ausrichtung nach Süden und mit ca. 38° Neigungswinkel (relativ zur Waagerechten).
+beste Ausbeute] bekommt man in süddeutschen Breitengraden bei Ausrichtung
+genau nach Süden und mit ca. 38° Neigungswinkel (relativ zur Waagerechten).
 Genaueres kann man z.B. über https://re.jrc.ec.europa.eu/pvg_tools/de/[PVGIS]
 oder einfacher über
 https://www.solarserver.de/pv-anlage-online-berechnen/[Solarserver]
@@ -111,8 +134,9 @@ für die Jahre 2005 - 2020 und
 einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 10%.
 # während der u.A. den von PVGIS standardmäßig eingerechneten Systemverlust von 14% beinhaltet.
 (Eigentlich müsste man die Verluste abhängig von Temperatur usw. simulieren,
-aber die Vereinfachung macht nur einen relativen Fehler von ca. +/- 6% aus.) +
-Ergebnis: Bei Verwendung von 1000 Wp Modulen,
+aber die Vereinfachung macht im Verhältnis zu der genaueren Simulation von PVGIS
+ohne Kappung nur einen relativen Fehler von ca. +/- 6% aus.) +
+Ergebnis: Bei Verwendung von optimal statisch ausgerichteten 1000 Wp Modulen,
 die eigentlich zu einem Ertrag von etwa 1253 kWh pro Jahr führen würden,
 macht der Verlust durch Kappung auf 600 W Ausgangsleistung nur etwa 124 kWh aus.
 Das erklärt sich damit, dass die Kappung realistisch bei nur knapp 9% der
