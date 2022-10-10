@@ -248,7 +248,8 @@ https://solar-generatoren.de/die-richtigen-solarmodule-fuers-wohnmobil/[Hier]
 ein Vergleich verschiedener Solarmodul-Typen in Hinblick auf die Verwendung für
 Wohnmobile.
 
-image:Schindel-Solarmodul.jpg[%Bild: Schindel-Solarmodul%,400,align=right]
+image:Schindel-Solarmodul.jpg[%Bild: starres Schindel-Solarmodul%,400,align=left]
+image:Schindel-Solarmodul2.jpg[%Bild: flexibles Schindel-Solarmodul%,400,align=right]
 Technisch besonders interessant finde ich die überlappenden Anordnung und
 direkte Verschaltung von Solarzellen ohne Stromschienen (engl. busbars) in
 https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovativ-verschaltet-und-industriell-herstellbar[Schindel-Modulen]
@@ -256,7 +257,7 @@ https://www.strom-forschung.de/aktuelles/news/2022/schindel-solarmodule-innovati
 Dadurch steigt der Wirkungsgrad, weil die Fläche besser genutzt wird
 und bei Teilverschattung und Wärme die Verluste verringert werden.
 Allerdings ist diese Bauart selten zu finden und verhältnismäßig teuer,
-so dass sie nur dann sinnvoll ist, wenn man unbedingt etwas Platz sparen muss.
+so dass sie nur dann sinnvoll ist, wenn man Platz sparen will/muss.
 
 Solarmodule -- aber bitte nur gleichartige -- kann man wie Batteriezellen
 seriell und/oder parallel verbinden, um mehr Leistung zu erhalten, ohne
@@ -440,19 +441,22 @@ zu meiner vollen Zufriedenheit:
 
 ==== Stecker-Solaranlage
 
-Für eine sehr einfache, aber effiziente und Anlage zur Netzeinspeisung
+Für eine sehr einfache, aber effiziente Anlage zur Netzeinspeisung
 finde ich folgende Komponenten besonders interessant:
 
-* 2 × 400 Wp starre SSP link:Datenblatt_ECO-380-400M-66SA.pdf[EcoDelta - ECO-400M-66SA] mit hoher Effizienz: 213 Wp/m², ca. 540€ inkl. Versand +
+* 2 × 400 Wp starre SSP link:Datenblatt_ECO-380-400M-66SA.pdf[EcoDelta - ECO-400M-66SA] mit hoher Effizienz: 213 Wp/m², ca. 540€ +
+// inkl. Versand
 // https://www.secondsol.com/de/anzeige/28485/pv-module/kristallin/mono/ecodelta/eco-400m-66sa
 // https://ongeles-shop.de/products/ecodelta-eco-400m-66sa
-oder 2 × 310 Wp flexible Solarmodule link:Datenblatt_Sunman_flexible_310W.pdf[Sunman eArc SMF310M-6X10DW] mit 187 Wp/m², ca. 665€
-// https://shop-lieckipedia.de/Ab-2-Stueck-310-Watt-Solarmodul-monokristallin-flexibel-Sunman
+oder 4 × 150 Wp flexible ETFE SSP Solarmodule link:Solarfam_SSP_SZ-150-36MFE.pdf[Solarfam SZ-150-36MFE] mit 188 Wp/m²,
+ca. https://stromvoll.com/shop/#!/150W-Flexible-Solar-panel-1170-x-680-x-2-mm/[664€] +
+//* oder 4 × 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
+oder 2 × 310 Wp flexible Solarmodule link:Datenblatt_Sunman_flexible_310W.pdf[Sunman eArc SMF310M-6X10DW] mit 187 Wp/m²,
+ca. https://shop-lieckipedia.de/Ab-2-Stueck-310-Watt-Solarmodul-monokristallin-flexibel-Sunman[715€]
 //  Technische Daten / Solarmodul Größe L/B/H1653 x 1000 x 2 mm
 // Gewicht 4,8 kg Steckertyp MC4 Zellen 36
 // Max. Leistung 310 Wp Max. Spannung [Vmp]33,3 V Max. Stromstärke [Imp]9,31 A
 // Leerlaufspannung [Voc]40,5 V Kurzschlussstrom [Isc]9,81 A Betriebstemperatur- 40°C bis 85°C
-//* oder 4 × 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
 
 * 4-in-1 Microinverter 1200W https://www.hoymiles.com/product/microinverter/hm-1200-1500-as/[Hoymiles HM-1200], ca. 230€ +
 // https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/
@@ -466,13 +470,14 @@ aber auch für eine Notfall-Stromversorgung daheim und
 für einen längeren autarken Aufenthalt mit dem Wohnmobil
 habe ich folgende Komponenten:
 
-* 4 × https://www.ebay.de/itm/134183861850[150 Wp flexible 18 V Solarpanels], für 475€ +
-Bei diesen No-Name-Modulen, wie auch bei vielen anderen flexiblen Modulen,
-betrügt der Händler mit viel zu hohen angeblichen Leistungswerten.
-150 Wp können die von der Größe her (1129 × 670 mm) gar nicht leisten, wobei 130 Wp,
-wie ich an anderer Stelle gefunden hatte,  eigentlich realistisch sein müssten.
- Trotzdem leisten sie nach meiner Messung gerade mal 95 Wp, weshalb ich sie zurücksende.
- +
+* 4 × https://www.solarfam.nl/150w-shingle-etfe-flexible-solar-panel-solarfam.html[
+150 Wp flexible ETFE SSP Solarmodul], für 600€ +
+// * 4 × https://www.ebay.de/itm/134183861850[150 Wp flexible 18 V Solarpanels], für 475€ +
+// Bei diesen No-Name-Modulen, wie auch bei vielen anderen flexiblen Modulen,
+// betrügt der Händler mit viel zu hohen angeblichen Leistungswerten.
+// 150 Wp können die von der Größe her (1129 × 670 mm) gar nicht leisten, wobei 130 Wp,
+// wie ich an anderer Stelle gefunden hatte,  eigentlich realistisch sein müssten.
+// Trotzdem leisten sie nach meiner Messung gerade mal 95 Wp, weshalb ich sie zurücksende.
 Zuvor hatte ich mir gekauft, aber nicht verwendet, weil mir ihre Montage an der Balkonbrüstung im 4. Stock zu riskant war: +
 4 × https://www.manomano.de/p/2x120watt-solarpanel-solarmodul-12v-12volt-monocrystalline-wohnwagen-wohnmobil-48845318[120Wp starre Eco-Worthy Solarpanel], für 320€ +
 Diese Eco-Worthy Module kann ich empfehlen, wenn man keine größeren verwenden kann. Sie bringen jedenfalls die versprochene Spitzenleistung, was gerade bei günstigen Modellen nicht selbstverständlich ist.
