@@ -36,14 +36,14 @@ Sie hängt stark vom Standort auf der Erde ab
 (siehe z.B. https://globalsolaratlas.info/map[Simulationswerte von Solargis])
 und ist je nach Bewölkung, Tages- und Jahreszeit sehr variabel.
 
-Die Nennleistung von Solarmodulen wird in Wp
+Die *Nennleistung* von Solarmodulen wird in *Wp*
 (https://de.wikipedia.org/wiki/Watt_Peak[Watt Peak]) angegeben.
 Zu ihrer Bestimmung verwendet man eine Referenzbestrahlung mit einem normierten
-Sonnenlichtspektrum einer Stärke von 1000 W/m² bei einer Zelltemperatur von 25°C.
-Bei näherer Betrachtung bedeutet die Nennleistung in kWp (also 1000 Wp) die
-_effektive Solarfläche_ des Moduls, also dessen Fläche (in m²) × Wirkungsgrad.
-Daher lässt sich der Wirkungsgrad eines Solarmoduls einfach berechnen,
-indem man seine Nennleistung in kWp durch seine Fläche in m² teilt.
+Sonnenlichtspektrum einer Stärke von 1000 W/m² bei einer Zelltemperatur von 25°C. +
+Bei näherer Betrachtung bedeutet die Nennleistung in kWp (also 1000 Wp)
+die _effektive Solarfläche_ des Moduls, also Fläche (in m²) × Wirkungsgrad. +
+Daher lässt sich auch der *Wirkungsgrad* eines Solarmoduls sehr einfach
+nachrechnen, indem man seine Nennleistung in kWp durch seine Fläche in m² teilt.
 
 // https://www.energie-experten.org/fileadmin/System-Bilder/Inhalt_Bilder/Photovoltaik_Solarmodule_Leistung_Ausrichtung_Grafik_energie-experten.org.jpg
 // https://i0.wp.com/machdeinenstrom.de/wp-content/uploads/2018/03/Azimut.png?w=855&ssl=1
@@ -63,10 +63,10 @@ und Jahr realistisch].
 Der Jahresertrag lässt sich leicht näherungsweise berechnen durch Multiplikation
 des standortspezifischen PV-Potentials (das bereits angenommene typische
 System-Verlustfakturen beinhaltet) in kWh/kWp mit der PV-Nennleistung in kWp.
-Das PV-Potential (PVOUT) kann man z.B. aus den kostenlosen
+Das PV-Potential (PVOUT) erhält man z.B. aus den groben
 https://solargis.com/maps-and-gis-data/download[Karten von Solargis], aus dem
 https://globalsolaratlas.info/map?c=50.10,11.05,7&s=48.1807,11.604e[
-Global Solar Atlas der Weltbank] (auch von Solargis) oder aus der
+Global Solar Atlas der Weltbank] (auch von Solargis) oder am Genauesten aus der
 https://re.jrc.ec.europa.eu/pvg_tools/de/[PVGIS-Datenbank der EU]
 bei der Standard-Eingabe von 1 kWp für die installierte max. PV-Leistung.
 
@@ -74,8 +74,8 @@ Die https://machdeinenstrom.de/optimaler-ertrag-mit-mini-solar-kraftwerken/[
 beste Ausbeute] bekommt man in süddeutschen Breitengraden bei Ausrichtung
 genau nach Süden und mit ca. 38° Neigungswinkel (relativ zur Waagerechten).
 Genaueres kann man z.B. über https://re.jrc.ec.europa.eu/pvg_tools/de/[PVGIS]
-oder einfacher über
-https://www.solarserver.de/pv-anlage-online-berechnen/[Solarserver]
+(oder einfacher über
+https://www.solarserver.de/pv-anlage-online-berechnen/[Solarserver])
 standortspezifisch anhand von Geo- und Klimadaten berechnen/simulieren.
 
 Wenn man Solarmodule (z.B. auf dem Dach eines Wohnmobils)
@@ -127,12 +127,12 @@ Wenn der Solar-Wechselrichter die Ausgangsleistung auf 600 W begrenzt,
 wird der Gesamtertrag durch die Kappung zwar verringert,
 aber der Effekt ist nicht so groß, wie man meinen könnte.
 
-image:Solar_Timeseries_SA2_38deg_0deg_2005_2020.png[#Bild: Modellrechnung Kappung von 1000 Wp auf 600 W Ausgang bei 10% Gesamtverlust#,1000,align=left]
+image:Solar_Timeseries_SA2_38deg_0deg_2005_2020.png[#Bild: Modellrechnung Kappung von 1000 Wp auf 600 W Ausgang bei 10% Gesamtverlust#,800,align=left]
 Hier das Ergebnis einer Modellrechnung für den Raum München basierend auf
 den https://re.jrc.ec.europa.eu/pvg_tools/de/#HR[stündlichen Daten des PVGIS]
 für die Jahre 2005 - 2020 und
-einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 10%.
-# während der u.A. den von PVGIS standardmäßig eingerechneten Systemverlust von 14% beinhaltet.
+einem der Einfachheit halber als konstant angenommenen Gesamtverlust von 10%. +
+// während der u.A. den von PVGIS standardmäßig eingerechneten Systemverlust von 14% beinhaltet.
 (Eigentlich müsste man die Verluste abhängig von Temperatur usw. simulieren,
 aber die Vereinfachung macht im Verhältnis zu der genaueren Simulation von PVGIS
 ohne Kappung nur einen relativen Fehler von ca. +/- 6% aus.) +
@@ -174,7 +174,7 @@ nämlich zum (zusätzlichen) Aufheizen eines Warmwasserboilers im Haus,
 so dass man weniger fossile Brennstoffe dafür verbraucht.
 
 Wie eingangs geschrieben kann man bei optimaler Platzierung von Solarmodulen
-pro Jahr bis zu etwa 1 kWh pro Wp installierter Solarleistung gewinnen.
+pro Jahr etwa 1 kWh pro Wp installierter Solarleistung gewinnen.
 Rechnet man beispielsweise mit einer Investition von über den Daumen 1€/Wp
 (inklusive anteiligen Kosten für Wechselrichter etc., eher knapp kalkuliert)
 zur Stromeinspeisung und einem damit eingesparten Arbeitspreis von 25 ct/kWh,
