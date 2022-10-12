@@ -162,16 +162,18 @@ arbeiten saldierend (d.h. bilden die Gesamtsumme von Verbrauch und Einspeisung,
 welche dabei negatives Vorzeichen hat).
 
 Diese Nutzungsart lohnt sich also nur insoweit, wie man während der
-Sonnenscheindauer den Strom sinnvoll verbrauchen kann, z.B. durch diverse
-Haushaltsgeräte, Computer, Klimaanlagen oder zum Laden von Fahrzeug-Batterien.
-Am einfachsten und am besten planbar ist es, wenn es ohnehin eine gewisse
+Sonnenscheindauer den erzeugten Strom direkt sinnvoll verbrauchen kann,
+z.B. durch diverse Haushaltsgeräte, Computer, Klimaanlagen oder zum Laden
+von (Fahrzeug-)Batterien, wobei die Akkus von E-Bikes oder E-Rollern von der
+Größenordnung und dem zeitlichen (Nicht-)Nutzungsprofil besonders geeignet sind.
+Am einfachsten und am besten planbar ist es, wenn man ohnehin eine gewisse
 relativ gleichmäßige Grundlast hat, z.B. durch Kühlschränke oder Wärmepumpen.
-Je größer und tagsüber stromhungriger der Haushalt ist,
-desto größer der zu erwartende Einsparungseffekt. +
-Es gibt eine relativ einfache Nutzung von überflüssigem Strom,
-die ich ziemlich clever finde,
-nämlich zum (zusätzlichen) Aufheizen eines Warmwasserboilers im Haus,
-so dass man weniger fossile Brennstoffe dafür verbraucht.
+Eine Nutzung von überflüssigem Strom, die ich ziemlich clever fände,
+aber von der Steuerung auch nicht ganz einfach wäre,
+ist das (zusätzliche) Aufheizen eines Warmwasserboilers im Haus,
+so dass man weniger fossile Brennstoffe dafür verbraucht. +
+Je größer und tagsüber stromhungriger der Haushalt ist, desto größer
+der zu erwartende Einsparungseffekt durch ein Steckdosen-Kraftwerk.
 
 Wie eingangs geschrieben kann man bei optimaler Platzierung von Solarmodulen
 pro Jahr etwa 1 kWh pro Wp installierter Solarleistung gewinnen.
@@ -471,7 +473,7 @@ für einen längeren autarken Aufenthalt mit dem Wohnmobil
 habe ich folgende Komponenten:
 
 * 4 × https://www.solarfam.nl/150w-shingle-etfe-flexible-solar-panel-solarfam.html[
-150 Wp flexible ETFE SSP Solarmodul], für 600€ +
+150 Wp flexible ETFE SSP Solarmodule], für 600€ +
 // * 4 × https://www.ebay.de/itm/134183861850[150 Wp flexible 18 V Solarpanels], für 475€ +
 // Bei diesen No-Name-Modulen, wie auch bei vielen anderen flexiblen Modulen,
 // betrügt der Händler mit viel zu hohen angeblichen Leistungswerten.
