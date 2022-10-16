@@ -208,18 +208,31 @@ Je größer und tagsüber stromhungriger der Haushalt ist, desto größer
 der zu erwartende Einsparungseffekt durch ein Steckdosen-Kraftwerk.
 
 Wie eingangs geschrieben kann man bei optimaler Platzierung von Solarmodulen
-pro Jahr etwa 1 kWh pro Wp installierter Solarleistung gewinnen.
-Rechnet man beispielsweise mit einer Investition von über den Daumen 1€/Wp
-(inklusive anteiligen Kosten für Wechselrichter etc., eher knapp kalkuliert)
-zur Stromeinspeisung und einem damit eingesparten Arbeitspreis von 25 ct/kWh,
-kommt man im Jahr auf 25 ct Ersparnis pro Wp,
-so dass sich die Anlage in 4 Jahren amortisiert --
-wohlgemerkt aber nur unter optimalen Bedingungen und der Annahme,
-dass der damit erzeugte Strom komplett selbst verbraucht wird.
-Wobei der Strompreis derzeit (Stand Oktober 2022) ja kräftig steigt --
-bei Neuverträgen werden schon über 65 ct/kWh verlangt,
-so dass die Rechnung damit noch wesentlich günstiger ausfällt:
-Amortisierung bei 75% Eigenverbrauchsanteil in weniger als 2 Jahren.
+pro Jahr etwa 1,1 kWh Strommenge pro Wp installierter Solarleistung gewinnen.
+Rechnet man beispielsweise mit einer Investition von 1,10€/Wp
+(inklusive anteiliger Kosten für Wechselrichter, Installation etc.),
+ergeben sich Kosten von 1€/kWh erzeugtem Solarstrom pro Jahr.
+Wenn der damit erzeugte Strom komplett selbst verbraucht wird
+und man einen dadurch eingesparten Arbeitspreis von 40 ct/kWh ansetzt,
+ergibt sich eine Amortisationszeit von nur 2,5 Jahren.
+
+image:PV-Rechner_v6+_Balkonanlage_600Wp.png[%Bild: Ertragsrechnung Balkonanlage%,815,align=left]
+Beispielsweise mit dem PV-Rechner von https://www.bonotos.com/[bonotos]
+(der eigentlich für "große" PV-Anlagen auf Hausdächern konzipiert ist)
+kann man die Rechung deutlich genauer machen.
+Er berücksichtigt u.A. die Ausrichtung der Solarmodule,
+die jährliche Abschreibung, Reparatur- und Kapitalkosten,
+den Anteil des während der Sonnenscheindauer im Haushalt nutzbaren Ertrages,
+sowie optional Effekte durch das Laden eines E-Fahrzeugs (was normalerweise
+öfter zu Sonnenscheinzeiten erfolgen kann), den Betrieb einer Wärmepumpe
+und die Nutzung eines Stromspeichers. Dabei werden die Energieflüsse der
+Einfachheit halber auf Monatsbasis gerechnet -- pro Stunde wäre genauer.
+Für eine Balkonanlage mit 600 Wp, die 660€ kostet und bei optimaler Ausrichtung
+pro Jahr 660 kWh Ertrag liefert, kann man in einem Haushalt mit 3000 kWh
+Jahresverbrauch, der zu 28% während der Sonnenscheinzeiten erfolgt,
+demnach etwa 530 kWh Solarstrom direkt selbst verbrauchen und damit jährlich
+ca. 205€ Stromkosten einsparen. Das ergibt eine Amortisationszeit von 3,2 Jahren
+und eine satte (Anfangs-)Rendite von gut 26%.
 
 
 ==== Inselanlage mit Batteriespeicherung
