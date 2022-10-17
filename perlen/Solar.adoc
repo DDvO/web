@@ -3,14 +3,14 @@
 === Zusammenfassung
 
 Mit sog. Balkonkraftwerken kann man relativ einfach und günstig
-Solarstrom gewinnen und über eine Steckdose ins Hausnetz einspeisen.
-Das spart Stromkosten und rechnet sich nach mehreren Jahren Betrieb,
+Solarstrom gewinnen und über eine Steckdose direkt ins Hausnetz einspeisen.
+Das spart Stromkosten und rechnet sich schon nach wenigen Jahren Betrieb,
 allerdings nur soweit man den Strom auch gleichzeitig selbst verbraucht.
 
 Für eine gewisse Unabhängigkeit vom allgemeinen Stromnetz und von der nicht
 immer kräftig vorhandenen Sonneneinstrahlung braucht man sog. Inselanlagen.
 Diese benötigen zusätzlich aufladbare Batterien als Stromspeicher
-sowie andere Wechselrichter und Solarladeregler als Stecker-Solaranlagen,
+sowie andere Wechselrichter und Solar-Laderegler als Stecker-Solaranlagen,
 was sie aufwendiger und deutlich teurer macht.
 
 === Möglicher Energie-Ertrag
@@ -111,7 +111,7 @@ mit einer Spannung je nach Modultyp von üblicherweise 22 bis 44 V.
 Dieser 'rohe' Strom ist direkt erst mal kaum verwendbar
 (außer z.B. zum Aufheizen eines Warmwasserspeichers).
 
-==== Stecker-Solaranlage ("Balkonkraftwerk" mit Netzeinspeisung)
+==== Stecker-Solaranlage ("Balkonkraftwerk" mit direkter Netzeinspeisung)
 
 // https://www.steckdosensolar.de/wp-content/uploads/2020/02/aufbau-balkonkraftwerk.jpg
 image:Balkonkraftwerk.jpg[%Bild: Aufbau Balkonkraftwerk%,400,align=right]
@@ -234,34 +234,50 @@ demnach etwa 530 kWh Solarstrom direkt selbst verbrauchen und damit jährlich
 ca. 205€ Stromkosten einsparen. Das ergibt eine Amortisationszeit von 3,2 Jahren
 und eine satte (Anfangs-)Rendite von gut 26%.
 
+==== Stecker-Solaranlage mit Batteriepuffer
+
+Es ist auch möglich, die Solarenergie nicht direkt ins Netz, sondern über einen
+Solar-Laderegler (s.u.) zunächst in einer aufladbaren Batterie (Akkumulator)
+zwischenzuspeichern und von dort nach Bedarf zeitlich versetzt über einen
+netzgekoppelten Solar-Wechselrichter (s.u.) ins Hausnetz einzuspeisen.
+Dazu genügt im einfachsten Fall, die Verbindung über einen Schalter zu steuern,
+nämlich wenn die Batteriespannung (z.B. 24 V)
+höher ist als die minimale Eingangsspannung des Solar-Wechselrichters und dieser
+mit voller Leistung (z.B. an einem 300 W Modul-Eingang) betrieben werden kann.
+Ansonsten wird ein regelbarer DC-DC-Wandler benötigt, wie z.B. der im
+https://www.youtube.com/watch?v=yOcoux9IbzM[Video von Andreas Schmitz].
+Allerdings sollte eine automatische Abschaltung vorgesehen werden, wenn
+die Batterieladung zur Neige geht (bei LiFePO4 spätestens bei 90% Entladung).
 
 ==== Inselanlage mit Batteriespeicherung
 
 // http://www.inselanlage.info/wp-content/uploads/2015/01/inselanlage-aufbau.jpg
 image:Inselanlage.jpg[%Bild: Aufbau Inselanlage%,400,align=right]
-Alternativ kann man den von den Solarmodulen gelieferten Strom auch in einer aufladbaren Batterie
-(Akkumulator) speichern und bei Bedarf wieder abrufen.
+Alternativ zur Einspeisung ins Hausnetz kann man den von den Solarmodulen
+gelieferten Strom auch in einer Batterie speichern und bei Bedarf darüber
+Geräte unabhängig vom Hausnetz mit Strom versorgen.
 Diese Betriebsart wird als 'http://www.inselanlage.info/[Inselanlage]'
 (engl. off-grid) bezeichnet und ist für die Nutzung ohne externes Stromnetz
 (also z.B. bei Stromausfall, beim Campen mit dem Wohnmobil oder Wohnwagen,
 auf Booten und für abseits gelegene Häuser oder Hütten) die einzig mögliche.
 
-Neben der Speicherbatterie wird hier zumindest ein Solarladeregler benötigt,
+Neben der Speicherbatterie wird hier zumindest ein Solar-Laderegler benötigt,
 und sofern die Verbraucher nicht direkt mit der Batteriespannung
 (z.B. 12 V Gleichstrom) betrieben werden können,
-zusätzlich ein ausreichend leistungsstarker Wechselrichter (manchmal auch
-'Spannungswandler' genannt, engl. inverter) zur Umwandlung
+zusätzlich ein ausreichend leistungsstarker Wechselrichter (s.u.) zur Umwandlung
 in den üblichen 'Steckdosenstrom' (also Wechselstrom mit ca. 230 V).
-Diese Nutzungsart ist flexibler, aber wegen der nötigen zusätzlichen Komponenten
-deutlich teurer (und auch etwas anfälliger und wartungsintensiver).
 
-==== Kombination aus Balkonkraftwerk und Inselanlage
+Ähnlich wie die zuvor genannte Variante ist diese Nutzungsart flexibler,
+aber wegen der nötigen zusätzlichen Komponenten (v.A. die Batterie)
+auch deutlich teurer und auch etwas anfälliger und wartungsintensiver.
+
+==== Kombination aus Stecker-Solaranlage und Inselanlage
 
 Wenn man Zugang zum Stromnetz hat und die für beide Varianten nötigen Funktionen
-gleichzeitig installiert sind, kann man zwischen diesen grundsätzlichen
-Nutzungsarten auch wechseln.
-Dabei wird die Einspeisung die Solarmodule zwischen
-dem netzgekoppelten Wechselrichter und dem Solar-Batterieladeregler
+gleichzeitig installiert sind, kann man zwischen Netz- und Inselbetrieb
+auch bedarfsweise wechseln.
+Dabei wird die Stromlieferung der Solarmodule zwischen
+dem netzgekoppelten Wechselrichter und dem Solar-Laderegler
 umgeschaltet (bzw. ohne Schalter einfach umgestöpselt).
 
 
@@ -354,10 +370,10 @@ wird es ohne Reihenschaltung
 bei einer Ladeschlussspannung von ca. 14,5 V einer LiFePO4-Batterie
 bei wolkigem Wetter (mit vielleicht nur 100 - 200 W/m^2^) ziemlich eng.
 
-==== Spannungsregler, Solar-Laderegler und Wechselrichter
+==== Spannungsregler, Wechselrichter, Batterieladegeräte und deren Kombination
 
 // image:I-U-Kennlinie_MPP_Silizium-Solarzelle.jpg[
-%Bild: I-U-Kennlinie_MPP_Silizium-Solarzelle%,400,align=right]
+// %Bild: I-U-Kennlinie_MPP_Silizium-Solarzelle%,400,align=right]
 // https://nils-isfh.de/solarzelle/
 image:Solar-Microinverter.png[%Bild: Solar-Microinverter%,400,align=right]
 Für die Umwandlung des 'rohen' Solarstroms sind Spannungsregler mit
@@ -366,36 +382,46 @@ MPPT (Maximal-Leistungspunkt-Suche, engl. maximum power point tracking)]
 zu empfehlen, weil sie auch bei stark wechselnder Einstrahlung
 optimale Energieausbeute bringen.
 Sie sind allerdings deutlich teurer als die wesentlich einfacheren PWM-Regler.
-Für die Koppelung mit dem Stromnetz werden Spannungsregler mit einem
-integrierten Wechselrichter verwendet, die sich automatisch
-an die Frequenz und Phase des anliegenden Wechselstroms anpassen
-und bei fehlendem Stromanschluss den Ausgang abschalten -- auch aus
-Sicherheitsgründen für den Fall, dass ein blanker Stecker berührt werden kann.
 
-image:Solar-Laderegler.jpg[%Bild: Solar-Laderegler%,400,align=right]
-Wenn man Solarmodule hingegen mit einer Batterie verbinden möchte,
-benötigt man einen Solar-Laderegler, der einen Spannungsregler mit einem
-Batterieladegerät verbindet.
-Mit billigen chinesischen (angeblich) MPPT-Reglern habe ich keine guten
-Erfahrungen gemacht, wohl aber mit den europäischen Marken Victron und Votronic.
-
-image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
+Für die Umwandlung von Gleichstrom in Wechselstrom (bei uns meist mit 230 V)
+benötigt man einen https://de.wikipedia.org/wiki/Wechselrichter[Wechselrichter]
+(manchmal auch'Spannungswandler' genannt, engl. inverter).
 Bei einem Wechselrichter sollte man darauf achten,
-dass er ordentlichen Wechselstrom liefert
-(sog. 'reine Sinuswelle', engl. pure sine wave) sowie
-einen hohen https://www.energie-experten.org/erneuerbare-energien/photovoltaik/wechselrichter/wirkungsgrad[Wirkungsgrad]
+dass er ordentlichen Wechselstrom liefert (sog. 'reine Sinuswelle',
+engl. pure sine wave) sowie einen hohen
+https://www.energie-experten.org/erneuerbare-energien/photovoltaik/wechselrichter/wirkungsgrad[Wirkungsgrad]
 (engl. efficiency) und einen
 geringen Ruhe-/Leerlaufstromverbrauch (engl. standby power consumption) hat.
 Außerdem ist empfehlenswert, ihn mit ausreichend Leistungsreserve zu
 dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
 verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
 
+Für die Einspeisung ins Stromnetz wird ein Spannungsregler mit einem
+integrierten _netzgekoppelten Wechselrichter_ verwendet.
+Dieser wird auch _fremd geführter Wechselrichter_ genant, weil er
+sich automatisch an die Frequenz und Phase des anliegenden Wechselstroms anpasst
+und bei fehlendem Stromanschluss den Ausgang abschaltet -- auch aus
+Sicherheitsgründen für den Fall, dass ein blanker Stecker berührt werden kann.
+
+image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
+Inselwechselrichter, die auch _selbst geführte Wechselrichter_ genannt werden,
+werden vom Stromnetz unabhängig betrieben. Mit ihnen kann man die üblichen
+Haushaltsgeräte auch im Falle eines Stromausfalls mit einer Batterie versorgen,
+natürlich ausreichend Leistung vorausgesetzt.
+
+image:Solar-Laderegler.jpg[%Bild: Solar-Laderegler%,400,align=right]
+Wenn man über Solarmodule eine Batterie laden möchte,
+benötigt man einen Solar-Laderegler, der einen Spannungsregler mit einem
+Batterieladegerät verbindet.
+Mit billigen chinesischen (angeblich) MPPT-Reglern habe ich keine guten
+Erfahrungen gemacht, wohl aber mit den europäischen Marken Victron und Votronic.
+
 image:Solar-off-grid-inverter.jpg[
 %Bild: Hybrides Solar-Ladegerät mit Wechselrichter%,400,align=right]
 Es gibt auch
 https://www.solarserver.de/2021/07/26/green-cell-bietet-neuen-solarwechselrichter-an/[
 Kombigeräte],welche die Funktionen Solar-Laderegler,
-Batterie-Netzladegerät und Wechselrichter in sich vereinen.
+Batterie-Netzladegerät und Inselwechselrichter in sich vereinen.
 Damit können Elektrogeräte vorzugsweise direkt mit Solarstrom versorgt werden,
 wobei die überschüssige Energie in einer Batterie gespeichert wird.
 Bei unzureichender Stromversorgung aus den Solarmodulen
