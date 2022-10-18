@@ -347,22 +347,13 @@ dem netzgekoppelten Wechselrichter und dem Solar-Laderegler
 umgeschaltet (bzw. ohne Schalter einfach umgestöpselt).
 
 
-=== Generelle Hinweise für die Auswahl von Komponenten
+=== Generelle Hinweise für die Auswahl und Nutzung von Komponenten
 
 ==== Solarmodule
 
 Solarmodule (engl. solar panels) werden intern aus
-vielen in Reihe gestalteten Solarzellen zusammengesetzt.
-Als externen Stromanschluss habe sie meist MC4-Steckverbinder.
-Wenige große Solarmodule sind technisch und wirtschaftlich etwas günstiger als
-entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
-
-image:Bypass-Dioden-bei-der-Arbeit.jpg[
-%Bild: Spannung und Strom abhängig von der Bestrahlungsstärke%,768,align=left]
-Leider bricht die Leistung von in Reihe geschalteten Zellen ein,
-sobald auch nur eine davon verschattet ist. Daher werden in den üblichen
-größeren Modulen sog. Bypass-Dioden eingesetzt, die bei Teilverschattung
-immerhin einen Teil der Leistung fließen lassen.
+vielen in Reihe geschalteten Solarzellen zusammengesetzt,
+die Sonnenlicht in Gleichstrom umwandeln.
 
 image:Kennlinie_Bestrahlungsstärke_Spannng-Strom.jpg[
 %Bild: Spannung und Strom abhängig von der Bestrahlungsstärke%,400,align=right]
@@ -374,6 +365,13 @@ und nähert sich dann nur noch langsam steigend dem Wert 0,63 V.
 Generell sind monokristalline Zellen zu bevorzugen, auch wenn sie ein wenig
 teurer sind als polykristalline oder amorphe,
 weil sie einen höheren Wirkungsgrad haben.
+
+image:Bypass-Dioden-bei-der-Arbeit.jpg[
+%Bild: Spannung und Strom abhängig von der Bestrahlungsstärke%,768,align=left]
+Leider bricht die Leistung von in Reihe geschalteten Zellen ein,
+sobald auch nur eine davon verschattet ist. Daher werden in den üblichen
+größeren Modulen sog. Bypass-Dioden eingesetzt, die bei Teilverschattung
+immerhin einen Teil der Leistung fließen lassen.
 
 image:Starre_Solarpanels.jpg[%Bild: Starre Solarpanels%,400,align=left]
 image:Flexible_Solarpanels.jpg[%Bild: Flexible Solarpanels%,400,align=right]
@@ -404,10 +402,14 @@ so dass sie nur dann sinnvoll ist, wenn man Platz sparen will/muss.
 Solarmodule -- aber bitte nur gleichartige -- kann man wie Batteriezellen
 seriell und/oder parallel verbinden, um mehr Leistung zu erhalten, ohne
 für jedes Modul einen eigenen Regler (bzw. Regler-Eingang) verwenden zu müssen.
-Für die parallele Verschaltung bieten sich MC4 Y-Steckverbindungen an.
-Man sollte Module aber nur insoweit zusammenschalten und an einem gemeinsamen
+Wenige große Solarmodule sind technisch und wirtschaftlich etwas günstiger als
+entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
+
+Solarmodule haben als Stromanschluss meist die praktischen MC4-Steckverbinder.
+Für die parallele Verschaltung bieten sich Y-Kabel mit MC4-Anschlüssen an.
+Man sollte Module nur insoweit zusammenschalten und an einem gemeinsamen
 Regler-Eingang betrieben, wie sie in die gleiche Ausrichtung und
-relativ gleichzeitig verschattet werden.
+relativ gleich(zeitig) verschattet werden.
 
 * Bei https://de.wikipedia.org/wiki/Reihenschaltung[Reihenschaltung] (oft auch
 'Serienschaltung' genannt) addieren sich die Spannungen der einzelnen Module,
@@ -435,6 +437,14 @@ Wenn man z.B. kleine Solarmodule mit 100 Wp und 22,6 V Leerlaufspannung hat,
 wird es ohne Reihenschaltung
 bei einer Ladeschlussspannung von ca. 14,5 V einer LiFePO4-Batterie
 bei wolkigem Wetter (mit vielleicht nur 100 - 200 W/m^2^) ziemlich eng.
+
+image:https://www.verbraucherzentrale-saarland.de/sites/default/files/styles/article_full_image_desktop/public/2020-02/Solarmodule_13763291_sandra_zuerlein_AdobeStock_Internet.jpg[
+%Foto: Am Balkongeländer zwei Solarmodule.
+Sandra Zuerlein, stock.adobe.com%,400,align=right]
+Zur Montage bzw. Aufständerung von Solarmodulen auf einem Dach oder an einem
+Balkon https://www.youtube.com/watch?v=TKeu6YGVuus[hier] ein Überblick-Video.
+https://machdeinenstrom.de/balkonkraftwerk-montageloesungen-fuer-die-balkonbruestung/[
+Hier] ein Artikel mit speziellen Tipps zur Installation an einer Balkonbrüstung.
 
 ==== Spannungsregler, Wechselrichter, Batterieladegeräte und deren Kombination
 
