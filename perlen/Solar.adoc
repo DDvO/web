@@ -274,8 +274,68 @@ zusätzlich ein ausreichend leistungsstarker Wechselrichter (s.u.) zur Umwandlun
 in den üblichen 'Steckdosenstrom' (also Wechselstrom mit ca. 230 V).
 
 Ähnlich wie die zuvor genannte Variante ist diese Nutzungsart flexibler,
-aber wegen der nötigen zusätzlichen Komponenten (v.A. die Batterie)
+aber wegen der nötigen zusätzlichen Komponenten (v.A. Batterie)
 auch deutlich teurer und auch etwas anfälliger und wartungsintensiver.
+Wirtschaftlich rentabel kann das bei den derzeitigen Preisen nur sein,
+wenn man die Batterie schon aus anderen Gründen hat
+und damit mehr oder weniger kostenlos nutzen kann.
+
+// https://www.youtube.com/watch?v=uBNEZgbapGg&lc=UgwGlzU4H4qQu_9H8W14AaABAg
+// Akku Nachrüstung, ein gigantisches Draufzahlungsgeschäft ?
+//
+// Probieren wir es mal mit purer Mathematik:
+// Meine 12 Jahre alte 8,6 kWp PVA erzeugt 8,9 MWh im Jahr.
+// Mein Hausverbrauch beträgt 3,5 MWh.
+// Davon kommt 1 MWh aus der PVA.
+// Vom Versorger zukaufen muss ich 2,5 MWh.
+// Das wäre also die Masse, auf die ich den Akku ansetzen könnte.
+//
+// Der Stromverbrauch ist fast übers ganze Jahr konstant,
+// also 2.500 / 365 Tage macht 6,85 kWh/Tag.
+// Wenn ich davon im Durchschnitt 2/3 puffern will,
+// das wäre eine extrem optimistische Eigenverbrauchsquote von 76%,
+// dann muss ich den Akku so auslegen,
+// dass ich in den ertragsstarken Monaten fast 100% puffern kann,
+// um die Defizite der ertragsschwachen Monate auszugleichen
+// und so im Schnitt auf 2/3 des heutigen externen Zukaufs zu kommen.
+// Ich muss also 6,85 kWh puffern können.
+//
+// Wenn das Akkusystem einen Gesamtwirkungsgrad von 70% hat,
+// brauche ich dafür einen Akku von 6,85/0,7 = 9,8 kWh ungefähr also 10 kWh.
+// 500€/kWh x 10 = 5.000€ + 2.000 € für einen neuen Wechselrichter
+// + 1.000€ um das ganze zu installieren, zusammen also 8.000€.
+// Der Akku wird auf 10 Jahre abgeschrieben, der Wechselrichter auf 15,
+// die Installationskosten verteile ich hälftig.
+// 5.500/10=550 + 2.500/15=167, 550+167=717 € Jahreskosten für die Abschreibung.
+// Eigentlich kann ich jetzt schon aufhören, weil sich meine
+// gesamte verbrauchsabhängige Stromrechnung heute auf 775€ pro Jahr beläuft,
+// von der ich per Annahme 2/3 einspare,
+// also 517 € Einsparung für 717 € pro Jahr Investitionskosten,
+// dazu käme dann ein noch nicht berechnetes Absinken der Einspeisevergütung.
+//
+// Rechnen wir trotzdem mal weiter:
+// Von 2.500 kWh will ich 2/3 einsparen, das wären dann 1.667 kWh.
+// Einspeisen in den Akku müsste ich dafür aber
+// wegen des Wirkungsgrads von 70% 1.667 / 0,7 = 2.381 kWh.
+// Hätte ich keinen Akku,
+// bekäme ich dafür 2381 kWh x 0,34 ct/kWh = 810 € Einspeisevergütung,
+// müsste aber dann den Verbrauch
+// von 1.667 kWh mit 1.667 kWh x 0,31 ct/kWh = 517 € bezahlen,
+// Ohne Akku hätte ich also eine Einnahme von 810-517 = 293 € pro Jahr.
+// Mit Akku bekäme ich für 2.381 kWh eine Eigenverbrauchs-Vergütung
+// von 2.381 € x 0,17 ct/kWh = 405 €.
+// Mit Akku erhöhen sich also meine Einnahmen aus dem Betrieb der PVA um
+// 405 - 293 = 112.
+// Leider löhne ich aber noch 717 € für die Abschreibung des Akkusystems.
+// Der Akku-Spaß kostet mich also 112 - 717 = - 605 €, jedes Jahr.
+//
+// So stark kann der heutige Strompreis von 0,31 ct/kWh gar nicht steigen,
+// dass der die 605 € pro Jahr Verlust wegbügelt.
+// Und selbst wenn er das täte, hätten wir erst ein Nullsummenspiel erreicht,
+// gewonnen wäre dann noch gar nichts.
+// Was ist das Fazit ?
+// Solange meine Förderung noch läuft und das sind immerhin noch
+// mehr als 8 Jahre, Finger weg vom Akku.
 
 ==== Kombination aus Stecker-Solaranlage und Inselanlage
 
