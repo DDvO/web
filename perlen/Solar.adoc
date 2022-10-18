@@ -51,9 +51,9 @@ Die Wp-Angaben von Herstellern und Händlern für Solarmodule sind mit Vorsicht
 zu genießen -- hauptsächlich weil die tatsächliche Leistung wie oben erwähnt
 stark von der Situation (Ausrichtung, Sonnenstand, Bewölkung usw.)
 abhängig und meist deutlich geringer ist.
-Außerdem weil besonders chinesische Händler von flexiblen Solarmodulem
+Außerdem weil besonders chinesische Händler von flexiblen Solarmodulen
 dazu tendieren, bei den Leistungsangaben deutlich zu übertreiben.
-Daher loht sich als Plausibiltäts-Check, den Wirkungsgrad nachzurechnen.
+Daher lohnt sich als Plausibiltäts-Check, den Wirkungsgrad nachzurechnen.
 
 image:PVOUT_Europe.png[%Bild: PV-Potential in Europa%,800,align=right]
 In unseren Breitengraden ist je nach Standort
@@ -65,7 +65,7 @@ https://gruenes.haus/photovoltaik-pv-ertrag/[1200 bis 1300 kWh]
 pro kWp installierter PV-Nennleistung und Jahr möglich.
 Der Jahresertrag lässt sich leicht näherungsweise berechnen durch Multiplikation
 des standortspezifischen PV-Potentials (das bereits angenommene typische
-System-Verlustfakturen beinhaltet und auch "spezifischer Ertrag" genannt wird)
+System-Verlustfaktoren beinhaltet und auch "spezifischer Ertrag" genannt wird)
 in kWh/kWp mit der PV-Nennleistung in kWp.
 Das PV-Potential (PVOUT) erhält man z.B. aus den groben
 https://solargis.com/maps-and-gis-data/download[Karten von Solargis], aus dem
@@ -217,9 +217,9 @@ und man einen dadurch eingesparten Arbeitspreis von 40 ct/kWh ansetzt,
 ergibt sich eine Amortisationszeit von nur 2,5 Jahren.
 
 image:PV-Rechner_v6+_Balkonanlage_600Wp.png[%Bild: Ertragsrechnung Balkonanlage%,815,align=left]
-Beispielsweise mit dem PV-Rechner von https://www.bonotos.com/[bonotos]
+Beispielsweise mit dem link:PV-Rechner_v6+.xls[PV-Rechner]
 (der eigentlich für "große" PV-Anlagen auf Hausdächern konzipiert ist)
-kann man die Rechung deutlich genauer machen.
+kann man die Rechnung deutlich genauer machen.
 Er berücksichtigt u.A. die Ausrichtung der Solarmodule,
 die jährliche Abschreibung, Reparatur- und Kapitalkosten,
 den Anteil des während der Sonnenscheindauer im Haushalt nutzbaren Ertrages,
@@ -233,6 +233,12 @@ Jahresverbrauch, der zu 28% während der Sonnenscheinzeiten erfolgt,
 demnach etwa 530 kWh Solarstrom direkt selbst verbrauchen und damit jährlich
 ca. 205€ Stromkosten einsparen. Das ergibt eine Amortisationszeit von 3,2 Jahren
 und eine satte (Anfangs-)Rendite von gut 26%.
+
+Hinweis: Der PV-Rechner stammt von https://www.bonotos.com/[bonotos]
+und wurde hier etwas erweitert und verbessert,
+besonders weil der originale (Version 22-06) einen groben Fehler in der
+Rendite-Formel beinhaltet, der zu beinahe doppelt überhöhten Zahlen führt,
+aber voraussichicht dort nicht mehr korrigiert wird.
 
 ==== Stecker-Solaranlage mit Batteriepuffer
 
@@ -398,7 +404,7 @@ verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
 
 Für die Einspeisung ins Stromnetz wird ein Spannungsregler mit einem
 integrierten _netzgekoppelten Wechselrichter_ verwendet.
-Dieser wird auch _fremd geführter Wechselrichter_ genant, weil er
+Dieser wird auch _fremd geführter Wechselrichter_ genannt, weil er
 sich automatisch an die Frequenz und Phase des anliegenden Wechselstroms anpasst
 und bei fehlendem Stromanschluss den Ausgang abschaltet -- auch aus
 Sicherheitsgründen für den Fall, dass ein blanker Stecker berührt werden kann.
@@ -618,8 +624,7 @@ was gerade bei günstigen Modellen nicht selbstverständlich ist.
 // https://www.alibaba.com/product-detail/China-Cheap-Flexible-Shingled-270w-300w_1600451794345.html[
 // Demuda PF01] mit Größe 1,84m × 1,035 m × 2,5mm ergibt 194 Wp/m²,
 // inkl. DDP-Versand ca. 590€
-// Or do you consider by railway (DDP) 3 pcs is $944,including shipment and tax
-// to Germany.(30-45 DAYS) 2pcs is $650
+// railway (30-45 days)  DDP 3 pcs is $944 2 pcs is $650
 // Maximum Power(Pmax)：370W
 // Maximum Power Voltage(Vmp)：35.1V
 // Maximum Power Current(Imp)：10.54A
