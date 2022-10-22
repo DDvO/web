@@ -438,9 +438,10 @@ wird es ohne Reihenschaltung
 bei einer Ladeschlussspannung von ca. 14,5 V einer LiFePO4-Batterie
 bei wolkigem Wetter (mit vielleicht nur 100 - 200 W/m^2^) ziemlich eng.
 
-image:https://www.verbraucherzentrale-saarland.de/sites/default/files/styles/article_full_image_desktop/public/2020-02/Solarmodule_13763291_sandra_zuerlein_AdobeStock_Internet.jpg[
-%Foto: Am Balkongeländer zwei Solarmodule.
-Sandra Zuerlein, stock.adobe.com%,400,align=right]
+image:Balkonsolaranlage.jpg[%Foto: Solaranlage am Balkon%,727,align=left]
+// image:https://www.verbraucherzentrale-saarland.de/sites/default/files/styles/article_full_image_desktop/public/2020-02/Solarmodule_13763291_sandra_zuerlein_AdobeStock_Internet.jpg[
+// %Foto: Am Balkongeländer zwei Solarmodule.
+// Sandra Zuerlein, stock.adobe.com%,400,align=right]
 Zur Montage bzw. Aufständerung von Solarmodulen auf einem Dach oder an einem
 Balkon https://www.youtube.com/watch?v=TKeu6YGVuus[hier] ein Überblick-Video.
 https://machdeinenstrom.de/balkonkraftwerk-montageloesungen-fuer-die-balkonbruestung/[
