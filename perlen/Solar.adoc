@@ -133,7 +133,20 @@ haben meist eine recht geringe Nennleistung von etwa 600-700 Wp.
 Das hat neben der geringen Größe und sehr überschaubaren Kosten auch damit zu
 tun, dass solche Anlagen selbst installiert werden dürfen und genehmigungsfrei
 sind, wenn sie weniger als 600 W in die Steckdose einspeisen.
-Diese Zahl gilt für Deutschland; anderswo sind 800 W (oder mehr) kein Problem.
+Dies gilt für Deutschland; anderswo sind meist 800 W (oder mehr) erlaubt.
+
+image:Stromleitung_Überlastung_Solareinspeisung.jpg[%Bild:
+Mögliche Überlastung einer Wohnungs-Stromleitung
+durch lokale Solarstrom-Einspeisung%377,align=left]
+Hintergrund dieser Beschränkung sind vornehmlich Sicherheitsbedenken:
+Falls über die Wohnungs-Stromleitung, an der die Einspeisung stattfindet,
+gleichzeitig sehr kräftig Strom verbraucht wird,
+kann es unter ungünstigen Umständen passieren, dass auf Teilen der Leitung
+mehr Strom fließt als die Sicherung eigentlich erlauben würde, was dann
+zu einer mehr oder weniger starken Erwärmung der Leitung führen kann.
+Und zwar müsste bei einer 16 A-Sicherung mehr als 3500 W, aber weniger als
+3500 W + die gerade eingespeiste Leistung (z.B. 1300 W) verbraucht werden,
+was allerdings insgesamt in der Praxis höchst unwahrscheinlich ist.
 
 Die nominale Leistung der verwendeten Solarmodule kann und sollte aber
 durchaus größer sein (z.B. 800-1000 Wp), denn in der Praxis werden die 600 W
@@ -246,14 +259,22 @@ Es ist auch möglich, die Solarenergie nicht direkt ins Netz, sondern über eine
 Solar-Laderegler (s.u.) zunächst in einer aufladbaren Batterie (Akkumulator)
 zwischenzuspeichern und von dort nach Bedarf zeitlich versetzt über einen
 netzgekoppelten Solar-Wechselrichter (s.u.) ins Hausnetz einzuspeisen.
-Dazu genügt im einfachsten Fall, die Verbindung über einen Schalter zu steuern,
-nämlich wenn die Batteriespannung (z.B. 24 V)
+
+Dazu genügt im einfachsten Fall, die Verbindung über einen Schalter
+manuell zu steuern, nämlich wenn die Batteriespannung (z.B. 24 V)
 höher ist als die minimale Eingangsspannung des Solar-Wechselrichters und dieser
 mit voller Leistung (z.B. an einem 300 W Modul-Eingang) betrieben werden kann.
 Ansonsten wird ein regelbarer DC-DC-Wandler benötigt, wie z.B. der im
-https://www.youtube.com/watch?v=yOcoux9IbzM[Video von Andreas Schmitz].
-Allerdings sollte eine automatische Abschaltung vorgesehen werden, wenn
-die Batterieladung zur Neige geht (bei LiFePO4 spätestens bei 90% Entladung).
+https://www.youtube.com/watch?v=yOcoux9IbzM[Video von Andreas Schmitz], oder
+ein regelbares Netzteil, das an den Ausgang einer Powerstation gehängt wird,
+siehe https://www.youtube.com/watch?v=ZXHAXrJS9CU[sein Nachfolge-Video].
+
+Allerdings sollte in jedem Fall eine automatische Abschaltung vorgesehen werden,
+wenn die Batterieladung zur Neige geht (bei LiFePO4 spätestens bei 90%
+Entladung), damit die Batterie nicht durch Tiefentladung geschädigt wird.
+Außerdem wäre es v.A. im Sinne der Stromkosten-Optimierung schön,
+wenn die Einspeisung der gespeicherten Energie automatisch nur so stark erfolgt,
+wie sie auch benötigt wird, was reglungsrechnisch nicht ganz einfach ist.
 
 ==== Inselanlage mit Batteriespeicherung
 
