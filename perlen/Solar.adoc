@@ -13,7 +13,7 @@ Diese benötigen zusätzlich aufladbare Batterien als Stromspeicher
 sowie andere Wechselrichter und Solar-Laderegler als Stecker-Solaranlagen,
 was sie aufwendiger und deutlich teurer macht.
 
-=== Möglicher Energie-Ertrag
+=== Photovoltaik (PV) und ihr möglicher Energie-Ertrag
 
 Mit Solarzellen kann man Sonnenlicht in elektrische Energie umwandeln,
 wenn auch leider nicht gerade effizient.
@@ -255,26 +255,54 @@ aber voraussichicht dort nicht mehr korrigiert wird.
 
 ==== Stecker-Solaranlage mit Batteriepuffer
 
+image:Balkonkraftwerk_mit_Speicher.jpg[%Bild:
+Balkonkraftwerk mit Speicher%,480,align=left]
 Es ist auch möglich, die Solarenergie nicht direkt ins Netz, sondern über einen
 Solar-Laderegler (s.u.) zunächst in einer aufladbaren Batterie (Akkumulator)
 zwischenzuspeichern und von dort nach Bedarf zeitlich versetzt über einen
-netzgekoppelten Solar-Wechselrichter (s.u.) ins Hausnetz einzuspeisen.
+netzgekoppelten Wechselrichter (s.u.) ins Hausnetz einzuspeisen.
+Das maximiert den Nutzen der PV-Anlage für den eigenen Stromverbrauch.
 
-Dazu genügt im einfachsten Fall, die Verbindung über einen Schalter
-manuell zu steuern, nämlich wenn die Batteriespannung (z.B. 24 V)
-höher ist als die minimale Eingangsspannung des Solar-Wechselrichters und dieser
-mit voller Leistung (z.B. an einem 300 W Modul-Eingang) betrieben werden kann.
-Ansonsten wird ein regelbarer DC-DC-Wandler benötigt, wie z.B. der im
-https://www.youtube.com/watch?v=yOcoux9IbzM[Video von Andreas Schmitz], oder
-ein regelbares Netzteil, das an den Ausgang einer Powerstation gehängt wird,
-siehe https://www.youtube.com/watch?v=ZXHAXrJS9CU[sein Nachfolge-Video].
+Dazu empfiehlt sich ein https://de.aliexpress.com/item/1005001445871590.html[
+regelbarer (Solar-)Netzwechselrichter] wie in
+https://www.youtube.com/watch?v=f-iz6WE8GD8[diesem genialen Video von Dimitri].
 
-Allerdings sollte in jedem Fall eine automatische Abschaltung vorgesehen werden,
-wenn die Batterieladung zur Neige geht (bei LiFePO4 spätestens bei 90%
-Entladung), damit die Batterie nicht durch Tiefentladung geschädigt wird.
-Außerdem wäre es v.A. im Sinne der Stromkosten-Optimierung schön,
-wenn die Einspeisung der gespeicherten Energie automatisch nur so stark erfolgt,
-wie sie auch benötigt wird, was reglungsrechnisch nicht ganz einfach ist.
+Wenn man aber schon einen Solar-Wechselrichter hat und diesen verwenden möchte,
+könnte es im einfachsten Fall genügen, ihn direkt mit der Batterie zu verbinden
+und über einen Schalter manuell zu steuern -- allerdings nur, wenn die
+Batteriespannung (z.B. 24 V) höher ist als die minimale Eingangsspannung
+des Wechselrichters und dieser mit seiner vollen Leistung betrieben werden kann
+(z.B. mit einem 300 W PV-Modul-Eingang).
+Um die Stromstärke regeln zu können, kann man ein Labornetzteil verwenden,
+evtl. mit DC-DC-Wandler wie das
+https://www.idealo.de/preisvergleich/OffersOfProduct/202115817[Joy-IT DPM8624]
+aus dem https://www.youtube.com/watch?v=yOcoux9IbzM[Video von Andreas Schmitz]
+oder einen günstigen regelbaren DC-DC-Wandler mit Strombegrenzung.
+
+Oder wenn man zudem bereits eine Powerstation hat, kann man zwischen ihren
+Wechselstrom-Ausgang und den Netzwechselrichter ein regelbares Netzteil hängen,
+siehe https://www.youtube.com/watch?v=ZXHAXrJS9CU[sein Nachfolge-Video], was
+allerdings zu unnötigen Verlusten durch Hin- und Her-Wandlung des Stroms führt.
+
+In jedem Fall muss für die Situation, dass die Batterieladung zur Neige geht
+(bei LiFePO4 spätestens bei 90% Entladung) eine automatische Abschaltung
+vorhanden sein, damit die Batterie nicht durch Tiefentladung geschädigt wird.
+Außerdem wäre es v.A. im Sinne der Stromkosten-Optimierung schön, wenn
+die Einspeisung der gespeicherten Energie automatisch so stark erfolgt, wie
+sie auch benötigt wird, was aber eine reglungstechnische Herausforderung wäre.
+
+Am einfachsten ist aber, die Ausgangsleistung des Wechselrichters und
+die Batteriekapazität so abzustimmen, dass lediglich ein Großteil der Grundlast
+des Haushalts, z.B. 100 W, für eine Dauer von 1-2 Tagen abgedeckt wird.
+Dann genügt zur Regelung ein recht simples elektronisches Steuermodul, wie in
+https://www.youtube.com/watch?v=f-iz6WE8GD8[im Video von Dimitri] vorgeführt.
+Es wird so eingestellt, dass bei es beim Erreichen einer Batteriespannung,
+die annähernd einer Vollladung entspricht, den Wechselrichter einschaltet
+und in der Nähe der Batterie-Entladeschlussspannung diesen wieder ausschaltet.
+Damit wird die über die sonnenreiche Tageszeit gesammelte Solarenergie dann
+über sonnenarme Zeiten (solange die Ladung reicht, typischerweise mindestens
+bis zum nächsten Vormittag) gleichmäßig abgegeben,
+mehr oder weniger ohne Strom nach extern zu verschenken.
 
 ==== Inselanlage mit Batteriespeicherung
 
@@ -495,8 +523,8 @@ dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
 verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
 
 Für die Einspeisung ins Stromnetz wird ein Spannungsregler mit einem
-integrierten _netzgekoppelten Wechselrichter_ verwendet.
-Dieser wird auch _fremd geführter Wechselrichter_ genannt, weil er
+integrierten _netzgekoppelten Wechselrichter_ verwendet. Dieser wird auch
+_Netzwechselrichter_ oder _fremd geführter Wechselrichter_ genannt, weil er
 sich automatisch an die Frequenz und Phase des anliegenden Wechselstroms anpasst
 und bei fehlendem Stromanschluss den Ausgang abschaltet -- auch aus
 Sicherheitsgründen für den Fall, dass ein blanker Stecker berührt werden kann.
