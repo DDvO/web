@@ -300,8 +300,8 @@ Es wird so eingestellt, dass bei es beim Erreichen einer Batteriespannung,
 die annähernd einer Vollladung entspricht, den Wechselrichter einschaltet
 und in der Nähe der Batterie-Entladeschlussspannung diesen wieder ausschaltet.
 Damit wird die über die sonnenreiche Tageszeit gesammelte Solarenergie dann
-über sonnenarme Zeiten (solange die Ladung reicht, typischerweise mindestens
-bis zum nächsten Vormittag) gleichmäßig abgegeben,
+über sonnenarme Zeiten (solange die Ladung reicht,
+typischerweise bis zum nächsten Vormittag) gleichmäßig abgegeben,
 mehr oder weniger ohne Strom nach extern zu verschenken.
 
 ==== Inselanlage mit Batteriespeicherung
