@@ -88,6 +88,19 @@ Genaueres kann man z.B. über https://re.jrc.ec.europa.eu/pvg_tools/de/[PVGIS]
 https://www.solarserver.de/pv-anlage-online-berechnen/[Solarserver])
 standortspezifisch anhand von Geo- und Klimadaten berechnen/simulieren.
 
+Bei den PV-Ertrags-Simulationen ist allerdings zu beachten, dass üblicherweise
+der Jahres-Gesamtertrag optimiert wird, also unter der Annahme, dass man den
+zur jeweiligen Tageszeit (und Jahreszeit) erzeugten Strom auch voll nutzen kann
+(sei es durch Eigenverbrauch, vergütete Einspeisung oder Zwischenspeicherung).
+Wenn man -- wie mit den meisten Stecker-Solaranlagen -- den Strom nur direkt
+selbst im Haushalt verbrauchen kann, ist es meist günstiger, die Ausrichtung
+der Module eher für die Vormittags- und/oder Nachmittagssonne zu optimieren.
+Also möglichst zwei Ausrichtungen, und zwar nach Südost und nach Südwest, wählen
+(die dann aber bzgl. Solar-Spannungsregelung (s.u.) getrennt zu behandeln sind)
+und einen größerem Neigungswinkel, weil zu den Zeiten die Sonne flacher steht,
+ansonsten eine eher flache Anordnung -- aber nicht zu flach (sondern z.B. 20°),
+um weiterhin eine Selbstreinigung der Moduloberflächen zu ermöglichen.
+
 image:Jahresertrag_nach_Ausrichtung.png[
 %Bild: Jahresertrag nach Ausrichtung von Solarmodulen%,800,align=left]
 Diese Grafik zeigt sehr schön die relative Änderung des Jahresertrages
@@ -496,7 +509,7 @@ Balkon https://www.youtube.com/watch?v=TKeu6YGVuus[hier] ein Überblick-Video.
 https://machdeinenstrom.de/balkonkraftwerk-montageloesungen-fuer-die-balkonbruestung/[
 Hier] ein Artikel mit speziellen Tipps zur Installation an einer Balkonbrüstung.
 
-==== Spannungsregler, Wechselrichter, Batterieladegeräte und deren Kombination
+==== Solar-Laderegler: Spannungsregler und Wechselrichter
 
 // image:I-U-Kennlinie_MPP_Silizium-Solarzelle.jpg[
 // %Bild: I-U-Kennlinie_MPP_Silizium-Solarzelle%,400,align=right]
@@ -535,12 +548,15 @@ werden vom Stromnetz unabhängig betrieben. Mit ihnen kann man die üblichen
 Haushaltsgeräte auch im Falle eines Stromausfalls mit einer Batterie versorgen,
 natürlich ausreichend Leistung vorausgesetzt.
 
+==== Solar-Laderegler
 image:Solar-Laderegler.jpg[%Bild: Solar-Laderegler%,400,align=right]
 Wenn man über Solarmodule eine Batterie laden möchte,
 benötigt man einen Solar-Laderegler, der einen Spannungsregler mit einem
 Batterieladegerät verbindet.
 Mit billigen chinesischen (angeblich) MPPT-Reglern habe ich keine guten
 Erfahrungen gemacht, wohl aber mit den europäischen Marken Victron und Votronic.
+
+==== Hybridgeräte: Solar-Laderegler mit Wechselrichter
 
 image:Solar-off-grid-inverter.jpg[
 %Bild: Hybrides Solar-Ladegerät mit Wechselrichter%,400,align=right]
