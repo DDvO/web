@@ -96,7 +96,7 @@ Wenn man -- wie mit den meisten Stecker-Solaranlagen -- den Strom nur direkt
 selbst im Haushalt verbrauchen kann, ist es meist günstiger, die Ausrichtung
 der Module eher für die Vormittags- und/oder Nachmittagssonne zu optimieren.
 Also möglichst zwei Ausrichtungen, und zwar nach Südost und nach Südwest, wählen
-(die dann aber bzgl. Solar-Spannungsregelung (s.u.) getrennt zu behandeln sind)
+(die dann aber bzgl. Solarstrom-Regelung (s.u.) getrennt zu behandeln sind)
 und einen größerem Neigungswinkel, weil zu den Zeiten die Sonne flacher steht,
 ansonsten eine eher flache Anordnung -- aber nicht zu flach (sondern z.B. 20°),
 um weiterhin eine Selbstreinigung der Moduloberflächen zu ermöglichen.
@@ -464,6 +464,7 @@ so dass sie nur dann sinnvoll ist, wenn man Platz sparen will/muss.
 Solarmodule -- aber bitte nur gleichartige -- kann man wie Batteriezellen
 seriell und/oder parallel verbinden, um mehr Leistung zu erhalten, ohne
 für jedes Modul einen eigenen Regler (bzw. Regler-Eingang) verwenden zu müssen.
+Zum Thema Solar-Regler siehe unten.
 Wenige große Solarmodule sind technisch und wirtschaftlich etwas günstiger als
 entsprechend viele kleine, besonders wenn man einen Regler pro Modul verwendet.
 
@@ -483,8 +484,8 @@ denn die Leistung bricht ein, wenn auch nur eines der Module verschattet wird.
 
 * Bei https://de.wikipedia.org/wiki/Parallelschaltung[Parallelschaltung]
 addieren sich die Ströme der einzelnen Module,
-wobei der je nach Einstrahlung mögliche Maximalstrom unter dem Maximalstrom
-des Regler-Eingangs liegen sollte, weil sonst zumindest Leistung verschenkt wird.
+wobei der je nach Einstrahlung mögliche Maximalstrom unter dem Maximalstrom des
+Regler-Eingangs liegen sollte, weil sonst zumindest Leistung verschenkt wird.
 Auch sind höhere Ströme, besonders bei dünnen Kabeln,
 generell mit etwas mehr elektrischem Verlust verbunden.
 Dafür hat man aber weniger Verluste durch Teilverschattung.
@@ -509,7 +510,7 @@ Balkon https://www.youtube.com/watch?v=TKeu6YGVuus[hier] ein Überblick-Video.
 https://machdeinenstrom.de/balkonkraftwerk-montageloesungen-fuer-die-balkonbruestung/[
 Hier] ein Artikel mit speziellen Tipps zur Installation an einer Balkonbrüstung.
 
-==== Solar-Laderegler: Spannungsregler und Wechselrichter
+==== Solar-Regler und Wechselrichter
 
 // image:I-U-Kennlinie_MPP_Silizium-Solarzelle.jpg[
 // %Bild: I-U-Kennlinie_MPP_Silizium-Solarzelle%,400,align=right]
@@ -535,12 +536,16 @@ Außerdem ist empfehlenswert, ihn mit ausreichend Leistungsreserve zu
 dimensionieren, auch weil er sonst schnell unangenehm lautes Lüftergeräusch
 verbreiten und bei Dauerbelastung leichter Schaden nehmen kann.
 
-Für die Einspeisung ins Stromnetz wird ein Spannungsregler mit einem
-integrierten _netzgekoppelten Wechselrichter_ verwendet. Dieser wird auch
+Für die Einspeisung ins Stromnetz muss ein _netzgekoppelter Wechselrichter_
+verwendet werden. Dieser wird auch
 _Netzwechselrichter_ oder _fremd geführter Wechselrichter_ genannt, weil er
 sich automatisch an die Frequenz und Phase des anliegenden Wechselstroms anpasst
 und bei fehlendem Stromanschluss den Ausgang abschaltet -- auch aus
 Sicherheitsgründen für den Fall, dass ein blanker Stecker berührt werden kann.
+Bei Stecker-Solaranlagen wird meist ein _Solar-Mikrowechselrichter_
+verwendet, der einen Spannungsregler mit einem Netzwechselrichter integriert.
+Im Zusammenhang von Balkonkraftwerken wird dann meist nur
+vereinfacht von einem _Wechselrichter_ (_WR_) gesprochen.
 
 image:Wechselrichter.jpg[%Bild: Wechselrichter%,400,align=right]
 Inselwechselrichter, die auch _selbst geführte Wechselrichter_ genannt werden,
