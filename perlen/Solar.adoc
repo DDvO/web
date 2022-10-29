@@ -274,7 +274,9 @@ Es ist auch möglich, die Solarenergie nicht direkt ins Netz, sondern über eine
 Solar-Laderegler (s.u.) zunächst in einer aufladbaren Batterie (Akkumulator)
 zwischenzuspeichern und von dort nach Bedarf zeitlich versetzt über einen
 netzgekoppelten Wechselrichter (s.u.) ins Hausnetz einzuspeisen.
-Das maximiert den Nutzen der PV-Anlage für den eigenen Stromverbrauch.
+Das maximiert den Nutzen der PV-Anlage für den eigenen Stromverbrauch,
+lohnt sich aber nur, wenn man die Batterie schon aus anderen Gründen hat,
+z.B. für eine Notstromversorgung oder als Fahrzeugbatterie.
 
 Dazu empfiehlt sich ein https://de.aliexpress.com/item/1005001445871590.html[
 regelbarer (Solar-)Netzwechselrichter] wie in
@@ -317,6 +319,18 @@ Damit wird die über die sonnenreiche Tageszeit gesammelte Solarenergie dann
 typischerweise bis zum nächsten Vormittag) gleichmäßig abgegeben,
 mehr oder weniger ohne Strom nach extern zu verschenken.
 
+image:Wasserspeicher.jpg[%Bild: Wasserspeicher als Analogie%,400,align=left]
+Hier als Analogie eine Skizze eines automatischen Wasserspeichers,
+der z.B. über die Dachrinne eines Hauses gespeist wird.
+Wenn er voll genug ist, läuft das Wasser über die rechte innere Begrenzung
+und lässt die Kugel aufschwimmen, die bis dahin den Auslass blockiert hat.
+Dann fließt das Wasser aus dem Speicher langsam und gleichmäßig nach unten aus.
+Wenn der Speicher fast leer ist, verschließt die Kugel den Auslass wieder.
+Der Speicher füllt sich (auch schon zwischendurch) bei Wasserzufuhr wieder auf.
+Zusätzlich ist der Speicher am Einlass mit einem Überlaufschutz ausgestattet,
+der die Wasserzufuhr stoppt, wenn der Speicher sehr voll ist und das Wasser
+durch den kleinen Auslass nicht schnell genug abfließt.
+
 ==== Inselanlage mit Batteriespeicherung
 
 // http://www.inselanlage.info/wp-content/uploads/2015/01/inselanlage-aufbau.jpg
@@ -338,9 +352,10 @@ in den üblichen 'Steckdosenstrom' (also Wechselstrom mit ca. 230 V).
 Ähnlich wie die zuvor genannte Variante ist diese Nutzungsart flexibler,
 aber wegen der nötigen zusätzlichen Komponenten (v.A. Batterie)
 auch deutlich teurer und auch etwas anfälliger und wartungsintensiver.
-Wirtschaftlich rentabel kann das bei den derzeitigen Preisen nur sein,
-wenn man die Batterie schon aus anderen Gründen hat
-und damit mehr oder weniger kostenlos nutzen kann.
+Wirtschaftlich rentabel für die Nutzung zu Hause kann das
+bei den derzeitigen Preisen nur sein, wenn man eine geeignete Batterie schon
+aus anderen Gründen (z.B. für den mobilen Einsatz in einem Fahrzeug) hat
+und die zusätzliche Nutzungsart auch zeitlich alternativ dazu möglich ist.
 
 // https://www.youtube.com/watch?v=uBNEZgbapGg&lc=UgwGlzU4H4qQu_9H8W14AaABAg
 // Akku Nachrüstung, ein gigantisches Draufzahlungsgeschäft ?
