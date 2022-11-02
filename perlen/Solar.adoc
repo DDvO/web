@@ -150,7 +150,7 @@ Dies gilt für Deutschland; anderswo sind meist 800 W (oder mehr) erlaubt.
 
 image:Stromleitung_Überlastung_Solareinspeisung.jpg[%Bild:
 Mögliche Überlastung einer Wohnungs-Stromleitung
-durch lokale Solarstrom-Einspeisung%377,align=left]
+durch lokale Solarstrom-Einspeisung%,377,align=left]
 Hintergrund dieser Beschränkung sind vornehmlich Sicherheitsbedenken:
 Falls über die Wohnungs-Stromleitung, an der die Einspeisung stattfindet,
 gleichzeitig sehr kräftig Strom verbraucht wird,
@@ -216,14 +216,14 @@ Netz bezogenen Strom entsprechend langsamer läuft.
 die Stecker-Solaranlage angeschlossen wird und
 auf welcher Phase die gleichzeitig verwendeten Verbraucher angeschlossen sind
 -- jedenfalls die neueren für die Abrechnung aktuell verwendeten Stromzähler
-arbeiten saldierend (d.h. bilden die Gesamtsumme von Verbrauch und Einspeisung,
+arbeiten saldierend (d.h. bilden die Gesamtsumme von Verbrauch und Erzeugung,
 welche dabei negatives Vorzeichen hat).
 
 Diese Nutzungsart lohnt sich also nur insoweit, wie man während der
 Sonnenscheindauer den erzeugten Strom direkt sinnvoll verbrauchen kann,
 z.B. durch diverse Haushaltsgeräte, Computer, Klimaanlagen oder zum Laden
 von (Fahrzeug-)Batterien, wobei die Akkus von E-Bikes oder E-Rollern von der
-Größenordnung und dem zeitlichen (Nicht-)Nutzungsprofil besonders geeignet sind.
+Größenordnung und dem zeitlichen Nutzungsprofil besonders geeignet sind.
 Am einfachsten und am besten planbar ist es, wenn man ohnehin eine gewisse
 relativ gleichmäßige Grundlast hat, z.B. durch Kühlschränke oder Wärmepumpen.
 Eine Nutzung von überflüssigem Strom, die ich ziemlich clever fände,
@@ -444,7 +444,7 @@ teurer sind als polykristalline oder amorphe,
 weil sie einen höheren Wirkungsgrad haben.
 
 image:Bypass-Dioden-bei-der-Arbeit.jpg[
-%Bild: Spannung und Strom abhängig von der Bestrahlungsstärke%,768,align=left]
+%Bild: Bypass-Dioden bei der Arbeit%,768,align=left]
 Leider bricht die Leistung von in Reihe geschalteten Zellen ein,
 sobald auch nur eine davon verschattet ist. Daher werden in den üblichen
 größeren Modulen sog. Bypass-Dioden eingesetzt, die bei Teilverschattung
@@ -644,7 +644,7 @@ V auf die 5 V eines USB-Anschlusses) effektiv eher die Hälfte dieser Kapazität
 Ein durchschnittlicher Smartphone-Akku lässt sich über die Powerbank
 in der Praxis nur etwa 10 mal aufladen.
 
-Der Preis einer Batterie pro kWh sinkt mit steigender Größe/Gesamtkapazität. +
+Der Preis einer Batterie pro kWh sinkt mit steigender Größe/Gesamtkapazität.
 // allerdings ist der Effekt eher gering. +
 // Hier am Beispiel der o.g. Delong-LiFePO4-Akkus: Eine Batterie inkl. BMS
 // ohne Versand kostet Stand Frühjahr 2022 mit 12,8 V 100 Ah etwa 215€,
@@ -682,7 +682,7 @@ Ein Problem bei einer Batteriespannung von 24 V (oder 48 V) ist,
 dass Niederspannungs-Geräte typischerweise eher mit 12 V zu betreiben sind.
 Aber dafür gibt es für Geräte mit mäßigem Verbrauch (bis etwa 5 A, also 60 W)
 eine recht effiziente und kostengünstige Lösung, nämlich
-sog. Tiefsetzsteller (Abwärtswandler, engl. DC-DC buck step-down converter.)
+sog. Tiefsetzsteller (Abwärtswandler, engl. DC-DC buck step-down converter).
 
 === Beispiel-Konfigurationen
 
@@ -726,7 +726,7 @@ Für eine sehr einfache, aber effiziente Anlage zur Netzeinspeisung
 finde ich folgende Komponenten besonders interessant:
 
 * 2 × 400 Wp starre SSP link:Datenblatt_ECO-380-400M-66SA.pdf[
-  EcoDelta - ECO-400M-66SA] mit hoher Effizienz: 213 Wp/m², ca. 540€ +
+  EcoDelta - ECO-400M-66SA] mit besonders hoher Effizienz: 213 Wp/m², ca. 540€ +
 // inkl. Versand
 // https://www.secondsol.com/de/anzeige/28485/pv-module/kristallin/mono/ecodelta/eco-400m-66sa
 // https://ongeles-shop.de/products/ecodelta-eco-400m-66sa
@@ -734,8 +734,8 @@ oder 4 × 150 Wp flexible ETFE SSP Solarmodule link:Solarfam_SSP_SZ-150-36MFE.pd
 Solarfam SZ-150-36MFE] mit 188 Wp/m², ca.
 https://stromvoll.com/shop/#!/150W-Flexible-Solar-panel-1170-x-680-x-2-mm/[664€] +
 //* oder 4 × 180 Wp flexible SSP https://www.ective.de/ECTIVE-SSP-180-Flex-Black-flexibles-Schindel-Monokristallin-Solarmodul-180W[
-Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
-oder 2 × 310 Wp flexible Solarmodule link:Datenblatt_Sunman_flexible_310W.pdf[
+//Ective SSP 180 Flex], ca. 980€ // 1150 x 840 x 2 mm, 186 Wp/m²
+oder 2 × 310 Wp sehr langlebige flexible Solarmodule link:Datenblatt_Sunman_flexible_310W.pdf[
 Sunman eArc SMF310M-6X10DW] mit 187 Wp/m²,
 ca. https://shop-lieckipedia.de/Ab-2-Stueck-310-Watt-Solarmodul-monokristallin-flexibel-Sunman[715€]
 //  Technische Daten / Solarmodul Größe L/B/H1653 x 1000 x 2 mm
@@ -748,8 +748,10 @@ ca. https://shop-lieckipedia.de/Ab-2-Stueck-310-Watt-Solarmodul-monokristallin-f
 Hoymiles HM-1200], ca. 230€ +
 // https://solarstrada.tech/product/hoymiles-hm-4-in-1-1200-en-1500-wp/
 oder 1000W Micro Grid Tie Inverter Inverter
-https://www.ebay.de/itm/124731502486[SG1000MQ], ca. 230€
+https://www.ebay.de/itm/124731502486[SG1000MQ], ca. 200€ +
 // https://www.ebay.de/itm/154235411613?var=454341223819
+oder 4 × 400W Micro Solar Wechselrichter
+https://de.made-in-china.com/co_skycorpsolar/product_Deye-Micro-Inverter-1600W-Sun1600g3-EU-230-Micro-Solar-Inverter-on-Grid-Solar-Home-System-Inverter_ysyyygenig.html[Deye Sun1600g3-EU-230], ca. 320€
 
 ==== Kombi-Anlage für daheim und unterwegs
 
@@ -762,7 +764,7 @@ habe ich folgende Komponenten:
 https://www.solarfam.nl/150w-shingle-etfe-flexible-solar-panel-solarfam.html[
 150 Wp flexible ETFE SSP Solarmodule], für 600€ +
 // * 4 × https://www.ebay.de/itm/134183861850[150 Wp flexible 18 V Solarpanels],
-für 475€ +
+// für 475€ +
 // Bei diesen No-Name-Modulen, wie auch bei vielen anderen flexiblen Modulen,
 // betrügt der Händler mit viel zu hohen angeblichen Leistungswerten.
 // 150 Wp können die von der Größe her (1129 × 670 mm) gar nicht leisten,
@@ -792,8 +794,8 @@ was gerade bei günstigen Modellen nicht selbstverständlich ist.
 // 150 Wp 1220*680*2 180 Wp/m²
 
 * 700 W Mars Rock Dual MPPT Grid Tie Inverter mit WLAN
-https://de.aliexpress.com/item/1005002469159821.html[EC700MD] oder
-https://www.ebay.de/itm/165694072328[ähnlich mit LCD], ca. 135€ inkl. Versand
+https://de.aliexpress.com/item/1005002469159821.html[EC700MD] (oder
+https://www.ebay.de/itm/165694072328[ähnlich mit LCD]), ca. 135€ inkl. Versand
 
 * https://de.aliexpress.com/item/1005003665568494.html[EASun 3kW peak
 Pure Sine Wave Solar Inverter 24V 220V PV Power
